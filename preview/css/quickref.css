@@ -9,7 +9,9 @@
     display: flex;
     flex-direction: column;
     /*font-family: Arial;*/
-    font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+    /*font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Play', sans-serif;
     width:100%;
     margin-bottom:8px;
     page-break-inside: avoid;
