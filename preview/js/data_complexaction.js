@@ -73,8 +73,8 @@ data_complexaction = [
         ]
     },
     {
-        title: "Escape",
-        icon: "manacles",
+        title: "Escape Artist",
+        icon: "handcuffs",
         subtitle: "Escape a grapple",
         description: "Escape a grapple",
         reference: "PHB, pg. 195.",
