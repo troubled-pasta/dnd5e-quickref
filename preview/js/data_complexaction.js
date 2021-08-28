@@ -54,7 +54,7 @@ data_complexaction = [
     },
     {
         title: "Dodge",
-        icon: "journey",
+        icon: "dodging",
         subtitle: "Prevent opportunity attacks",
         description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
         reference: "PHB, pg. 192.",
