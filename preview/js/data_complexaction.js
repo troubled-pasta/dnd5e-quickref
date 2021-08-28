@@ -73,7 +73,7 @@ data_complexaction = [
     },
     {
         title: "Full Defense",
-        icon: "aura",
+        icon: "surrounded-shield",
         subtitle: "Increase defenses",
         description: "Focus entirely on avoiding attacks",
         reference: "PHB, pg. 192.",
@@ -129,7 +129,7 @@ data_complexaction = [
     },
     {
         title: "Hide",
-        icon: "cowl",
+        icon: "cowled",
         subtitle: "",
         description: "Attempt to hide",
         reference: "PHB, pg. 192.",
