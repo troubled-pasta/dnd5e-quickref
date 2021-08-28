@@ -24,7 +24,7 @@ data_movement = [
             "May involve a Strength (Athletics) check if the climb is difficult"
         ]
     },
-    {
+    /*{
         title: "Climb (Assisted)",
         icon: "crags",
         subtitle: "Cost: Complex Action",
@@ -34,7 +34,7 @@ data_movement = [
             "Extended Test, with a threshold based on the distance being climbed and an interval of 1 Combat Turn"
             "May involve a Strength (Athletics) check if the climb is difficult"
         ]
-    },
+    },*/
     {
         title: "Rapelling",
         icon: "crags",
