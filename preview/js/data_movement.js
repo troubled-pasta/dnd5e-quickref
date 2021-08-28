@@ -132,7 +132,7 @@ data_movement = [
         bullets: [
         ]
     },
-    /*{
+    {
         title: "Grapple move",
         icon: "grab",
         subtitle: "Modifier: speed halved",
@@ -142,5 +142,5 @@ data_movement = [
             "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
             "See the attack action for how to grapple a creature."
         ]
-    }*/
+    }
 ]
