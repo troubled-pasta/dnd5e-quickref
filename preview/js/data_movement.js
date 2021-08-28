@@ -15,7 +15,7 @@ data_movement = [
     },
     {
         title: "Climb (Unassisted)",
-        icon: "crags",
+        icon: "mountain-climbing",
         subtitle: "Cost: Complex Action",
         description: "Movement cost: 10ft per 5ft climbed",
         reference: "PHB, pg. 182.",
