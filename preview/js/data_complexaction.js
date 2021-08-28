@@ -1,7 +1,7 @@
 data_complexaction = [
     {
         title: "Fire Automatic Weapon",
-        icon: "crossed-swords",
+        icon: "ak47",
         subtitle: "Melee or ranged attack",
         description: "Perform a melee or ranged attack with your weapon",
         reference: "PHB, pgs. 192,194-195.",
@@ -15,7 +15,7 @@ data_complexaction = [
     },
     {
         title: "Fire Mounted/Vehicle Weapon",
-        icon: "grab",
+        icon: "jeep",
         subtitle: "Special melee attack",
         description: "Attempt to grab a creature or wrestle with it",
         reference: "PHB, pg. 195.",
@@ -28,7 +28,7 @@ data_complexaction = [
     },
     {
         title: "Melee/Unarmed Attack",
-        icon: "hand",
+        icon: "spiked-bat",
         subtitle: "Special melee attack",
         description: "Shove a creature, either to knock it prone or push it away from you",
         reference: "PHB, pg. 195.",
