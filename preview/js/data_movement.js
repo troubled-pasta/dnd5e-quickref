@@ -11,7 +11,7 @@ data_movement = [
             "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
             "Another creature's space is difficult terrain for you.",
             "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
-        ]
+            ]
     },
     {
         title: "Sprint",
@@ -22,7 +22,7 @@ data_movement = [
         bullets: [
             "Make a Running (?) Test. Players may choose to make a Running+STR test to add 2m per hit to their running speed."
             "The increase equals your speed, after applying any modifiers."
-        ]
+            ]
     },
     {
         title: "Climb (Unassisted)",
@@ -32,7 +32,7 @@ data_movement = [
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the climb is difficult"
-        ]
+            ]
     },
     {
         title: "Climb (Assisted)",
@@ -42,7 +42,7 @@ data_movement = [
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the climb is difficult"
-        ]
+            ]
     },
     {
         title: "Swim",
@@ -52,7 +52,7 @@ data_movement = [
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the swim is difficult"
-        ]
+            ]
     },
     {
         title: "Drop prone",
@@ -64,7 +64,7 @@ data_movement = [
             "You can drop prone without using any of your speed",
             "To move while prone, you must crawl or use magic such as teleportation",
             "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
-        ]
+            ]
     },
     {
         title: "Crawl",
@@ -84,7 +84,7 @@ data_movement = [
         reference: "PHB, pg. 190-191.",
         bullets: [
             "You can't stand up if you don't have enough movement left or if your speed is 0"
-        ]
+            ]
     },
     {
         title: "Standing jump",
@@ -98,7 +98,7 @@ data_movement = [
             "When you make a standing high jump, you can jump only half that distance.",
             "You can extend your arms half your height above yourself during the jump.",
             "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
-        ]
+            ]
     },
     {
         title: "Running jump",
@@ -111,7 +111,7 @@ data_movement = [
             "When you make a standing long jump, you can leap only half that distance",
             "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
             "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
-        ]
+            ]
     },
     {
         title: "Improvise",
@@ -120,7 +120,7 @@ data_movement = [
         description: "Perform any movement or stunt you can imagine",
         bullets: [
             "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
-        ]
+            ]
     },
     {
         title: "Difficult terrain",
@@ -129,6 +129,7 @@ data_movement = [
         reference: "PHB, pg. 182.",
         description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
         bullets: [
+
         ]
     },
     {
@@ -140,6 +141,6 @@ data_movement = [
         bullets: [
             "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
             "See the attack action for how to grapple a creature."
-        ]
+            ]
     }
 ]
