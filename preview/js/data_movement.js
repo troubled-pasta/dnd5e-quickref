@@ -1,6 +1,6 @@
 data_movement = [
     {
-        title: "Move",
+        title: "Walk",
         icon: "run",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft moved",
