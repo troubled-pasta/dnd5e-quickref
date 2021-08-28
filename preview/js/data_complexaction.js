@@ -119,7 +119,7 @@ data_complexaction = [
     {
         title: "Reload",
         icon: "shotgun-rounds",
-        subtitle: "Equip or unequip a shield",
+        subtitle: "Reload a firearm that doesn't use a clip",
         description: "Equip or unequip a shield",
         reference: "PHB, pgs. 144-146.",
         bullets: [
