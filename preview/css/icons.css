@@ -1,3 +1,16 @@
+.icon-ak47 { background-image: url(../img/ak47.png);}
+.icon-at-sea { background-image: url(../img/at-sea.png);}
+.icon-crawl { background-image: url(../img/crawl.png);}
+.icon-crags { background-image: url(../img/crags.png);}
+.icon-falling { background-image: url(../img/falling.png);}
+.icon-grab { background-image: url(../img/grab.png);}
+.icon-jeep { background-image: url(../img/jeep.png);}
+.icon-juggler { background-image: url(../img/juggler.png);}
+.icon-jump-across { background-image: url(../img/jump-across.png);}
+.icon-mountain-climbing { background-image: url(../img/mountain-climbing.png);}
+.icon-spiked-bat { background-image: url(../img/spiked-bat.png);
+.icon-stone-pile { background-image: url(../img/stone-pile.png);
+.icon-strong { background-image: url(../img/strong.png);}
 .icon-walk { background-image: url(../img/walk.png);}
 
 /*.icon-ace { background-image: url(../img/ace.png);}
@@ -46,7 +59,7 @@
 .icon-arrows-shield { background-image: url(../img/arrows-shield.png);}
 .icon-arson { background-image: url(../img/arson.png);}
 .icon-artificial-hive { background-image: url(../img/artificial-hive.png);}
-.icon-at-sea { background-image: url(../img/at-sea.png);}
+
 .icon-atomic-slashes { background-image: url(../img/atomic-slashes.png);}
 .icon-aubergine { background-image: url(../img/aubergine.png);}
 .icon-aura { background-image: url(../img/aura.png);}
@@ -265,8 +278,8 @@
 .icon-cracked-mask { background-image: url(../img/cracked-mask.png);}
 .icon-cracked-saber { background-image: url(../img/cracked-saber.png);}
 .icon-cracked-shield { background-image: url(../img/cracked-shield.png);}
-.icon-crags { background-image: url(../img/crags.png);}
-.icon-crawl { background-image: url(../img/crawl.png);}
+
+
 .icon-crenulated-shield { background-image: url(../img/crenulated-shield.png);}
 .icon-crescent-blade { background-image: url(../img/crescent-blade.png);}
 .icon-crested-helmet { background-image: url(../img/crested-helmet.png);}
@@ -422,7 +435,7 @@
 .icon-falling-eye { background-image: url(../img/falling-eye.png);}
 .icon-falling-leaf { background-image: url(../img/falling-leaf.png);}
 .icon-falling-ovoid { background-image: url(../img/falling-ovoid.png);}
-.icon-falling { background-image: url(../img/falling.png);}
+
 .icon-fanged-skull { background-image: url(../img/fanged-skull.png);}
 .icon-feather { background-image: url(../img/feather.png);}
 .icon-feathered-wing { background-image: url(../img/feathered-wing.png);}
@@ -527,7 +540,7 @@
 .icon-gooey-eyed-sun { background-image: url(../img/gooey-eyed-sun.png);}
 .icon-gooey-impact { background-image: url(../img/gooey-impact.png);}
 .icon-gooey-sword { background-image: url(../img/gooey-sword.png);}
-.icon-grab { background-image: url(../img/grab.png);}
+
 .icon-grapes { background-image: url(../img/grapes.png);}
 .icon-grasping-claws { background-image: url(../img/grasping-claws.png);}
 .icon-grass { background-image: url(../img/grass.png);}
@@ -634,7 +647,7 @@
 .icon-jigsaw-box { background-image: url(../img/jigsaw-box.png);}
 .icon-jigsaw-piece { background-image: url(../img/jigsaw-piece.png);}
 .icon-journey { background-image: url(../img/journey.png);}
-.icon-juggler { background-image: url(../img/juggler.png);}
+
 .icon-justice-star { background-image: url(../img/justice-star.png);}
 .icon-kaleidoscope-pearls { background-image: url(../img/kaleidoscope-pearls.png);}
 .icon-kevlar { background-image: url(../img/kevlar.png);}
@@ -1101,7 +1114,7 @@
 .icon-stone-axe { background-image: url(../img/stone-axe.png);}
 .icon-stone-block { background-image: url(../img/stone-block.png);}
 .icon-stone-crafting { background-image: url(../img/stone-crafting.png);}
-.icon-stone-pile { background-image: url(../img/stone-pile.png);}
+
 .icon-stone-spear { background-image: url(../img/stone-spear.png);}
 .icon-stone-sphere { background-image: url(../img/stone-sphere.png);}
 .icon-stone-tablet { background-image: url(../img/stone-tablet.png);}
@@ -1111,7 +1124,7 @@
 .icon-strafe { background-image: url(../img/strafe.png);}
 .icon-striking-balls { background-image: url(../img/striking-balls.png);}
 .icon-striking-diamonds { background-image: url(../img/striking-diamonds.png);}
-.icon-strong { background-image: url(../img/strong.png);}
+
 .icon-suckered-tentacle { background-image: url(../img/suckered-tentacle.png);}
 .icon-suicide { background-image: url(../img/suicide.png);}
 .icon-suits { background-image: url(../img/suits.png);}
