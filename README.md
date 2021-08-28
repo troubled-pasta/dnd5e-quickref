@@ -1,7 +1,7 @@
 shadowrun5e-quickref
 ==============
 
-Quick reference sheet for Shadowrun 5e
+Quick reference sheet for Shadowrun 5e. Fork of crobi's dnd5e-quickref.
 
 
 Icons
