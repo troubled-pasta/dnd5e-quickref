@@ -62,7 +62,7 @@ data_complexaction = [
             "The increase equals your speed, after applying any modifiers."
         ]
     },
-    /*{
+    {
         title: "Dodge",
         icon: "journey",
         subtitle: "Prevent opportunity attacks",
@@ -70,7 +70,7 @@ data_complexaction = [
         reference: "PHB, pg. 192.",
         bullets: [
         ]
-    },*/
+    },
     {
         title: "Full Defense",
         icon: "aura",
@@ -82,7 +82,7 @@ data_complexaction = [
             "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
         ]
     },
-    /*{
+    {
         title: "Escape",
         icon: "manacles",
         subtitle: "Escape a grapple",
@@ -92,7 +92,7 @@ data_complexaction = [
             "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
             "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
         ]
-    },*/
+    },
     {
         title: "Use Skill",
         icon: "telepathy",
@@ -118,7 +118,7 @@ data_complexaction = [
     },
     {
         title: "Reload",
-        icon: "round-shield",
+        icon: "shotgun-rounds",
         subtitle: "Equip or unequip a shield",
         description: "Equip or unequip a shield",
         reference: "PHB, pgs. 144-146.",
@@ -127,9 +127,9 @@ data_complexaction = [
             "Armor takes several minutes to equip or unequip."
         ]
     },
-    /*{
+    {
         title: "Hide",
-        icon: "hood",
+        icon: "cowl",
         subtitle: "",
         description: "Attempt to hide",
         reference: "PHB, pg. 192.",
@@ -140,9 +140,9 @@ data_complexaction = [
             "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
             "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
         ]
-    },*/
-    /*{
-        title: "Search",
+    },
+    {
+        title: "Observe In Detail",
         icon: "magnifying-glass",
         subtitle: "",
         description: "Devote your attention to finding something",
@@ -150,7 +150,7 @@ data_complexaction = [
         bullets: [
             "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
         ]
-    },*/
+    },
     {
         title: "Delay Action",
         icon: "stopwatch",
