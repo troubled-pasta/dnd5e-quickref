@@ -77,7 +77,7 @@ data_movement = [
     },
     {
         title: "Standing jump",
-        icon: "jump-across",
+        icon: "leapfrog",
         subtitle: "Cost: Free Action",
         description: "Movement cost: 5ft per 5ft jumped",
         
@@ -114,7 +114,7 @@ data_movement = [
     {
         title: "Difficult terrain",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
+        subtitle: "Cost modifier:",
         reference: "PHB, pg. 182.",
         description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
         bullets: [
@@ -123,7 +123,7 @@ data_movement = [
     {
         title: "Grapple move",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
+        subtitle: "Modifier:",
         description: "Drag or carry the grappled creature with you",
         reference: "PHB, pg. 195.",
         bullets: [
