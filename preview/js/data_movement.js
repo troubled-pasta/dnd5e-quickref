@@ -14,17 +14,6 @@ data_movement = [
             ]
     },
     {
-        title: "Sprint",
-        icon: "sprint",
-        subtitle: "Cost: Simple Action",
-        description: "Make a Running Test.",
-        reference: "PHB, pg. 192.",
-        bullets: [
-            "Make a Running (?) Test. Players may choose to make a Running+STR test to add 2m per hit to their running speed."
-            "The increase equals your speed, after applying any modifiers."
-            ]
-    },
-    {
         title: "Climb (Unassisted)",
         icon: "mountain-climbing",
         subtitle: "Cost: Complex Action",
