@@ -1,4 +1,4 @@
-data_action = [
+data_complexaction = [
     {
         title: "Attack",
         icon: "crossed-swords",
