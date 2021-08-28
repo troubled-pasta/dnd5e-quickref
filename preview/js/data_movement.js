@@ -1,8 +1,8 @@
 data_movement = [
     {
-        title: "Run",
+        title: "Move",
         icon: "run",
-        subtitle: "Cost: Simple Action",
+        subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft moved",
         reference: "PHB, pg. 190.",
         bullets: [
@@ -14,32 +14,10 @@ data_movement = [
         ]
     },
     {
-        title: "Climb (Unassisted)",
+        title: "Climb",
         icon: "crags",
-        subtitle: "Cost: Complex Action",
+        subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft climbed",
-        reference: "PHB, pg. 182.",
-        bullets: [
-            "Extended Test, with a threshold based on the distance being climbed and an interval of 1 Combat Turn"
-            "May involve a Strength (Athletics) check if the climb is difficult"
-        ]
-    },
-    /*{
-        title: "Climb (Assisted)",
-        icon: "crags",
-        subtitle: "Cost: Complex Action",
-        description: "Movement cost: 10ft per 5ft climbed",
-        reference: "PHB, pg. 182.",
-        bullets: [
-            "Extended Test, with a threshold based on the distance being climbed and an interval of 1 Combat Turn"
-            "May involve a Strength (Athletics) check if the climb is difficult"
-        ]
-    },*/
-    {
-        title: "Rapelling",
-        icon: "crags",
-        subtitle: "Cost: Simple Action",
-        description: "Movement cost: 20 meters per Simple Action",
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the climb is difficult"
@@ -48,7 +26,7 @@ data_movement = [
     {
         title: "Swim",
         icon: "at-sea",
-        subtitle: "Cost: Complex Action",
+        subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft swum",
         reference: "PHB, pg. 182.",
         bullets: [
@@ -58,7 +36,7 @@ data_movement = [
     {
         title: "Drop prone",
         icon: "falling",
-        subtitle: "Cost: Free Action",
+        subtitle: "Cost: 0ft",
         description: "Movement cost: 0ft (free)",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
@@ -70,7 +48,7 @@ data_movement = [
     {
         title: "Crawl",
         icon: "crawl",
-        subtitle: "Cost: Complex Action",
+        subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft crawled",
         reference: "PHB, pg. 182.",
         bullets: [
@@ -80,7 +58,7 @@ data_movement = [
     {
         title: "Stand up",
         icon: "strong",
-        subtitle: "Cost: Simple Action",
+        subtitle: "Cost: half movement speed",
         description: "Movement cost: half of your speed",
         reference: "PHB, pg. 190-191.",
         bullets: [
@@ -88,9 +66,9 @@ data_movement = [
         ]
     },
     {
-        title: "Standing jump",
+        title: "High jump",
         icon: "wingfoot",
-        subtitle: "Cost: Simple Action",
+        subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
         
         reference: "PHB, pg. 182.",
@@ -102,9 +80,9 @@ data_movement = [
         ]
     },
     {
-        title: "Running jump",
+        title: "Long jump",
         icon: "wingfoot",
-        subtitle: "Cost: Free Action",
+        subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
         reference: "PHB, pg. 182.",
         bullets: [
