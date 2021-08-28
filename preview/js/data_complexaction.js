@@ -53,16 +53,6 @@ data_complexaction = [
         ]
     },
     {
-        title: "Sprint",
-        icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
-        reference: "PHB, pg. 192.",
-        bullets: [
-            "The increase equals your speed, after applying any modifiers."
-        ]
-    },
-    {
         title: "Dodge",
         icon: "journey",
         subtitle: "Prevent opportunity attacks",
