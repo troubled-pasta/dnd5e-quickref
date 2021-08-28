@@ -47,7 +47,7 @@ data_movement = [
     {
         title: "Swim",
         icon: "at-sea",
-        subtitle: "Cost: Complex Acion",
+        subtitle: "Cost: Complex Action",
         description: "Movement cost: 10ft per 5ft swum",
         reference: "PHB, pg. 182.",
         bullets: [
