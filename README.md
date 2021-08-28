@@ -1,7 +1,7 @@
-dnd5e-quickref
+shadowrun5e-quickref
 ==============
 
-Quick reference sheet for D&amp;D 5e
+Quick reference sheet for Shadowrun 5e
 
 
 Icons
