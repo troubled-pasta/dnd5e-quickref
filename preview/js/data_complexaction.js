@@ -1,6 +1,6 @@
 data_complexaction = [
     {
-        title: "Attack",
+        title: "Fire Automatic Weapon",
         icon: "crossed-swords",
         subtitle: "Melee or ranged attack",
         description: "Perform a melee or ranged attack with your weapon",
@@ -14,7 +14,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Grapple",
+        title: "Fire Mounted/Vehicle Weapon",
         icon: "grab",
         subtitle: "Special melee attack",
         description: "Attempt to grab a creature or wrestle with it",
@@ -27,7 +27,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Shove",
+        title: "Melee/Unarmed Attack",
         icon: "hand",
         subtitle: "Special melee attack",
         description: "Shove a creature, either to knock it prone or push it away from you",
@@ -53,7 +53,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Dash",
+        title: "Sprint",
         icon: "sprint",
         subtitle: "Double movement speed",
         description: "Gain extra movement for the current turn",
@@ -62,17 +62,17 @@ data_complexaction = [
             "The increase equals your speed, after applying any modifiers."
         ]
     },
-    {
-        title: "Disengage",
+    /*{
+        title: "Dodge",
         icon: "journey",
         subtitle: "Prevent opportunity attacks",
         description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
         reference: "PHB, pg. 192.",
         bullets: [
         ]
-    },
+    },*/
     {
-        title: "Dodge",
+        title: "Full Defense",
         icon: "aura",
         subtitle: "Increase defenses",
         description: "Focus entirely on avoiding attacks",
@@ -82,7 +82,7 @@ data_complexaction = [
             "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
         ]
     },
-    {
+    /*{
         title: "Escape",
         icon: "manacles",
         subtitle: "Escape a grapple",
@@ -92,9 +92,9 @@ data_complexaction = [
             "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
             "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
         ]
-    },
+    },*/
     {
-        title: "Help",
+        title: "Use Skill",
         icon: "telepathy",
         subtitle: "Grant an ally advantage",
         description: "Grant an ally advantage on an ability check or attack",
@@ -106,7 +106,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Use Object",
+        title: "Use Complex Object",
         icon: "snatch",
         subtitle: "Interact, use special abilities",
         description: "Interact with a second object or use special object abilities",
@@ -117,7 +117,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Use shield",
+        title: "Reload",
         icon: "round-shield",
         subtitle: "Equip or unequip a shield",
         description: "Equip or unequip a shield",
@@ -127,7 +127,7 @@ data_complexaction = [
             "Armor takes several minutes to equip or unequip."
         ]
     },
-    {
+    /*{
         title: "Hide",
         icon: "hood",
         subtitle: "",
@@ -140,8 +140,8 @@ data_complexaction = [
             "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
             "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
         ]
-    },
-    {
+    },*/
+    /*{
         title: "Search",
         icon: "magnifying-glass",
         subtitle: "",
@@ -150,9 +150,9 @@ data_complexaction = [
         bullets: [
             "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
         ]
-    },
+    },*/
     {
-        title: "Ready",
+        title: "Delay Action",
         icon: "stopwatch",
         subtitle: "Choose trigger and action",
         description: "Choose a trigger and a response reaction",
@@ -165,7 +165,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Use class feature",
+        title: "Use Feature",
         icon: "embrassed-energy",
         subtitle: "Some features use actions",
         description: "Use a racial or class feature that uses an action",
