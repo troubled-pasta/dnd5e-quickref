@@ -57,7 +57,7 @@ function fill_section(data, parentname, type) {
 }
 
 function init() {
-    fill_section(data_movement, "basic-movement", "Move");
+    fill_section(data_movement, "basic-movement", "Movement");
     fill_section(data_complexaction, "basic-complex-actions", "Complex Action");
     fill_section(data_simpleaction, "basic-simple-actions", "Simple Action");
     fill_section(data_freeaction, "basic-free-actions", "Free Action");
