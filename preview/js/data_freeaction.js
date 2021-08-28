@@ -1,4 +1,4 @@
-data_reaction = [
+data_freeaction = [
     {
         title: "Opportunity attack",
         icon: "crossed-swords",
