@@ -97,7 +97,7 @@ data_complexaction = [
     },
     {
         title: "Use Complex Object",
-        icon: "snatch",
+        icon: "circuitry",
         subtitle: "Interact, use special abilities",
         description: "Interact with a second object or use special object abilities",
         reference: "PHB, pg. 193.",
