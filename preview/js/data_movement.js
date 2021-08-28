@@ -13,7 +13,7 @@ data_movement = [
             "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
         ]
     },
-       {
+    {
         title: "Run",
         icon: "run",
         subtitle: "Cost: Free Action",
@@ -27,7 +27,7 @@ data_movement = [
             "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
         ]
     },
-        {
+    {
         title: "Sprint",
         icon: "sprint",
         subtitle: "Cost: Simple Action",
@@ -48,7 +48,7 @@ data_movement = [
             "May involve a Strength (Athletics) check if the climb is difficult"
         ]
     },
-     {
+    {
         title: "Climb (Assisted)",
         icon: "mountain-climbing",
         subtitle: "Cost: Complex Action",
@@ -145,7 +145,7 @@ data_movement = [
         bullets: [
         ]
     },
-    /*{
+    {
         title: "Grapple move",
         icon: "grab",
         subtitle: "Modifier:",
@@ -155,5 +155,5 @@ data_movement = [
             "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
             "See the attack action for how to grapple a creature."
         ]
-    }*/
+    }
 ]
