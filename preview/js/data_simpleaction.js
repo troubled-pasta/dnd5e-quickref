@@ -1,4 +1,4 @@
-data_bonusaction = [
+data_simpleaction = [
     {
         title: "Offhand Attack",
         icon: "crossed-swords",
