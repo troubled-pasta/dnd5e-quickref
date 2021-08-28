@@ -58,7 +58,7 @@ data_movement = [
     {
         title: "Drop prone",
         icon: "falling",
-        subtitle: "Cost: 0ft",
+        subtitle: "Cost: Free Action",
         description: "Movement cost: 0ft (free)",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
@@ -70,7 +70,7 @@ data_movement = [
     {
         title: "Crawl",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
+        subtitle: "Cost: Complex Action",
         description: "Movement cost: 10ft per 5ft crawled",
         reference: "PHB, pg. 182.",
         bullets: [
@@ -80,7 +80,7 @@ data_movement = [
     {
         title: "Stand up",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
+        subtitle: "Cost: Simple Action",
         description: "Movement cost: half of your speed",
         reference: "PHB, pg. 190-191.",
         bullets: [
@@ -132,7 +132,7 @@ data_movement = [
         bullets: [
         ]
     },
-    {
+    /*{
         title: "Grapple move",
         icon: "grab",
         subtitle: "Modifier: speed halved",
@@ -142,5 +142,5 @@ data_movement = [
             "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
             "See the attack action for how to grapple a creature."
         ]
-    }
+    }*/
 ]
