@@ -76,7 +76,7 @@ data_complexaction = [
     },
     {
         title: "Use Skill",
-        icon: "telepathy",
+        icon: "skills",
         subtitle: "tbc",
         description: "Grant an ally advantage on an ability check or attack",
         reference: "PHB, pg. 192.",
@@ -99,7 +99,7 @@ data_complexaction = [
     },
     {
         title: "Reload",
-        icon: "shotgun-rounds",
+        icon: "reload-gun-barrel",
         subtitle: "Reload a clipless firearm",
         description: "Equip or unequip a shield",
         reference: "PHB, pgs. 144-146.",
