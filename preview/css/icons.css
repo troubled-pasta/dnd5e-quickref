@@ -20,6 +20,10 @@
 .icon-reload-gun-barrel { background-image: url(../img/reload-gun-barrel.png);}
 .icon-skills { background-image: url(../img/skills.png);}
 .icon-flash-grenade { background-image: url(../img/flash-grenade.png);}
+.icon-dropped-weapon { background-image: url(../img/dropped-weapon.png);}
+.icon-toggles { background-image: url(../img/toggles.png);}
+.icon-hearing-disabled { background-image: url(../img/hearing-disabled.png);}
+.icon-sight-disabled { background-image: url(../img/sight-disabled.png);}
 
 /* A */
 .icon-ace { background-image: url(../img/ace.png);}
