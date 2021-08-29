@@ -40,9 +40,9 @@ data_movement = [
     },
     {
         title: "Climb (Unassisted)",
-        icon: "mountain-climbing",
+        icon: "crags",
         subtitle: "Cost: Complex Action",
-        description: "Movement cost: 10ft per 5ft climbed",
+        description: "description",
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the climb is difficult"
@@ -52,7 +52,7 @@ data_movement = [
         title: "Climb (Assisted)",
         icon: "mountain-climbing",
         subtitle: "Cost: Complex Action",
-        description: "Movement cost: 10ft per 5ft climbed",
+        description: "description",
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the climb is difficult"
@@ -62,7 +62,7 @@ data_movement = [
         title: "Swim",
         icon: "at-sea",
         subtitle: "Cost: Complex Action",
-        description: "Movement cost: 10ft per 5ft swum",
+        description: "description",
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the swim is difficult"
@@ -72,7 +72,7 @@ data_movement = [
         title: "Crawl",
         icon: "crawl",
         subtitle: "Cost: Complex Action",
-        description: "Movement cost: 10ft per 5ft crawled",
+        description: "description",
         reference: "PHB, pg. 182.",
         bullets: [
 
@@ -82,7 +82,7 @@ data_movement = [
         title: "Stand up",
         icon: "strong",
         subtitle: "Cost: Simple Action",
-        description: "Movement cost: half of your speed",
+        description: "description",
         reference: "PHB, pg. 190-191.",
         bullets: [
             "You can't stand up if you don't have enough movement left or if your speed is 0"
@@ -92,7 +92,7 @@ data_movement = [
         title: "Standing jump",
         icon: "leapfrog",
         subtitle: "Cost: Simple Action",
-        description: "Movement cost: 5ft per 5ft jumped",
+        description: "description",
         
         reference: "PHB, pg. 182.",
         bullets: [
@@ -106,7 +106,7 @@ data_movement = [
         title: "Running jump",
         icon: "jump-across",
         subtitle: "Cost: Free Action",
-        description: "Movement cost: 5ft per 5ft jumped",
+        description: "description",
         reference: "PHB, pg. 182.",
         bullets: [
             "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
@@ -127,11 +127,11 @@ data_movement = [
     {
         title: "Difficult terrain",
         icon: "stone-pile",
-        subtitle: "Cost modifier:",
+        subtitle: "subtitle",
         reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        description: "description",
         bullets: [
 
         ]
-    },
+    }
 ]
