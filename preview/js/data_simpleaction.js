@@ -27,7 +27,7 @@ data_simpleaction = [
         description: "Firing a single arrow from a loaded bow is a Simple Action.",
         reference: "PHB, pg. 165.",
         bullets: [
-            "To nock a single arrow, the character must use the Reload Weapon Simple Action."
+            "To nock a single arrow, the character must use the <b>Reload Weapon</b> Simple Action."
         ]
     },
     {
