@@ -43,7 +43,7 @@ data_freeaction = [
         icon: "clip-eject",
         subtitle: "Eject a linked firearm's clip",
         description: "A character linked to a ready smartgun may use a mental command to eject the weapon’s clip.",
-        reference: "SR5, pg. 164, pg. 433.",
+        reference: "SR5, pgs. 164, 433.",
         bullets: [
             "It still takes a separate Simple Action to insert a new, fresh clip (see Smartgun System, SR5 p. 433)."
         ]
@@ -63,7 +63,7 @@ data_freeaction = [
         icon: "two-shadows",
         subtitle: "Attack multiple targets",
         description: "A character may use a Free Action to attack multiple targets in a single action by splitting their dice pool.",
-        reference: "SR5, pg. 164, pg. 196.",
+        reference: "SR5, pgs. 164, 196.",
         bullets: [
             "This action must be combined with a Fire Weapon Action, Throw Weapon Action, Melee Attack Action, Reckless Spellcasting, or Cast Spell Action."
         ]
