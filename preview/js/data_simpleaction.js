@@ -88,7 +88,7 @@ data_simpleaction = [
     },
     {
         title: "Pick up/Put down object",
-        icon: "magnifying-glass",
+        icon: "hand-truck",
         subtitle: "Interact with objects with care",
         description: "Carefully pick up or place an object down.",
         reference: "SR5, pg. 165.",
@@ -126,7 +126,7 @@ data_simpleaction = [
     },
     {
         title: "Reckless Spellcasting",
-        icon: "embarrased-energy",
+        icon: "embarrassed-energy",
         subtitle: "Cast faster, hurt harder",
         description: "A spellcaster may use a Simple Action to cast a spell more quickly, but at the cost of higher Drain",
         reference: "SR5 pgs. 165, 281.",
