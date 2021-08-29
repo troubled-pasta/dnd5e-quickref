@@ -1,7 +1,7 @@
 data_simpleaction = [
     {
         title: "Ready weapon",
-        icon: "crossed-swords",
+        icon: "catch",
         subtitle: "Ready a weapon for combat",
         description: "Attack with your off hand",
         reference: "PHB, pgs. 192,194-195.",
@@ -14,7 +14,7 @@ data_simpleaction = [
     },
     {
         title: "Change gun mode",
-        icon: "magic-swirl",
+        icon: "multiple-targets",
         subtitle: "Change the firing type of a firearm",
         description: "Cast a spell with a casting time of 1 bonus action",
         reference: "PHB, pg. 192.",
@@ -55,7 +55,7 @@ data_simpleaction = [
     },
     {
         title: "Fire weapon",
-        icon: "bandit",
+        icon: "gunshot",
         subtitle: "Fire a readied weapon",
         description: "A character may insert a fresh clip into a ready firearm if the previous one has been ejected",
         reference: "See class page for more information.",
@@ -65,7 +65,7 @@ data_simpleaction = [
     },
     {
         title: "Throw weapon",
-        icon: "bandit",
+        icon: "flying-shuriken",
         subtitle: "Throw a readied weapon",
         description: "A character may insert a fresh clip into a ready firearm if the previous one has been ejected",
         reference: "See class page for more information.",
@@ -95,7 +95,7 @@ data_simpleaction = [
     },
     {
         title: "Take Aim",
-        icon: "circuitry",
+        icon: "targeting",
         subtitle: "Add a +1 modifier to the Attack test",
         description: "Interact with a second object or use special object abilities",
         reference: "PHB, pg. 193.",
@@ -116,7 +116,7 @@ data_simpleaction = [
     },
     {
         title: "Convert to Free Action",
-        icon: "magnifying-glass",
+        icon: "cycle",
         subtitle: "Take a Free Action instead",
         description: "Devote your attention to finding something",
         reference: "PHB, pg. 193.",
