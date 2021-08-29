@@ -141,7 +141,7 @@ data_simpleaction = [
         description: "Remove an expended clip from a ready firearm.",
         reference: "SR5 pgs. 163, 166.",
         bullets: [
-            "A character may remove a clip from a ready firearm by taking a Simple Action (see Insert Clip, p. 165, and also Reload Weapons, p. 163)."
+            "A character may remove a clip from a ready firearm by taking a Simple Action (see Insert Clip, p. 165, and also Reload Weapons, p. 163).",
             "It takes another Simple Action to grab a fresh clip and slam it into the weapon"
         ]
     },
