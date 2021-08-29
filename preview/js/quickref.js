@@ -61,6 +61,7 @@ function init() {
     fill_section(data_complexaction, "basic-complex-actions", "Complex Action");
     fill_section(data_simpleaction, "basic-simple-actions", "Simple Action");
     fill_section(data_freeaction, "basic-free-actions", "Free Action");
+    fill_section(data_interruptaction, "basic-interrupt-actions", "Interrupt Action");
     fill_section(data_condition, "basic-conditions", "Condition");
     fill_section(data_environment_obscurance, "environment-obscurance", "Environment");
     fill_section(data_environment_light, "environment-light", "Environment");
