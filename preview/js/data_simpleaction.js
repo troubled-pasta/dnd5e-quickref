@@ -1,7 +1,7 @@
 data_simpleaction = [
     {
         title: "Activate focus",
-        icon: "catch",
+        icon: "crystal-bars",
         subtitle: "Activate a magical focus",
         description: "A character may activate a focus they are carrying with a Simple Action.",
         reference: "SR5 pg. 164.",
