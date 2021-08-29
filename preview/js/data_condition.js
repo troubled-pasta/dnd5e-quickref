@@ -1,7 +1,7 @@
 data_condition = [
     {
         title: "Blinded",
-        icon: "one-eyed",
+        icon: "sight-disabled",
         subtitle: "You can't see",
         description: "You can't see",
         reference: "PHB, pg. 290.",
@@ -24,7 +24,7 @@ data_condition = [
     },
     {
         title: "Deafened",
-        icon: "elf-ear",
+        icon: "hearing-disabled",
         subtitle: "You can't hear",
         description: "You can't hear",
         reference: "PHB, pg. 290.",
