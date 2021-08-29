@@ -100,7 +100,7 @@ data_complexaction = [
         title: "Reload firearm",
         icon: "reload-gun-barrel",
         subtitle: "Reload a clipless firearm",
-        description: "Equip or unequip a shield",
+        description: "Reload any firearm that doesn't take a standard clip magazine.",
         reference: "SR5 pg. 167.",
         bullets: [
             "Weapons that are belt fed (belt), break action (b), cylinder (cy), drum (d), internal magazine (m), muzzle loaders, or use a speed loader are reloaded using a Complex Action (see Reloading Weapons, p. 163)",
