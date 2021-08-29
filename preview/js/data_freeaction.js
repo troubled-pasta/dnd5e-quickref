@@ -1,8 +1,8 @@
 data_freeaction = [
     {
-        title: "Opportunity attack",
+        title: "Call a shot",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
+        subtitle: "Aim for a vulnerable target",
         description: "You can rarely move heedlessly past your foes without putting yourself in danger",
         reference: "PHB, pg. 195.",
         bullets: [
@@ -13,9 +13,9 @@ data_freeaction = [
         ]
     },
     {
-        title: "Readied action",
+        title: "Change Smartgun mode",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
+        subtitle: "Change firing mode",
         description: "Execute the reaction specified by your Ready action",
         reference: "PHB, pg. 193.",
         bullets: [
@@ -23,9 +23,20 @@ data_freeaction = [
         ]
     },
     {
-        title: "Cast a spell",
-        icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
+        title: "Change linked device mode",
+        icon: "circuitry",
+        subtitle: "tbc",
+        description: "Cast a spell with a casting time of 1 reaction",
+        reference: "PHB, pg. 192.",
+        bullets: [
+            "Trigger: specified by the spell.",
+            "For further details, see the <i>Cast a spell</i> action."
+        ]
+    },
+    {
+        title: "Drop object",
+        icon: "circuitry",
+        subtitle: "tbc",
         description: "Cast a spell with a casting time of 1 reaction",
         reference: "PHB, pg. 192.",
         bullets: [
