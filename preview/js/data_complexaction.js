@@ -141,23 +141,17 @@ data_complexaction = [
         title: "Delay Action",
         icon: "stopwatch",
         subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
-        reference: "PHB, pg. 193.",
+        description: "There are times when a player wants to see how others act and what happens before making their move; choosing to wait is called a Delayed Action.",
+        reference: "SR5, pg. 161.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
-        ]
-    },
-    {
-        title: "Improvise",
-        icon: "juggler",
-        subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "A Delayed Action must be declared during Step 3A of the Combat Turn Sequence (see Declare Actions, p. 158). A player can declare a Delayed Action on any of his Initiative Passes and can continue to delay action until a later Initiative Pass.",
+            "When the character decides to act, they replace their normal Action Phase for that Initiative Pass with the Delayed Action and then act on an Initiative Score lower than their own.",
+            "During the Declare Actions part of that Initiative Pass, the character must declare that they are intervening at a specific Initiative Score. They can make that declaration when it is time for players with that score to act.",
+            "Characters who have a Delayed Action and intervene in this manner can choose to go before, after, or at the same time as a currently acting character who would normally take their action on that Initiative Score; any actions they take receive a –1 dice pool penalty.", 
+            "If multiple characters delay their actions until the same Initiative Score, they break the tie in the same manner as Initiative (p. 159).",
+            "Characters delaying an action in this manner keep their initial Initiative Score. If the character does not act before the end of the Initiative Pass, they incur the standard reduction of 10 at the end of the Initiative Pass.",
+            "Players can also decide to go after the last player’s Action Phase. As long as the character acts before that Initiative Pass ends and the next one begins, there is no problem.",
+            "A character can delay their action into the next Initiative Pass and be the first to act. They must still use their own Initiative Score to determine the Action Phases they have for the Combat Turn"
         ]
     }
 ]
