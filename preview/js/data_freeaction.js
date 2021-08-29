@@ -43,7 +43,7 @@ data_freeaction = [
         icon: "clip-eject",
         subtitle: "Eject a linked firearm's clip",
         description: "A character linked to a ready smartgun may use a mental command to eject the weapon’s clip.",
-        reference: "SR5, pg. 164.",
+        reference: "SR5, pg. 164, pg. 433.",
         bullets: [
             "It still takes a separate Simple Action to insert a new, fresh clip (see Smartgun System, SR5 p. 433)."
         ]
@@ -63,9 +63,21 @@ data_freeaction = [
         icon: "two-shadows",
         subtitle: "Attack multiple targets",
         description: "A character may use a Free Action to attack multiple targets in a single action by splitting their dice pool.",
-        reference: "SR5, pg. 196.",
+        reference: "SR5, pg. 164, pg. 196.",
         bullets: [
             "This action must be combined with a Fire Weapon Action, Throw Weapon Action, Melee Attack Action, Reckless Spellcasting, or Cast Spell Action."
+        ]
+    },
+    {
+        title: "Speak/Text/Transmit phrase",
+        icon: "talk",
+        subtitle: "Communicate a short phrase",
+        description: "One short phrase of verbal or neural communication is a Free Action.",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            "If the character wants to speak more, each additional phrase or sentence requires a Free Action.",
+            "Remember that this communication is limited by the span of one 3-second Combat Turn.",
+            "Characters who are equipped to send text messages through a direct neural interface connection with their commlink may also send short messages as a Free Action."
         ]
     }
 ]
