@@ -76,7 +76,7 @@ data_freeaction = [
         reference: "SR5, pg. 164.",
         bullets: [
             "<i>Remember that this communication is limited by the span of one 3-second Combat Turn.</i>",
-            "If the character wants to speak more, each additional phrase or sentence requires a Free Action.",
+            "If the character wants to say more, each additional phrase or sentence requires a Free Action.",
             "Characters who are equipped to send text messages through a direct neural interface connection with their commlink may also send short messages as a Free Action."
         ]
     }
