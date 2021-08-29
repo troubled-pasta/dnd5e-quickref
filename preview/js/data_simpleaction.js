@@ -21,7 +21,29 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Fire a bow",
+        title: "Change device mode",
+        icon: "toggles",
+        subtitle: "For any standard devices",
+        description: "A character may use a Simple Action to activate, deactivate, or change the mode on any device with a simple switch, a virtual button, or a command from a commlink  through either a wired or wireless link.",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            "This includes changing a gun’s firing mode, changing a shotgun’s choke, changing vision systems, switching a commlink to hidden mode, turning a device’s wireless functionality off, etc.",
+            "It takes longer to interact with some devices; check individual gear descriptions."
+        ]
+    },
+    {
+        title: "Change gun mode",
+        icon: "multiple-targets",
+        subtitle: "Change a firearm's firing mode",
+        description: "A character holding a ready firearm can change its firing mode via a Simple Action.",
+        reference: "SR5, pg. 165.",
+        bullets: [
+            "If the weapon is a properly linked smartgun, it costs only a Free Action to change the mode (see Firearms, p. 424, and Smartgun Systems, p. 433).",
+            "This includes changing a shotgun’s choke if the gun does not have a smartgun link (see Shotguns, p. 429)."
+        ]
+    },
+    {
+        title: "Fire bow",
         icon: "archer",
         subtitle: "Loose a single arrow",
         description: "Firing a single arrow from a loaded bow is a Simple Action.",
@@ -31,54 +53,105 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Change gun mode",
-        icon: "multiple-targets",
-        subtitle: "Change the firing type of a firearm",
-        description: "Cast a spell with a casting time of 1 bonus action",
-        reference: "PHB, pg. 192.",
+        title: "Fire weapon",
+        icon: "gunshot",
+        subtitle: "Fire a readied weapon",
+        description: "Fire a weapon in Semi-Auto (SA), Single-Shot (SS), Burst Fire (BF) or Full-Auto (FA).",
+        reference: "SR5 pgs. 165, 424.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
-        ]
-    },
-    {
-        title: "Remove clip (Manually)",
-        icon: "machine-gun-magazine",
-        subtitle: "Remove a clip from a ready firearm",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
-        bullets: [
-
+            "A character may fire a readied firearm in Semi-Automatic, Single-Shot, Burst-Fire, or Fully-Auto mode via a Simple Action (see Firearms, p. 424) but may not take any other attack actions in the same Action Phase",
+            "If a character has one weapon in each hand, they may fire once with each weapon by adding a Multiple Attacks Free Action (see Multiple Attacks, p. 96); the offhand modifier applies (see Attacking Using Off-Hand Weapon, p. 178)",
+            "When taken as Simple Actions, Burst Fire fires 3 bullets, while Full-Auto fires 6 bullets."
         ]
     },
     {
         title: "Insert clip",
         icon: "machine-gun-magazine",
         subtitle: "Insert a fresh clip into a ready firearm",
-        description: "A character may insert a fresh clip into a ready firearm if the previous one has been ejected",
-        reference: "See class page for more information.",
+        description: "A character may insert a fresh clip into a ready firearm if the previous one has been ejected.",
+        reference: "SR5 pgs. 165, 166, 178.",
         bullets: [
-
+            "A character may insert a fresh clip into a ready firearm by taking a Simple Action, but only if he has first removed the previous clip (see Remove Clip, p. 166, and Reloading Weapons, p. 163)."
+        ]
+    },
+    {
+        title: "Observe In Detail",
+        icon: "magnifying-glass",
+        subtitle: "Make a Perception test",
+        description: "Devote your attention to observing something.",
+        reference: "SR5, pg. 165.",
+        bullets: [
+            "A character may make a detailed observation by taking a Simple Action. This allows a Perception Test (see Using Perception, p. 135).",
+            "Characters should always be able to observe what is immediately obvious without having to spend a Simple Action.",
+            "A character might automatically be aware that someone is running toward them with something in hand; however, the gamemaster may decide that the character cannot tell if it is a friend or foe or what is in their hand without taking an Observe in Detail action." 
+        ]
+    },
+    {
+        title: "Pick up/Put down object",
+        icon: "magnifying-glass",
+        subtitle: "Interact with objects with care",
+        description: "Carefully pick up or place an object down.",
+        reference: "SR5, pg. 165.",
+        bullets: [
+            "This action means care is taken to put the object down or pick it up.",
+            "Just dropping an object is a Free Action, but items that get dropped are more likely to be damaged than items that are set down."
         ]
     },
     {
         title: "Quick draw",
         icon: "bandit",
-        subtitle: "Draw and immediately fire a firearm",
-        description: "A character may insert a fresh clip into a ready firearm if the previous one has been ejected",
+        subtitle: "Draw and fire a weapon immediately",
+        description: "A character may attempt to quick-draw a pistol, pistol-sized weapon, or small throwing weapon and immediately fire it by using a <b>Quick Draw</b> Simple Action.",
+        reference: "SR5 pgs. 165, 432.",
+        bullets: [
+            "For the character to successfully draw the weapon, the player must make a (Weapon Skill) + REA [Physical] (3) Test.",
+            "If the weapon is held in a quick-draw holster (see p. 432), reduce the threshold to (2).",
+            "If the test is successful, the character draws the weapon and fires as a single Simple Action. If the test fails, the character clears the gun but cannot fire with the same action.",
+            "If the character glitches, the gun is stuck in the holster or dropped, and no more actions are allowed. On a critical glitch, a drawn blade may be fumbled out of the character’s reach or a pistol accidentally fired while still in the holster; The gamemaster decides the exact nature of the screw-up.",
+            "Only properly holstered weapons can be quickdrawn. They do not have to be in a quick-draw holster, but they do need to be in a holster or sheath or on a proper sling to be quick-drawn.",
+            "Two weapons may be quick-drawn and fired simultaneously, but the (Weapon Skill) + REA dice pool is split, and off-hand penalties apply."
+        ]
+    },
+    {
+        title: "Ready weapon",
+        icon: "catch",
+        subtitle: "Ready a weapon for combat",
+        description: " Readying entails drawing a firearm from a holster, drawing a throwing or melee weapon from a sheath, picking up any kind of weapon, or generally preparing any kind of weapon for use. A weapon must be ready before it can be used.",
         reference: "See class page for more information.",
+        bullets: [
+            "The weapon may be a firearm, melee weapon, throwing weapon, ranged weapon, or mounted or vehicular weapon.",
+            "Weapons not held in a traditional holster may require a Complex Action to ready at the gamemaster’s discretion",
+            "A character can ready a number of small throwing weapons, such as throwing knives or shuriken, equal to one-half his AGI (round up) per Ready Weapon action."
+        ]
+    },
+    {
+        title: "Reckless Spellcasting",
+        icon: "embarrased-energy",
+        subtitle: "Cast faster, hurt harder",
+        description: "A spellcaster may use a Simple Action to cast a spell more quickly, but at the cost of higher Drain",
+        reference: "SR5 pgs. 165, 281.",
         bullets: [
 
         ]
     },
     {
-        title: "Fire weapon",
-        icon: "gunshot",
-        subtitle: "Fire a readied weapon",
-        description: "A character may insert a fresh clip into a ready firearm if the previous one has been ejected",
-        reference: "See class page for more information.",
+        title: "Remove clip (Manually)",
+        icon: "machine-gun-magazine",
+        subtitle: "Remove a clip from a ready firearm",
+        description: "Remove an expended clip from a ready firearm.",
+        reference: "SR5 pgs. 163, 166.",
         bullets: [
-
+            "A character may remove a clip from a ready firearm by taking a Simple Action (see Insert Clip, p. 165, and also Reload Weapons, p. 163)."
+            "It takes another Simple Action to grab a fresh clip and slam it into the weapon"
+        ]
+    },
+    {
+        title: "Shift Perception",
+        icon: "gaze",
+        subtitle: "Shift to and from Astral Space",
+        description: "Shift your Perception to and from the Astral Plane",
+        reference: "SR5, pg. 166.",
+        bullets: [
         ]
     },
     {
@@ -91,16 +164,7 @@ data_simpleaction = [
 
         ]
     },
-    {
-        title: "Pick up/Put down object",
-        icon: "magnifying-glass",
-        subtitle: "tbc",
-        description: "Devote your attention to finding something",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
-        ]
-    },
+    
     {
         title: "Run",
         icon: "run",
@@ -122,16 +186,7 @@ data_simpleaction = [
             "When an object requires your action for its use, you also take this action."
         ]
     },
-    {
-        title: "Observe In Detail",
-        icon: "magnifying-glass",
-        subtitle: "Roll a Perception test",
-        description: "Devote your attention to finding something",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
-        ]
-    },
+
     {
         title: "Convert to Free Action",
         icon: "cycle",
