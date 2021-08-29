@@ -63,7 +63,7 @@ data_simpleaction = [
 
         ]
     },
-        {
+    {
         title: "Throw weapon",
         icon: "bandit",
         subtitle: "Throw a readied weapon",
@@ -93,8 +93,7 @@ data_simpleaction = [
             "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
         ]
     },
-        },
-        {
+    {
         title: "Take Aim",
         icon: "circuitry",
         subtitle: "Add a +1 modifier to the Attack test",
