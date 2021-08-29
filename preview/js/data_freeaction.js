@@ -24,7 +24,8 @@ data_freeaction = [
         description: "A character may use a Free Action to activate, deactivate, or switch the mode on any device that they are linked to by a direct neural interface through either a wired or wireless link.",
         reference: "SR5, pg. 163.",
         bullets: [
-            "This includes activating cyberware, changing a smartgun’s firing mode, changing a smartlinked shotgun’s choke, deactivating thermographic vision, switching a commlink to hidden mode, turning a device’s wireless functionality off, etc."
+            "This includes activating cyberware, changing a smartgun’s firing mode, changing a smartlinked shotgun’s choke, deactivating thermographic vision, switching a commlink to hidden mode, turning a device’s wireless functionality off, etc.",
+            "It takes longer to interact with some devices; check individual gear descriptions."
         ]
     },
     {
