@@ -21,11 +21,10 @@ data_freeaction = [
         title: "Change linked device mode",
         icon: "toggles",
         subtitle: "Switch modes on any device.",
-        description: "A character may use a Free Action to activate, deactivate, or switch the mode on any device that he is linked to by a direct neural interface through either a wired or wireless link.",
+        description: "A character may use a Free Action to activate, deactivate, or switch the mode on any device that they are linked to by a direct neural interface through either a wired or wireless link.",
         reference: "SR5, pg. 163.",
         bullets: [
-            "This includes activating cyberware, changing a smartgun’s firing mode, changing a smartlinked shotgun’s choke, deactivating thermographic vision, switching a commlink to hidden mode, turning a device’s wireless functionality off.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "This includes activating cyberware, changing a smartgun’s firing mode, changing a smartlinked shotgun’s choke, deactivating thermographic vision, switching a commlink to hidden mode, turning a device’s wireless functionality off, etc."
         ]
     },
     {
@@ -41,7 +40,7 @@ data_freeaction = [
     },
     {
         title: "Eject smartgun clip",
-        icon: "drop-weapon",
+        icon: "clip-eject",
         subtitle: "Eject a linked firearm's clip",
         description: "A character linked to a ready smartgun may use a mental command to eject the weapon’s clip.",
         reference: "SR5, pg. 164.",
