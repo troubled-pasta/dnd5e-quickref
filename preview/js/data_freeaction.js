@@ -14,7 +14,7 @@ data_freeaction = [
     },
     {
         title: "Change Smartgun mode",
-        icon: "stopwatch",
+        icon: "multiple-targets",
         subtitle: "Change firing mode",
         description: "Execute the reaction specified by your Ready action",
         reference: "PHB, pg. 193.",
@@ -35,7 +35,7 @@ data_freeaction = [
     },
     {
         title: "Drop object",
-        icon: "circuitry",
+        icon: "drop-weapon",
         subtitle: "tbc",
         description: "Cast a spell with a casting time of 1 reaction",
         reference: "PHB, pg. 192.",
