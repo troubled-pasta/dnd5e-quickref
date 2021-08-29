@@ -101,7 +101,7 @@ data_complexaction = [
         icon: "reload-gun-barrel",
         subtitle: "Reload a clipless firearm",
         description: "Equip or unequip a shield",
-        reference: "PHB, pgs. 144-146.",
+        reference: "SR5 pg. 167.",
         bullets: [
             "Weapons that are belt fed (belt), break action (b), cylinder (cy), drum (d), internal magazine (m), muzzle loaders, or use a speed loader are reloaded using a Complex Action (see Reloading Weapons, p. 163)",
         ]
@@ -132,7 +132,7 @@ data_complexaction = [
         icon: "circuitry",
         subtitle: "Interact with complex objects",
         description: "A character may operate a complex object, such as a computer, vehicle, mechanical tool, and so on, by taking a Complex Action.",
-        reference: "PHB, pg. 193.",
+        reference: "",
         bullets: [
             "“Use” entails activating a program, issuing detailed instructions, conducting an internal operation (such as copying files), driving the vehicle, and so on."
         ]
