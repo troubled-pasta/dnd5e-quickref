@@ -3,7 +3,7 @@ data_complexaction = [
         title: "Fire Automatic Weapon",
         icon: "ak47",
         subtitle: "Ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
+        description: "Fire a readied firearm in full autofire mode",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
