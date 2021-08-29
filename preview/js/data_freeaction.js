@@ -51,7 +51,7 @@ data_freeaction = [
     {
         title: "Gesture",
         icon: "mute",
-        subtitle: "Use gestures to communicate meaning",
+        subtitle: "Use gestures to communicate",
         description: "A character may communicate with a few quick gestures as a Free Action.",
         reference: "SR5, pg. 164.",
         bullets: [
