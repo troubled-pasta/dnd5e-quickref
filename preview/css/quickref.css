@@ -127,28 +127,36 @@
     color: maroon;
 }
 
-#section-action, #section-action .item-icon {
+#section-complex-action, #section-complex-action .item-icon {
     background-color: black;
     border-color: black;
 }
-#section-action .text {
+#section-complex-action .text {
     color: black;
 }
 
-#section-bonus-action, #section-bonus-action .item-icon {
+#section-simple-action, #section-simple-action .item-icon {
     background-color: indigo;
     border-color: indigo;
 }
-#section-bonus-action .text {
+#section-simple-action .text {
     color: indigo;
 }
 
-#section-reaction, #section-reaction .item-icon {
+#section-free-action, #section-free-action .item-icon {
     background-color: DarkOliveGreen ;
     border-color: DarkOliveGreen ;
 }
-#section-reaction .text {
+#section-free-action .text {
     color: DarkOliveGreen ;
+}
+
+#section-interrupt-action, #section-interrupt-action .item-icon {
+    background-color: DarkCyan ;
+    border-color: DarkCyan ;
+}
+#section-interrupt-action .text {
+    color: DarkCyan ;
 }
 
 #section-condition, #section-condition .item-icon {
