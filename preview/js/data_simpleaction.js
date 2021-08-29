@@ -155,46 +155,57 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Throw weapon",
-        icon: "flying-shuriken",
-        subtitle: "Throw a readied weapon",
-        description: "A character may insert a fresh clip into a ready firearm if the previous one has been ejected",
-        reference: "See class page for more information.",
-        bullets: [
-
-        ]
-    },
-    
-    {
-        title: "Run",
-        icon: "run",
-        subtitle: "Move a number of meters equal to your run speed",
-        description: "Devote your attention to finding something",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
-        ]
-    },
-    {
         title: "Take Aim",
         icon: "targeting",
         subtitle: "Add a +1 modifier to the Attack test",
-        description: "Interact with a second object or use special object abilities",
-        reference: "PHB, pg. 193.",
+        description: "A character may take aim with a ready firearm, bow, or throwing weapon as a Simple Action.",
+        reference: "SR5, pg. 166.",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
+            "Take Aim actions are cumulative, but the benefits are lost if the character takes any other kind of action—including a Free Action—at any time before attacking.",
+            "Take Aim actions may be extended over multiple Action Phases and Combat Turns. The maximum bonus a character may gain from sequential Take Aim actions, either to her limit or her dice pool, is equal to one-half the character’s WIL, rounded up.",
+            "Each Take Aim action applies a +1 dice pool modifier or +1 Accuracy increase to the Attack Test.",
+            "If the character is using image magnification or a targeting scope, Take Aim must be used to line up the shot in order to receive the bonus from the item. In this case the first action of Take Aim does not provide any additional bonus beyond enabling the function of the modification."
         ]
     },
-
+    {
+        title: "Take Cover",
+        icon: "guarded-tower",
+        subtitle: "Increase your defense",
+        description: "A character may use this Simple Action to gain a cover bonus to their defense test.",
+        reference: "SR5 pgs. 166, 192",
+        bullets: [
+            "A character who is surprised may not take cover (see Surprise, p. 192)."
+        ]
+    },
+    {
+        title: "Throw weapon",
+        icon: "stun-grenade",
+        subtitle: "Throw a readied weapon",
+        description: "A character may throw a ready throwing weapon (see Ready Weapon, p. 165) by taking a Simple Action.",
+        reference: "SR5 pg. 166, 196.",
+        bullets: [
+            "The character may not take any other attack actions in the same Action Phase.",
+            "Multiple readied throwing weapons can be thrown at a target within Short or Medium range by adding a Multiple Attacks Free Action (see Multiple Attacks, p. 196)"
+        ]
+    },
+    {
+        title: "Use Simple Object",
+        icon: "lever",
+        subtitle: "Use a simple object/device",
+        description: "A character can use any simple device with a Simple Action.",
+        reference: "SR5, pg. 166.",
+        bullets: [
+            "Simple devices are those that are activated with a simple movement like a thumb trigger, pressing a single key, or tapping a single icon."
+        ]
+    },
     {
         title: "Convert to Free Action",
         icon: "cycle",
         subtitle: "Take a Free Action instead",
-        description: "Devote your attention to finding something",
-        reference: "PHB, pg. 193.",
+        description: "You can take a Free Action in the place of a Simple Action",
+        reference: "SR5 pg. 164",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "A player may choose to convert their Simple Actions into Free Actions, up to a total of three Free Actions."
         ]
     }
 ]
