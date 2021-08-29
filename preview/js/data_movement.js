@@ -28,7 +28,7 @@ data_movement = [
     {
         title: "Sprint",
         icon: "sprint",
-        subtitle: "Cost: Simple Action",
+        subtitle: "Cost: Complex Action",
         description: "Characters may attempt to increase their running distance by performing a Sprint Action during their Action Phase.",
         reference: "SR5, pgs. 162, 172.",
         bullets: [
