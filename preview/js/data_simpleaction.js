@@ -72,5 +72,57 @@ data_simpleaction = [
         bullets: [
 
         ]
+    },
+    {
+        title: "Pick up/Put down object",
+        icon: "magnifying-glass",
+        subtitle: "tbc",
+        description: "Devote your attention to finding something",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+        ]
+    },
+    {
+        title: "Run",
+        icon: "run",
+        subtitle: "Move a number of meters equal to your run speed",
+        description: "Devote your attention to finding something",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+        ]
+    },
+        },
+        {
+        title: "Take Aim",
+        icon: "circuitry",
+        subtitle: "Add a +1 modifier to the Attack test",
+        description: "Interact with a second object or use special object abilities",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
+            "When an object requires your action for its use, you also take this action."
+        ]
+    },
+    {
+        title: "Observe In Detail",
+        icon: "magnifying-glass",
+        subtitle: "Roll a Perception test",
+        description: "Devote your attention to finding something",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+        ]
+    },
+    {
+        title: "Take an extra Free Action",
+        icon: "magnifying-glass",
+        subtitle: "Convert a Simple Action into any Free Action",
+        description: "Devote your attention to finding something",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+        ]
     }
 ]
