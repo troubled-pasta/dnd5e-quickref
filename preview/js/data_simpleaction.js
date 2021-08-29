@@ -1,15 +1,33 @@
 data_simpleaction = [
     {
-        title: "Ready weapon",
+        title: "Activate focus",
         icon: "catch",
-        subtitle: "Ready a weapon for combat",
-        description: "Attack with your off hand",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "Activate a magical focus",
+        description: "A character may activate a focus they are carrying with a Simple Action.",
+        reference: "SR5 pg. 164.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+        ]
+    },
+    {
+        title: "Call/Dismiss/Command spirit",
+        icon: "ifrit",
+        subtitle: "Control a summoned spirit",
+        description: "Call, command or dismiss a spirit you have summoned.",
+        reference: "SR5 pg. 165.",
+        bullets: [
+            "Issuing a command to a single spirit or group of spirits under a summoner’s control is a Simple Action.",
+            "The call action action is used to call a spirit that has already been summoned and placed on standby.",
+            "Dismissing a spirit does not immediately send the spirit back to its home plane but instead frees it to do as it chooses."
+        ]
+    },
+    {
+        title: "Fire a bow",
+        icon: "archer",
+        subtitle: "Loose a single arrow",
+        description: "Firing a single arrow from a loaded bow is a Simple Action.",
+        reference: "PHB, pg. 165.",
+        bullets: [
+            "To nock a single arrow, the character must use the Reload Weapon Simple Action."
         ]
     },
     {
