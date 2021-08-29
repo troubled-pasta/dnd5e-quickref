@@ -53,15 +53,6 @@ data_complexaction = [
         ]
     },
     {
-        title: "Dodge",
-        icon: "dodging",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
-        reference: "PHB, pg. 192.",
-        bullets: [
-        ]
-    },
-    {
         title: "Full Defense",
         icon: "surrounded-shield",
         subtitle: "Increase defenses",
@@ -86,7 +77,7 @@ data_complexaction = [
     {
         title: "Use Skill",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
+        subtitle: "tbc",
         description: "Grant an ally advantage on an ability check or attack",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -109,7 +100,7 @@ data_complexaction = [
     {
         title: "Reload",
         icon: "shotgun-rounds",
-        subtitle: "Reload a firearm that doesn't use a clip",
+        subtitle: "Reload a clipless firearm",
         description: "Equip or unequip a shield",
         reference: "PHB, pgs. 144-146.",
         bullets: [
@@ -120,7 +111,7 @@ data_complexaction = [
     {
         title: "Hide",
         icon: "cowled",
-        subtitle: "",
+        subtitle: "tbc",
         description: "Attempt to hide",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -134,7 +125,7 @@ data_complexaction = [
     {
         title: "Observe In Detail",
         icon: "magnifying-glass",
-        subtitle: "",
+        subtitle: "tbc",
         description: "Devote your attention to finding something",
         reference: "PHB, pg. 193.",
         bullets: [
