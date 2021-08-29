@@ -2,125 +2,139 @@ data_complexaction = [
     {
         title: "Astral projection",
         icon: "telepathy",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
-        reference: "PHB, pg. 192.",
+        subtitle: "Shift to the Astral Plane",
+        description: "A character capable of Astral Projection may shift their consciousness to the astral plane as a Complex Action (see p. 313)",
+        reference: "SR5, pgs. 167, 313.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+         
         ]
     },
     {
         title: "Summon/Banish spirit",
         icon: "ifrit",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
-        reference: "PHB, pg. 192.",
+        subtitle: "Summon or banish spirits",
+        description: "A character may attempt to summon or banish a spirit as a Complex Action.",
+        reference: "SR5, pg. 167, 301.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            "A character may summon a spirit to assist them with a Complex Action",
+            "A character may enter into a Banishing contest with a spirit as a Complex Action (see p. 301)."
         ]
     },
     {
         title: "Cast a spell",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
-        reference: "PHB, pg. 192.",
+        subtitle: "Cast a spell as a mage or adept",
+        description: "A character may cast a spell as a Complex Action",
+        reference: "SR5 pg. 167.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            
         ]
     },
     {
-        title: "Fire automatic weapon",
+        title: "Fire Full-Auto weapon",
         icon: "ak47",
         subtitle: "Ranged attack",
         description: "Fire a readied firearm in full autofire mode",
-        reference: "PHB, pgs. 192,194-195.",
+        reference: "SR5, pgs. 167, 178, 196, 424.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "A character may fire a readied firearm in Full-Auto fire mode via a Complex Action (see Firearms, p. 424)",
+            "If a character has one weapon in each hand, he may fire once with each weapon by adding a Multiple Attacks Free Action (see Multiple Attacks, p. 196). Off-hand modifier applies (see Attacker Using Off-Hand Weapon, p. 178)",
+            "When fired as a Complex Action, Full-Auto uses 10 bullets.",
+            "Remember the effects of cumulative recoil when using these fire modes."
+        ]
+    },
+    {
+        title: "Fire Long or Semi-Auto Burst",
+        icon: "ak47",
+        subtitle: "Ranged attack",
+        description: "Fire a readied firearm in Long Burst or Semi-Auto Burst mode",
+        reference: "SR5, pgs. 167, 178, 196, 424.",
+        bullets: [
+            "A character may fire a readied firearm in Long Burst or Semi-Auto Burst via a Complex Action (see Firearms, p. 424)",
+            "If a character has one weapon in each hand, he may fire once with each weapon by adding a Multiple Attacks Free Action (see Multiple Attacks, p. 196). Off-hand modifier applies (see Attacker Using Off-Hand Weapon, p. 178)",
+            "When fired as a Complex Action, Full-Auto uses 10 bullets.",
+            "Remember the effects of cumulative recoil when using these fire modes."
         ]
     },
     {
         title: "Fire mounted/vehicle weapon",
         icon: "jeep",
         subtitle: "Special ranged attack",
-        description: "Attempt to grab a creature or wrestle with it",
-        reference: "PHB, pg. 195.",
+        description: "Fire a previously readied mounted or vehivle weapon by taking a complex action.",
+        reference: "SR5, pgs. 167, 198.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "(See Vehicle Combat, p. 198)"
         ]
     },
     {
-        title: "Reload",
-        icon: "reload-gun-barrel",
-        subtitle: "Reload a clipless firearm",
-        description: "Equip or unequip a shield",
-        reference: "PHB, pgs. 144-146.",
+        title: "Load and Fire Bow",
+        icon: "crossbow",
+        subtitle: "Load and fire in one action",
+        description: "With this action a character can load and fire a bow with a single Complex Action.",
+        reference: "SR5, pg. 167.",
         bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
+            "The two activities can be reversed, Fire and Load Bow, if the bow had been readied using a Simple Action already."
+        ]
+    },
+    {
+        title: "Matrix Action",
+        icon: "molecule",
+        subtitle: "Interact with the Matrix",
+        description: "A character may perform most Matrix actions with a Complex Action.",
+        reference: "SR5, pg. 167.",
+        bullets: [
+            ""
         ]
     },
     {
         title: "Melee/Unarmed Attack",
         icon: "spiked-bat",
         subtitle: "Melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
-        reference: "PHB, pg. 195.",
+        description: "A character may make a melee attack by taking a Complex Action (see Melee Combat, p. 184)",
+        reference: "SR5, pgs. 167, 195.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
+            " A character may also attack multiple targets within melee range by adding a <b>Multiple Attacks</b> Free Action (see Multiple Attacks, p. 196)"
         ]
     },
     {
-        title: "Rigger jump in",
-        icon: "surrounded-shield",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
-        reference: "PHB, pg. 192.",
+        title: "Reload firearm",
+        icon: "reload-gun-barrel",
+        subtitle: "Reload a clipless firearm",
+        description: "Equip or unequip a shield",
+        reference: "PHB, pgs. 144-146.",
         bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+            "Weapons that are belt fed (belt), break action (b), cylinder (cy), drum (d), internal magazine (m), muzzle loaders, or use a speed loader are reloaded using a Complex Action (see Reloading Weapons, p. 163)",
+        ]
+    },
+    
+    {
+        title: "Rigger jump in",
+        icon: "cryo-chamber",
+        subtitle: "Control rigger-adapted vehicle",
+        description: "A character with a VCR and rigger adapted vehicle may jump in to control the vehicle with a Complex Action.",
+        reference: "SR5, pg. 167.",
+        bullets: [
+       
         ]
     },
     {
         title: "Use Skill",
         icon: "skills",
-        subtitle: "tbc",
-        description: "Grant an ally advantage on an ability check or attack",
-        reference: "PHB, pg. 192.",
+        subtitle: "Use an appropriate skill",
+        description: "A character may use an appropriate skill by taking a Complex Action (see Using Skills, p. 128)",
+        reference: "SR5 pg. 167",
         bullets: [
-            "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
-            "Alternatively, the target gains advantage on the next attack roll against against a creature within 5 feet of you.",
-            "The advantage lasts until the start of your next turn."
+            
         ]
     },
     {
         title: "Use Complex Object",
         icon: "circuitry",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
+        subtitle: "Interact with complex objects",
+        description: "A character may operate a complex object, such as a computer, vehicle, mechanical tool, and so on, by taking a Complex Action.",
         reference: "PHB, pg. 193.",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
+            "“Use” entails activating a program, issuing detailed instructions, conducting an internal operation (such as copying files), driving the vehicle, and so on."
         ]
     },
     {
