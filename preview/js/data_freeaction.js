@@ -20,7 +20,7 @@ data_freeaction = [
     {
         title: "Change linked device mode",
         icon: "toggles",
-        subtitle: "Switch modes on any device",
+        subtitle: "For any linked devices",
         description: "A character may use a Free Action to activate, deactivate, or switch the mode on any device that they are linked to by a direct neural interface through either a wired or wireless link.",
         reference: "SR5, pg. 163.",
         bullets: [
