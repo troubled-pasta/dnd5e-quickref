@@ -1,9 +1,9 @@
 data_interruptaction = [
     {
         title: "Block",
-        icon: "vr-headset",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        icon: "shield-reflect",
+        subtitle: "subtitle",
+        description: "description",
         reference: "PHB, pg. 192.",
         bullets: [
             "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
@@ -13,8 +13,8 @@ data_interruptaction = [
     {
         title: "Dodge",
         icon: "dodging",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        subtitle: "subtitle",
+        description: "description",
         reference: "PHB, pg. 192.",
         bullets: [
             "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
@@ -23,9 +23,9 @@ data_interruptaction = [
     },
     {
         title: "Full defense",
-        icon: "vr-headset",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        icon: "surrounded-shield",
+        subtitle: "subtitle",
+        description: "description",
         reference: "PHB, pg. 192.",
         bullets: [
             "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
@@ -35,8 +35,8 @@ data_interruptaction = [
     {
         title: "Drop prone",
         icon: "falling",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        subtitle: "subtitle",
+        description: "description",
         reference: "PHB, pg. 192.",
         bullets: [
             "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
@@ -46,8 +46,8 @@ data_interruptaction = [
     {
         title: "Intercept",
         icon: "vr-headset",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        subtitle: "subtitle",
+        description: "description",
         reference: "PHB, pg. 192.",
         bullets: [
             "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
@@ -57,8 +57,8 @@ data_interruptaction = [
     {
         title: "Parry",
         icon: "vr-headset",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        subtitle: "subtitle",
+        description: "description",
         reference: "PHB, pg. 192.",
         bullets: [
             "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
