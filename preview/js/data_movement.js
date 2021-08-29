@@ -2,26 +2,40 @@ data_movement = [
     {
         title: "Walk",
         icon: "walk",
-        subtitle: "Cost: Free Action",
-        description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 190.",
+        subtitle: "Cost: None",
+        description: "Walk rate determines the farthest a character can move during a Combat Turn before they are considered to be Running.",
+        reference: "SR5, pg. 162.",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "The Movement Rates (Walk and Run) for each metatype are noted on the Movement Table (see SR5 pg. 162)."
+            ]
+    },
+    {
+        title: "Run",
+        icon: "run",
+        subtitle: "Cost: Free Action",
+        description: "As soon as the character exceeds their Walk rate they are considered to be Running.",
+        reference: "SR5, pg. 162.",
+        bullets: [
+            "<i>Think of running as a trained combat hustle or a jog, something to get you to another point quickly but still leave you able to perform other actions, albeit with a penalty</i>",
+            "Characters who are running take a –2 dice pool modifier to all actions performed while running.",
+            "Characters charging into melee combat gain a +4 dice pool modifier (making a net bonus of +2 when combined with the general penalty) when running into melee combat.", 
+            "When a character starts running, they are considered Running until the end of the Combat Turn and incur any penalties or benefits of running",
+            "Running characters must use a Free Action in each Initiative Pass they are considered running.",
+            "Characters cannot exceed their calculated Run Rate in a Combat Turn without making a Sprinting test.",
+            "Characters making a ranged attack against a running opponent suffer a –2 dice pool penalty to their attack test."
             ]
     },
     {
         title: "Sprint",
         icon: "sprint",
         subtitle: "Cost: Simple Action",
-        description: "Make a Running Test.",
-        reference: "PHB, pg. 192.",
+        description: "Characters may attempt to increase their running distance by performing a Sprint Action during their Action Phase.",
+        reference: "SR5, pgs. 162, 172.",
         bullets: [
-            "Make a Running (?) Test. Players may choose to make a Running+STR test to add 2m per hit to their running speed.",
-            "The increase equals your speed, after applying any modifiers."
+            "Characters make a Running + STR [Physical] Test. Each hit increases the distance a character can move in a Combat Turn by either 1 meter (for dwarfs and trolls) or 2 meters (for elves, humans, and orks)",
+            "Characters are allowed a maximum number of Sprinting tests equal to half their Running skill per Combat Turn (minimum of 1)",
+            "Characters making a ranged attack against a sprinting opponent suffer a –4 dice pool modifier to their attack test",
+            "Sprinting characters also suffer fatigue (see Fatigue from Running, p. 172) if they sprint for too long."
             ]
     },
     {
@@ -52,18 +66,6 @@ data_movement = [
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the swim is difficult"
-            ]
-    },
-    {
-        title: "Drop prone",
-        icon: "falling",
-        subtitle: "Cost: Free Action",
-        description: "Movement cost: 0ft (free)",
-        reference: "PHB, pgs. 190-191,292.",
-        bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
             ]
     },
     {
@@ -132,15 +134,4 @@ data_movement = [
 
         ]
     },
-    {
-        title: "Grapple move",
-        icon: "grab",
-        subtitle: "Modifier:",
-        description: "Drag or carry the grappled creature with you",
-        reference: "PHB, pg. 195.",
-        bullets: [
-            "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
-            "See the attack action for how to grapple a creature."
-            ]
-    }
 ]
