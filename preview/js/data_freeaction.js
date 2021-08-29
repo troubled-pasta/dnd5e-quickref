@@ -70,7 +70,7 @@ data_freeaction = [
     },
     {
         title: "Speak/Text/Transmit phrase",
-        icon: "talk",
+        icon: "nothing-to-say",
         subtitle: "Communicate a short phrase",
         description: "One short phrase of verbal or neural communication is a Free Action.",
         reference: "SR5, pg. 164.",
