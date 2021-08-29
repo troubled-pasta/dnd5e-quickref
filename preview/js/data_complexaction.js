@@ -123,16 +123,6 @@ data_complexaction = [
         ]
     },
     {
-        title: "Observe In Detail",
-        icon: "magnifying-glass",
-        subtitle: "tbc",
-        description: "Devote your attention to finding something",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
-        ]
-    },
-    {
         title: "Delay Action",
         icon: "stopwatch",
         subtitle: "Choose trigger and action",
@@ -143,16 +133,6 @@ data_complexaction = [
             "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
             "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
             "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
-        ]
-    },
-    {
-        title: "Use Feature",
-        icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
-        reference: "See class page for more information.",
-        bullets: [
-
         ]
     },
     {
