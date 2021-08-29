@@ -115,9 +115,9 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Take an extra Free Action",
+        title: "Convert to Free Action",
         icon: "magnifying-glass",
-        subtitle: "Convert a Simple Action into any Free Action",
+        subtitle: "Take a Free Action instead",
         description: "Devote your attention to finding something",
         reference: "PHB, pg. 193.",
         bullets: [
