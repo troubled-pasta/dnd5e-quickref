@@ -45,7 +45,7 @@ data_movement = [
         description: "description",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            ""
             ]
     },
     {
@@ -55,7 +55,7 @@ data_movement = [
         description: "description",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            ""
             ]
     },
     {
@@ -65,7 +65,7 @@ data_movement = [
         description: "description",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            ""
             ]
     },
     {
@@ -75,7 +75,7 @@ data_movement = [
         description: "description",
         reference: "PHB, pg. 182.",
         bullets: [
-
+            ""
         ]
     },
     {
@@ -85,7 +85,7 @@ data_movement = [
         description: "description",
         reference: "PHB, pg. 190-191.",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            ""
             ]
     },
     {
@@ -93,13 +93,9 @@ data_movement = [
         icon: "leapfrog",
         subtitle: "Cost: Simple Action",
         description: "description",
-        
         reference: "PHB, pg. 182.",
         bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump.",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
+            ""
             ]
     },
     {
@@ -109,10 +105,7 @@ data_movement = [
         description: "description",
         reference: "PHB, pg. 182.",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+            ""
             ]
     },
     {
@@ -131,7 +124,7 @@ data_movement = [
         reference: "PHB, pg. 182.",
         description: "description",
         bullets: [
-
+            ""
         ]
     }
 ]
