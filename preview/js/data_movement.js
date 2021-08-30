@@ -39,6 +39,40 @@ data_movement = [
             ]
     },
     {
+        title: "Crawl",
+        icon: "crawl",
+        subtitle: "Cost: Complex Action",
+        description: "Crawling ",
+        reference: "SR5, pg. 365.",
+        bullets: [
+            "There are no explicit rules for crawling, however gamemasters may choose to use rules for defeating motion sensors for any tests that require crawling.",
+            "i.e. 'Defeating a motion sensor requires that characters move very slowly through the field, one half-meter per Combat Turn, and succeeding in an Infiltration + AGI [Physical] (3) Test. Twitchy, wired-up characters will find this very uncomfortable; apply a negative dice pool modifier equal to their extra Initiative Dice (that is, any dice beyond the first one).'",
+            "Given that crawling is an action that involves the whole body, much like swimming, it is suggested that crawling would be a Complex Action, however GM discretion takes priority."
+        ]
+    },
+    {
+        title: "Stand up",
+        icon: "strong",
+        subtitle: "Cost: Simple Action",
+        description: "Using a Simple Action, a character who is lying down or prone may stand up.",
+        reference: "SR5, pg. 166.",
+        bullets: [
+            "If the character is wounded and attempting to stand, they must succeed in a BOD + WIL (2) Test to do so (wound modifiers apply to this test)."
+            ]
+    },
+    {
+        title: "Jump",
+        icon: "jump-across",
+        subtitle: "Cost: Free/Simple Action",
+        description: "Jumping is done from a running or standing position. Running leaps get more distance than standing jumps do, if you have enough room to get up to full speed",
+        reference: "SR5, pg. 134",
+        bullets: [
+            "Make a Gymnastics + AGI Test, applying any appropriate modifiers. For every hit you get on this test, you jump 1 meter on a standing jump or 2 meters for a running leap.",
+            "No matter how many hits you get, you can’t jump farther than your AGI x 1.5 meters (net hits beyond this mean you did it with <i>style</i>).",
+            "For a vertical jump, it’s the same test, but you get half a meter of altitude per hit and the maximum you can jump is 1.5 times your height."
+        ]
+    },
+    {
         title: "Climb",
         icon: "mountain-climbing",
         subtitle: "Cost: Complex Action",
@@ -83,40 +117,6 @@ data_movement = [
             ]
     },
     {
-        title: "Crawl",
-        icon: "crawl",
-        subtitle: "Cost: Complex Action",
-        description: "Crawling ",
-        reference: "SR5, pg. 365.",
-        bullets: [
-            "There are no explicit rules for crawling, however gamemasters may choose to use rules for defeating motion sensors for any tests that require crawling.",
-            "i.e. 'Defeating a motion sensor requires that characters move very slowly through the field, one half-meter per Combat Turn, and succeeding in an Infiltration + AGI [Physical] (3) Test. Twitchy, wired-up characters will find this very uncomfortable; apply a negative dice pool modifier equal to their extra Initiative Dice (that is, any dice beyond the first one).'",
-            "Given that crawling is anaction that involves the whole body, much like swimming, it is suggested that crawling would be a Complex Action, however GM discretion takes priority."
-        ]
-    },
-    {
-        title: "Stand up",
-        icon: "strong",
-        subtitle: "Cost: Simple Action",
-        description: "Using a Simple Action, a character who is lying down or prone may stand up.",
-        reference: "SR5, pg. 166.",
-        bullets: [
-            "If the character is wounded and attempting to stand, they must succeed in a BOD + WIL (2) Test to do so (wound modifiers apply to this test)."
-            ]
-    },
-    {
-        title: "Jump",
-        icon: "jump-across",
-        subtitle: "Cost: Free/Simple Action",
-        description: "Jumping is done from a running or standing position. Running leaps get more distance than standing jumps do, if you have enough room to get up to full speed",
-        reference: "SR5, pg. 134",
-        bullets: [
-            "Make a Gymnastics + AGI Test, applying any appropriate modifiers. For every hit you get on this test, you jump 1 meter on a standing jump or 2 meters for a running leap.",
-            "No matter how many hits you get, you can’t jump farther than your AGI x 1.5 meters (net hits beyond this mean you did it with <i>style</i>).",
-            "For a vertical jump, it’s the same test, but you get half a meter of altitude per hit and the maximum you can jump is 1.5 times your height."
-        ]
-    },
-    {
         title: "Improvise",
         icon: "juggler",
         subtitle: "Any stunt not on this list",
@@ -124,15 +124,5 @@ data_movement = [
         bullets: [
             "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
             ]
-    },
-    {
-        title: "Difficult terrain",
-        icon: "stone-pile",
-        subtitle: "subtitle",
-        reference: "PHB, pg. 182.",
-        description: "description",
-        bullets: [
-            ""
-        ]
     }
 ]
