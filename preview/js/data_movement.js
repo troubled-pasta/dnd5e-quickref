@@ -54,15 +54,19 @@ data_movement = [
     {
         title: "Rapel",
         icon: "mountain-climbing",
-        subtitle: "Cost: Complex Action",
-        description: "Climbing, either assisted by ropes and harnesses or unassisted without any gear, is a Complex Acion.",
-        reference: "SR5, pgs. 134, 448.",
+        subtitle: "Cost: Simple Action",
+        description: "Rappelling is a gear-aided descent at near free-fall speed.",
+        reference: "SR5, pgs. 134, 172.",
         bullets: [
-            "The Gymnastics skill is applied to both assisted and unassisted climbing tasks. Assisted climbing is accomplished with specialized gear such as ropes and harnesses (see p. 448). Assisted climbing is easier and safer, but requires more preparation. Unassisted climbing may be done on the fly, because you climb without any gear.",
-            "The number of hits you get on your Gymnastics + STR [Physical] Test determines how far you can move vertically or laterally during your climb, as noted on the Climbing Table.",
-            "The more difficult the climb, the more dice pool modifiers you get, which is also noted on the Climbing Table",
-            "<table><thead><tr><th>Situation</th><th>Movement distance</th></tr></thead><tbody><tr><td>Climbing up (Assisted)<br></td><td>1 Meter per Hit</td></tr><tr><td>Climbing down (Assisted)<br></td><td>2 Meters</td></tr><tr><td>Climbing horizontally<br></td><td>1 Meter per 2 hits</td></tr><tr><td>Climbing upside down (assisted)</td><td>1 Meter per 3 Hits</td></tr><tr><td>Climbing up (unassisted)</td><td>1 Meter per 2 Hits</td></tr><tr><td>Climbing down (unassisted)</td><td>1 meter per hit</td></tr><tr><th>Situation</th><th>Dice Pool Modifier</th></tr><tr><td>Assisted Climbing</td><td>+2</td></tr><tr><th>Surface Is...</th><th>Dice Pool Modifier</th></tr><tr><td>Easily climbable (chain link fence)</td><td>+1</td></tr><tr><td>Broken (tree, loose stone wall)</td><td>+0</td></tr><tr><td>Flat (brick wall, side of old building) </td><td>-3</td></tr><tr><td>Sheer (metal wall, seamless stone)</td><td>-5</td></tr><tr><td>Slippery or wet</td><td>-2</td></tr><tr><td>Greased or gel-treated</td><td>-4</td></tr></tbody></table>"
-            ]
+            "This technique requires a Free-Fall + BOD [Physical] (2) Success Test.",
+            "Rappelling expends a Simple Action, during which you fall at a rate of 20 meters per Combat Turn. Rappelling characters can increase the number of meters descended during that same Combat Turn by 1 for each net hit beyond the threshold on the Free-Fall Test.",
+            "So long as you have the proper gear and training, you can brake at any point in the descent, slow your speed, and land safely.",
+            "If you take another Simple Action in the same phase, such as firing a weapon, you get a –2 dice pool modifier to both that action and the Free-Fall Test.",
+            "Stopping requires another Free-Fall Test with the same threshold. On an unsuccessful test, you don’t slow down and may take damage if you hit the ground at speed (Falling Damage, p. 172).",
+            "A test while climbing or rappelling automatically halts your progress, and you have to make a REA + STR Test to hold on. If you fail this second test, you start to fall (20 meters per Combat Turn). During your next Action Phase, you may attempt to stop by making a REA + STR Test with a –2 dice pool modifier. Your gamemaster may allow other climbers to make a REA + STR Test to grab you.",
+            "Characters who are using climbing gear are allowed an additional test if they fall. Whoever prepared the safety lines can make a Free-Fall + LOG [Mental] Test against a threshold equal to half the falling character’s BOD (round down).",
+            "The falling character may apply Edge to this test. If successful, the safety gear catches, leaving the character dangling. If it fails, the character falls (see Falling Damage, p. 172)."
+           ]
     },
     {
         title: "Swim",
