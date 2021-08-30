@@ -103,24 +103,16 @@ data_movement = [
             ]
     },
     {
-        title: "Standing jump",
-        icon: "leapfrog",
-        subtitle: "Cost: Simple Action",
-        description: "description",
-        reference: "PHB, pg. 182.",
-        bullets: [
-            ""
-            ]
-    },
-    {
-        title: "Running jump",
+        title: "Jump",
         icon: "jump-across",
-        subtitle: "Cost: Free Action",
-        description: "description",
-        reference: "PHB, pg. 182.",
+        subtitle: "Cost: Free/Simple Action",
+        description: "Jumping is done from a running or standing position. Running leaps get more distance than standing jumps do, if you have enough room to get up to full speed",
+        reference: "SR5, pg. 134",
         bullets: [
-            ""
-            ]
+            "Make a Gymnastics + AGI Test, applying any appropriate modifiers. For every hit you get on this test, you jump 1 meter on a standing jump or 2 meters for a running leap.",
+            "No matter how many hits you get, you can’t jump farther than your AGI x 1.5 meters (net hits beyond this mean you did it with <i>style</i>).",
+            "For a vertical jump, it’s the same test, but you get half a meter of altitude per hit and the maximum you can jump is 1.5 times your height."
+        ]
     },
     {
         title: "Improvise",
