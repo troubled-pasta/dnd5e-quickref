@@ -1,25 +1,46 @@
 data_condition = [
     {
-        title: "Blinded",
-        icon: "sight-disabled",
-        subtitle: "You can't see",
-        description: "You can't see",
-        reference: "PHB, pg. 290.",
+        title: "Disorientation",
+        icon: "knockout",
+        subtitle: "You are disoriented",
+        description: "Disorientation causes the victim a –2 dice pool modifier to all actions for ten minutes, due to confusion and disorientation.",
+        reference: "SR5, pg. 409",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+        
         ]
     },
     {
-        title: "Charmed",
-        icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
-        reference: "PHB, pg. 290.",
+        title: "Paralysis",
+        icon: "internal-injury",
+        subtitle: "You are paralyzed",
+        description: "Paralysis renders the victim unable to move by blocking the body’s neuromuscular signals.",
+        reference: "SR5, pg. 409",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "If the Power of an attack after the Toxin Resistance Test exceeds the target’s Reaction, the target is paralyzed and unable to take physical actions for 1 hour.",
+            "Even if the target is not paralyzed, he suffers a –2 dice pool modifier for the next hour."
+        
+        ]
+    },
+    {
+        title: "Nausea",
+        icon: "sharp-smile",
+        subtitle: "You are nauseous",
+        description: "Nausea is a catch-all term; it includes pain, panic, vomiting, and double vision.",
+        reference: "SR5, pg. 409",
+        bullets: [
+            " If the Power of an attack after the Toxin Resistance Test exceeds the target’s Willpower, he is incapacitated (unable to take any actions) with vomiting and dizziness for 3 Combat Turns.",
+            "Whether or not a character is incapacitated, Nausea doubles all of a character’s wound modifiers for ten minutes.",
+            "A nauseated character with 3 boxes of damage (a –1 wound modifier), for example, suffers –2 dice on all tests instead."
+        ]
+    },
+    /*{
+        title: "Blinded",
+        icon: "sight-disabled",
+        subtitle: "You can't see",
+        description: "",
+        reference: "",
+        bullets: [
+            ""
         ]
     },
     {
@@ -33,26 +54,15 @@ data_condition = [
         ]
     },
     {
-        title: "Exhaustion",
-        icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
-        reference: "PHB, pg. 291.",
+        title: "Grappled/Subdued",
+        icon: "crossed-chains",
+        subtitle: "You are incapacitated",
+        description: "Nausea is a catch-all term; it includes pain, panic, vomiting, and double vision.",
+        reference: "SR5, pg. 409",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink."
-        ]
-    },
-    {
-        title: "Frightened",
-        icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
-        reference: "PHB, pg. 290.",
-        bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            " If the Power of an attack after the Toxin Resistance Test exceeds the target’s Willpower, he is incapacitated (unable to take any actions) with vomiting and dizziness for 3 Combat Turns.",
+            "Whether or not a character is incapacitated, Nausea doubles all of a character’s wound modifiers for ten minutes.",
+            "A nauseated character with 3 boxes of damage (a –1 wound modifier), for example, suffers –2 dice on all tests instead."
         ]
     },
     {
@@ -68,7 +78,7 @@ data_condition = [
         ]
     },
     {
-        title: "Incapacitated",
+        title: "Surprised",
         icon: "internal-injury",
         subtitle: "You can't take actions or reactions",
         description: "You can't take actions or reactions",
@@ -90,30 +100,13 @@ data_condition = [
         ]
     },
     {
-        title: "Paralyzed",
-        icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
-        bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
-        ]
-    },
-    {
         title: "Petrified",
         icon: "stone-pile",
         subtitle: "You are transformed into stone",
         description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            ""
         ]
     },
     {
@@ -153,19 +146,17 @@ data_condition = [
     },
     {
         title: "Stunned",
-        icon: "internal-injury",
+        icon: "",
         subtitle: "You are stunned",
         description: "You are stunned",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            ""
         ]
     },
     {
         title: "Unconscious",
-        icon: "coma",
+        icon: "knockout",
         subtitle: "You are unconscious",
         description: "You are unconscious",
         reference: "PHB, pg. 292.",
@@ -176,5 +167,5 @@ data_condition = [
             "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
             "You automatically fail Strength and Dexterity saving throws.",
         ]
-    }
+    }*/
 ]
