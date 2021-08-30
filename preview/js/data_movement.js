@@ -39,23 +39,14 @@ data_movement = [
             ]
     },
     {
-        title: "Climb (Unassisted)",
-        icon: "crags",
-        subtitle: "Cost: Complex Action",
-        description: "description",
-        reference: "PHB, pg. 182.",
-        bullets: [
-            ""
-            ]
-    },
-    {
         title: "Climb (Assisted)",
         icon: "mountain-climbing",
         subtitle: "Cost: Complex Action",
         description: "description",
-        reference: "PHB, pg. 182.",
+        reference: "SR5, pg. 134.",
         bullets: [
-            ""
+            "<div class="tg-wrap"><table><thead><tr><th>Situation</th><th>Movement distance</th></tr></thead><tbody><tr><td>Climbing up (Assisted)<br></td><td>1 Meter per Hit</td></tr><tr><td>Climbing down (Assisted)<br></td><td>2 Meters</td></tr><tr><td>Climbing horizontally<br></td><td>1 Meter per 2 hits</td></tr><tr><td>Climbing upside down (assisted)</td><td>1 Meter per 3 Hits</td></tr><tr><td>Climbing up (unassisted)</td><td>1 Meter per 2 Hits</td></tr><tr><td>Climbing down (unassisted)</td><td>1 meter per hit</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table></div>",
+            
             ]
     },
     {
