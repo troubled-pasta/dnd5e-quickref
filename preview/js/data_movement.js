@@ -42,10 +42,12 @@ data_movement = [
         title: "Climb",
         icon: "mountain-climbing",
         subtitle: "Cost: Complex Action",
-        description: "Climbing is a Complex Action, and the number of hits you get on your Gymnastics + STR [Physical] Test determines how far you can move vertically or laterally during your climb, as noted on the Climbing Table",
+        description: "Climbing, either assisted by ropes and harnesses or unassisted without any gear, is a Complex Acion.",
         reference: "SR5, pg. 134.",
         bullets: [
-            "<table><thead><tr><th>Situation</th><th>Movement distance</th></tr></thead><tbody><tr><td>Climbing up (Assisted)<br></td><td>1 Meter per Hit</td></tr><tr><td>Climbing down (Assisted)<br></td><td>2 Meters</td></tr><tr><td>Climbing horizontally<br></td><td>1 Meter per 2 hits</td></tr><tr><td>Climbing upside down (assisted)</td><td>1 Meter per 3 Hits</td></tr><tr><td>Climbing up (unassisted)</td><td>1 Meter per 2 Hits</td></tr><tr><td>Climbing down (unassisted)</td><td>1 meter per hit</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>."
+            "Climbing is a Complex Action, and the number of hits you get on your Gymnastics + STR [Physical] Test determines how far you can move vertically or laterally during your climb, as noted on the Climbing Table.",
+            "<table><thead><tr><th>Situation</th><th>Movement distance</th></tr></thead><tbody><tr><td>Climbing up (Assisted)<br></td><td>1 Meter per Hit</td></tr><tr><td>Climbing down (Assisted)<br></td><td>2 Meters</td></tr><tr><td>Climbing horizontally<br></td><td>1 Meter per 2 hits</td></tr><tr><td>Climbing upside down (assisted)</td><td>1 Meter per 3 Hits</td></tr><tr><td>Climbing up (unassisted)</td><td>1 Meter per 2 Hits</td></tr><tr><td>Climbing down (unassisted)</td><td>1 meter per hit</td></tr><tr><td>Situation</td><td>Dice Pool Modifier</td></tr><tr><td>Assisted Climbing</td><td>+2</td></tr><tr><th>Surface Is...</th><th>Dice Pool Modifier</th></tr><tr><td>Easily climbable (chain link fence)</td><td>+1</td></tr><tr><td>Broken (tree, loose stone wall)</td><td>+0</td></tr><tr><td>Flat (brick wall, side of old building) </td><td>-3</td></tr><tr><td>Sheer (metal wall, seamless stone)</td><td>-5</td></tr><tr><td>Slippery or wet</td><td>-2</td></tr><tr><td>Greased or gel-treated</td><td>-4</td></tr></tbody></table>",
+            "The more difficult the climb, the more dice pool modifiers you get, which is also noted on the Climbing Table"
             ]
     },
     {
