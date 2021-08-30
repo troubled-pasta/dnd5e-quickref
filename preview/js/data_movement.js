@@ -86,20 +86,22 @@ data_movement = [
         title: "Crawl",
         icon: "crawl",
         subtitle: "Cost: Complex Action",
-        description: "description",
-        reference: "PHB, pg. 182.",
+        description: "Crawling ",
+        reference: "SR5, pg. 365.",
         bullets: [
-            ""
+            "There are no explicit rules for crawling, however gamemasters may choose to use rules for defeating motion sensors for any tests that require crawling.",
+            "i.e. 'Defeating a motion sensor requires that characters move very slowly through the field, one half-meter per Combat Turn, and succeeding in an Infiltration + AGI [Physical] (3) Test. Twitchy, wired-up characters will find this very uncomfortable; apply a negative dice pool modifier equal to their extra Initiative Dice (that is, any dice beyond the first one).'",
+            "Given that crawling is anaction that involves the whole body, much like swimming, it is suggested that crawling would be a Complex Action, however GM discretion takes priority."
         ]
     },
     {
         title: "Stand up",
         icon: "strong",
         subtitle: "Cost: Simple Action",
-        description: "description",
-        reference: "PHB, pg. 190-191.",
+        description: "Using a Simple Action, a character who is lying down or prone may stand up.",
+        reference: "SR5, pg. 166.",
         bullets: [
-            ""
+            "If the character is wounded and attempting to stand, they must succeed in a BOD + WIL (2) Test to do so (wound modifiers apply to this test)."
             ]
     },
     {
