@@ -118,6 +118,19 @@ data_complexaction = [
         ]
     },
     {
+        title: "Subdue opponent",
+        icon: "grab",
+        subtitle: "Grapple an opponent",
+        description: "Sometimes, characters need to subdue an opponent without beating them into unconsciousness.",
+        reference: "SR5, pg. 195",
+        bullets: [
+            "To subdue a character, resolve melee combat normally using the Unarmed Combat skill.",
+            "If the attacker successfully hits, compare their STR + net hits to the defender’s Physical limit. If the attacker’s total exceeds the defender’s Physical limit, the attacker grapples and immobilizes the defender. This subduing attack causes no damage to the defender.",
+            "Consider the subdued character to be prone for any attacks made against them. The grappling character does not need to make any tests to maintain the grapple, but they must spend a Complex Action on each of they Action Phases to hold the position.",
+            "The grappler may also choose to do one of the following on each Complex Action he spends to maintain the grapple: <br>Make an additional Unarmed Combat Attack Test to get a better grip"
+            ]
+    },
+    {
         title: "Use Skill",
         icon: "skills",
         subtitle: "Use an appropriate skill",
