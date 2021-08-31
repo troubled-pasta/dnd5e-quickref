@@ -108,7 +108,7 @@ data_condition = [
     {
         title: "Surprised",
         icon: "hazard-sign",
-        subtitle: "-10 to INI score",
+        subtitle: "-10 Initiative Score",
         description: "A surprised character is caught off guard and can do little except watch events unfold.",
         reference: "SR5, pg. 192.",
         bullets: [
