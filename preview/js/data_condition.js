@@ -81,14 +81,18 @@ data_condition = [
             "A nauseated character with 3 boxes of damage (a –1 wound modifier), for example, suffers –2 dice on all tests instead."
         ]
     },
-    /*{
+    {
         title: "Blinded",
         icon: "sight-disabled",
         subtitle: "You can't see",
-        description: "",
-        reference: "",
+        description: "The concept of sight has expanded on the mean streets of 2075. Vision enhancement systems, magic, and variations in natural sight have made the idea of “seeing” taking on different meanings.",
+        reference: "SR5, pg. 174. RF, pg. 154.",
         bullets: [
-            ""
+            "<table><thead><tr><th>Condition</th><th>Dice Pool Modifier</th><th>Compensation</th></tr></thead><tbody><tr><td>Visibility</td><td>Clear (0), Light (-1), Moderate (-3), Heavy Obstruction (-6)</td><td>Ultrasound <i>(reduce modifier by one step)</i><br>Thermographic Vision <i>(reduce modifier by one step)<i/></td></tr><tr><td>Light</td><td>Full Light (0), Partial (-1), Dim (-3), Total Darkness (-6)</td><td>Low-Light Vision <i>(Partial and Dim Light become Full Light)</i><br>Thermographic Vision <i>(reduce modifier by one step)</i><br>Ultrasound <i>(ignore Light conditions within 50 meters)</i><br>Sunglasses <i>(increase modifier by one step)</i></td></tr><tr><td>Glare</td><td>None (0), Weak (-1), Moderate (-3), Blinding (-6)</td><td>Sunglasses <i>(reduce modifier by one step)</i><br>Flare Compensation <i>(reduce modifier by two steps)</i></td></tr><tr><td>Range</td><td>Short (0), Medium (-1), Long (-3), Extreme (-6)</td><td>Image Magnification <i>(reduce modifier by one step)</i></td></tr></tbody></table>",
+            "Natural rain, fog, smoke from natural sources, or a smoke screen of some type thrown up for cover, all block line of sight.", 
+            "Without line of sight, magicians cannot establish a mystical link between them and their target to channel mana through. Sight is not required for spells that require physical contact with the target.",
+            "Visibility modifiers are mitigated in all conditions by ultrasound vision systems; thermographic vision compensates in all cases except for thermal smoke.",
+            "Permanently blind characters (Blind Quality, see RF, pg. 154) automatically fail all vision-based Perception Tests. They also face a –4 dice pool modifier for general Perception tests, a –3 dice pool modifier for Surprise Tests, Blind Fire when in Ranged Combat, Total Darkness in Melee Combat, and any other relevant modifiers at the gamemaster’s discretion."
         ]
     },
     {
@@ -96,11 +100,13 @@ data_condition = [
         icon: "hearing-disabled",
         subtitle: "You can't hear",
         description: "You can't hear",
-        reference: "PHB, pg. 290.",
+        reference: "RF, pg. 154.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            
+            "Permanently deaf characters automatically fail any audio-based Perception tests. They also face a –2 dice pool modifier for general Perception tests, a –3 dice pool modifier for Surprise Tests, and any other modifiers at the gamemaster’s discretion.",
+            "Awakened characters who are blind can still use Astral Perception all the time and at least have some sense of objects in the world, but suffer a –2 dice pool modifier to all actions performed on the physical plane while perceiving the astral.",
         ]
-    },
+    },/*
     {
         title: "Grappled/Subdued",
         icon: "crossed-chains",
