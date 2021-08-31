@@ -84,7 +84,7 @@ data_condition = [
         reference: "SR5, pg. 409",
         bullets: [
             "If the Power of an attack after the Toxin Resistance Test exceeds the target’s Reaction, the target is paralyzed and unable to take physical actions for 1 hour.",
-            "Even if the target is not paralyzed, he suffers a –2 dice pool modifier for the next hour."
+            "Even if the target is not paralyzed, they suffer a –2 dice pool modifier for the next hour."
         
         ]
     },
