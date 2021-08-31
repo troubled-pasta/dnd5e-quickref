@@ -109,11 +109,15 @@ data_condition = [
     },
     {
         title: "Surprised",
-        icon: "internal-injury",
+        icon: "hazard-sign",
         subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
-        reference: "PHB, pg. 290.",
+        description: "A surprised character is caught off guard and can do little except watch events unfold.",
+        reference: "SR5, pg. 192.",
         bullets: [
+            "Surprise normally occurs at the beginning of combat, but it is possible for it to happen within a Combat Turn if an unexpected force enters the fray.",
+            "To resolve surprise situations, all participants must make a Surprise Test, rolling REA + INT (3). Characters who have been alerted in some way receive a +3 dice pool modifier on this test.",
+            
+            
         ]
     },
     /*
