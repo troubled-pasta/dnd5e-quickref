@@ -1,5 +1,20 @@
 data_condition = [
     {
+        title: "Stun damage",
+        icon: "knockout",
+        subtitle: "You have taken stun damage",
+        description: "Stun damage —bruising, muscle fatigue, and the like— is the kind done by fists, kicks, blunt weapons, stun or gel rounds, shock weapons, concussion grenades, cold-sim dumpshock and some magic spells. Stun Damage is tracked on the Stun Condition Monitor.",
+        reference: "SR5, pgs. 169, 409",
+        bullets: [
+            "If something does Stun damage, the letter “S” follows the Damage Value. Stun damage takes a shorter time to heal.",
+            "With every third box of damage a Wound Modifier (-1) is applied. Wound modifiers are are cumulative between damage tracks and with other negative modifiers such as spells or adverse conditions. Wound modifiers are applied to all tests not about reducing the number of boxes you’re about to take on your Condition Monitor",
+            "When the total number of boxes in the Stun damage track are filled in and damage still remains, it carries over into the Physical damage track. For every two full boxes of excess Stun damage, carry over 1 box to the Physical damage track",
+            "Stun and Physical damage both heal naturally, though at different rates. Medical attention can help hasten the process. In both cases, healing is handled as an Extended Test.",
+            "To heal Stun Damage, make a BOD + WIL (1 hour) Extended Test. The character must rest for the entire hour for it to count (forced naps and unconsciousness also count). Each hit heals 1 box of Stun damage",
+            "A glitch on a healing test (Stun or Physical) doubles the resting time (the damage is still healed—it just takes longer). A critical glitch increases the damage by 1D3 (1D6 ÷ 2) boxes in addition to doubling the resting time."
+        ]
+    },
+    {
         title: "Disorientation",
         icon: "knockout",
         subtitle: "You are disoriented",
