@@ -40,11 +40,11 @@ data_condition = [
             "Poisons or toxins that do damage (Stun or Physical) have a Power rating. Power serves as the DV of the attack. A Toxin Resistance Test is used to reduce the damage (BOD + WILL + the rating of any protective gear/systems), each hit reduces the toxin’s Power by 1 point. If Power is reduced to 0 no damage occurs and no other effects happen.",
             "A toxin's Speed determines how quickly the victim suffers the toxin’s Effect. These effects are always applied at the end of a Combat Turn. Immediate means the Effect is applied at the end of the same Combat Turn in which the victim is exposed. A Speed of 1 Combat Turn means the Effect is applied at the end of the next Combat Turn, and so on",
             "Toxins are delivered via means of a Vector. The Vector can be Contact, Ingestion, Inhalation or Injection. A toxin's Penetration rating works like a weapon’s Armor Penetration and affects the rating of any protective system used to defend against it in the same way.",
-            "<b>Contact</b> toxins can be solid, liquid, or gaseous, but attack the victim through the skin. In liquid form, they can be coated on a weapon and applied with a successful Melee Attack, whether the attack causes damage or not.",
-            "<b>Ingestion</b> toxins must be eaten by the victim. Since they must be eaten they generally take longer to have an effect.",
-            "<b>Inhalation</b> toxins are applied as an aerosol spray or gas, and must be breathed in by the target.",
-            "<b>Injection</b> toxins must get into the target’s bloodstream, whether through a dart, hypodermic needle, or a cut. These can also be used to coat an edged melee weapon and are applied to the target with a successful melee attack <i>that causes damage.</i>",
-            "Many toxins simply cause damage; in this case, the Effect supplies the damage type. Damage from toxins is treated just like any other injury. Some toxins cause other effects, which are listed in their description."
+            "Contact toxins applied to a melee weapon can be applied with a successful Melee Attack, whether the attack causes damage or not. Injection toxins applied to a bladed melee weapon must cause damage to take effect.",
+            "Many toxins simply cause damage; in this case, the Effect supplies the damage type. Damage from toxins is treated just like any other injury. Some toxins cause other effects, which are listed in their description.",
+            "If exposed to more than a single dose at a given time, increase the Power of the toxin by +1 per additional dose. Duration might also increase, at the gamemaster’s discretion",
+            "If they’re to do any good, antidotes must be taken before a toxin’s effects kick in. An antidote taken afterwards will not diminish the damage caused by the toxin but may reduce the toxin’s other effects. Note that some toxins simply have no effective antidote, particularly neurotoxins.",
+            "If a victim has suffered Physical damage overflow from a toxin, then application of the appropriate antidote automatically stabilizes them."
         ]
     },
     {
