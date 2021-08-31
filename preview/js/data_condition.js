@@ -31,6 +31,23 @@ data_condition = [
         ]
     },
     {
+        title: "Poisoned",
+        icon: "skull-crossed-bones",
+        subtitle: "You are poisoned",
+        description: "Knockout drugs. Truth serum. Nerve gas. All of these are examples of toxins, a catch-all term for a substance that’s mostly meant for use as a weapon, as opposed to recreation.",
+        reference: "SR5, pgs. 169, 409. HT, pgs 192, 193.",
+        bullets: [
+            "Poisons or toxins that do damage (Stun or Physical) have a Power rating. Power serves as the DV of the attack. A Toxin Resistance Test is used to reduce the damage. If Power is reduced to 0, then no damage occurs, and no other effects happen.",
+            "A toxin's Speed determines how quickly the victim suffers the toxin’s Effect. These effects are always applied at the end of a Combat Turn. Immediate means the Effect is applied at the end of the same Combat Turn in which the victim is exposed. A Speed of 1 Combat Turn means the Effect is applied at the end of the next Combat Turn, and so on",
+            "Toxins are delivered via means of a Vector. The Vector can be Contact, Ingestion, Inhalation or Injection. A toxin's Penetration rating works like a weapon’s Armor Penetration and affects the rating of any protective system used to defend against it in the same way."
+            "Contact toxins can be solid, liquid, or gaseous. They attack the victim through the skin. These toxins, if in liquid form, can be coated on a weapon. In this case, they can be applied with a successful Melee Attack, whether the attack causes damage or not.",
+            "Ingestion toxins must be eaten by the victim. They can be solids or liquids. Since they must be eaten, they generally take longer to have an effect.",
+            "Inhalation toxins are applied as an aerosol spray or gas, and they must be breathed in by the target.",
+            "Injection toxins must get into the target’s bloodstream, whether through a dart, hypodermic needle, or a cut. These can also be used to coat an edged melee weapon. They are applied to the target with a successful melee attack that causes damage.",
+            "Many toxins simply cause damage; in this case, the Effect supplies the type of damage. Damage from toxins is treated just like any other injury. Some toxins cause other effects, which are listed in their description. Unless otherwise noted, all effects occur unless the toxin’s Power is reduced to 0 in a Toxin Resistance Test."
+        ]
+    },
+    {
         title: "Disorientation",
         icon: "knockout",
         subtitle: "You are disoriented",
