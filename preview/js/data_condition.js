@@ -81,13 +81,23 @@ data_condition = [
         ]
     },
     {
+        title: "Invisible",
+        icon: "invisible",
+        subtitle: "You can't be seen",
+        description: "description",
+        reference: "PHB, pg. 291.",
+        bullets: [
+            ""
+        ]
+    },
+    {
         title: "Nauseous",
         icon: "drowning",
         subtitle: "You are nauseous",
         description: "Nausea is a catch-all term; it includes pain, panic, vomiting, and double vision.",
         reference: "SR5, pg. 409",
         bullets: [
-            "If the Power of an attack after the Toxin Resistance Test exceeds the target’s Willpower, he is incapacitated (unable to take any actions) with vomiting and dizziness for 3 Combat Turns.",
+            "If the Power of an attack after the Toxin Resistance Test exceeds the target’s Willpower, they are incapacitated (unable to take any actions) with vomiting and dizziness for 3 Combat Turns.",
             "Whether or not a character is incapacitated, Nausea doubles all of a character’s wound modifiers for ten minutes.",
             "A nauseated character with 3 boxes of damage (a –1 wound modifier), for example, suffers –2 dice on all tests instead."
         ]
@@ -149,19 +159,7 @@ data_condition = [
             "A nauseated character with 3 boxes of damage (a –1 wound modifier), for example, suffers –2 dice on all tests instead."
         ]
     },
-    {
-        title: "Invisible",
-        icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
-        reference: "PHB, pg. 291.",
-        bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
-        ]
-    },
+    
     {
         title: "Petrified",
         icon: "stone-pile",
