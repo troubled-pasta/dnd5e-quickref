@@ -34,6 +34,22 @@ data_condition = [
         ]
     },
     {
+        title: "Fatigued",
+        icon: "despair",
+        subtitle: "You are fatigued",
+        description: "Caused by harsh environments, hard exertion, and drek like that.",
+        reference: "SR5, pg. 172",
+        bullets: [
+            "Fatigue damage is Stun damage you incur through doing something strenuous or for being in the middle of something stressful",
+            "Fatigue damage is resisted with BOD + WIL, not with any armor. Fatigue damage cannot be healed while the condition causing it still exists.",
+            "Sprinting over multiple consecutive Combat Turns or during multiple Action Phases in one Combat Turn risks incurring Fatigue damage.",
+            "For every consecutive Action Phase or Combat Turn in which you use the Sprint action, you take a cumulative 1S DV of fatigue damage, which means that the second time you take it without dialing it back you take 2S, then 3S, etc.",
+            "If you’re only running (using your running movement rate) instead of sprinting, this damage is taken every 3 minutes.",
+            "Hot, cold, humid, dry, polluted, or irradiated environments can cause fatigue damage. As with running fatigue, the DV from a harsh environment starts at 1S and increases over time. Unlike running fatigue, if you keel over in a hostile environment the damage continues to mount.",
+            "After 24 hours, if you haven’t eaten, slept, or had a (non-alcoholic) drink, you risk fatigue damage. Damage starts at 1S and increases over each interval it is taken. The interval for hunger is 6 days, for thirst is 2 days, and for sleep is 3 hours. This damage stops when you eat, drink, or sleep, respectively."
+        ]
+    },
+    {
         title: "Injured (Stun)",
         icon: "pummeled",
         subtitle: "You have taken stun damage",
