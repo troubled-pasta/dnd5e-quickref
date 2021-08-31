@@ -2,7 +2,7 @@ data_environment_obscurance = [
     {
         title: "Clear",
         icon: "sight-disabled",
-        subtitle: "subtitle",
+        subtitle: "No Dice Pool Modifier",
         description: "Dim light, patchy fog, moderate foliage",
         reference: "PHB, pg. 183.",
         bullets: [
@@ -12,7 +12,7 @@ data_environment_obscurance = [
     {
         title: "Lightly obscured",
         icon: "sight-disabled",
-        subtitle: "subtitle",
+        subtitle: "-1 Dice Pool Modifier",
         description: "Darkness, opaque fog, dense foliage",
         reference: "PHB, pg. 183.",
         bullets: [
@@ -22,7 +22,7 @@ data_environment_obscurance = [
     {
         title: "Moderately obscured",
         icon: "sight-disabled",
-        subtitle: "subtitle",
+        subtitle: "-3 Dice Pool Modifier",
         description: "Darkness, opaque fog, dense foliage",
         reference: "PHB, pg. 183.",
         bullets: [
@@ -32,7 +32,7 @@ data_environment_obscurance = [
     {
         title: "Heavily obscured",
         icon: "sight-disabled",
-        subtitle: "subtitled",
+        subtitle: "-6 Dice Pool Modifier",
         description: "Darkness, opaque fog, dense foliage",
         reference: "PHB, pg. 183.",
         bullets: [
@@ -43,9 +43,9 @@ data_environment_obscurance = [
 
 data_environment_light = [
     {
-        title: "Bright light",
+        title: "Full light",
         icon: "star-pupil",
-        subtitle: "Normal vision",
+        subtitle: "No Dice Pool Modifier",
         description: "Bright light lets most creatures see normally",
         reference: "PHB, pg. 183.",
         bullets: [
@@ -55,7 +55,7 @@ data_environment_light = [
     {
         title: "Partial light",
         icon: "semi-closed-eye",
-        subtitle: "Lightly obscured",
+        subtitle: "-1 Dice Pool Modifier",
         description: "Dim light, also called shadows",
         reference: "PHB, pg. 183.",
         bullets: [
@@ -67,7 +67,7 @@ data_environment_light = [
     {
         title: "Dim light",
         icon: "semi-closed-eye",
-        subtitle: "Lightly obscured",
+        subtitle: "-3 Dice Pool Modifier",
         description: "Dim light, also called shadows",
         reference: "PHB, pg. 183.",
         bullets: [
@@ -77,9 +77,9 @@ data_environment_light = [
         ]
     },
     {
-        title: "Darkness",
+        title: "Total Darkness",
         icon: "worried-eyes",
-        subtitle: "Heavily obscured",
+        subtitle: "-6 Dice Pool Modifier",
         description: "Darkness creates a heavily obscured area",
         reference: "PHB, pg. 183.",
         bullets: [
@@ -88,6 +88,55 @@ data_environment_light = [
         ]
     }
 ]
+
+data_environment_glare = [
+   {
+        title: "No glare",
+        icon: "star-pupil",
+        subtitle: "No Dice Pool Modifier",
+        description: "Bright light lets most creatures see normally",
+        reference: "PHB, pg. 183.",
+        bullets: [
+            "Gloomy days still provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius."
+        ]
+    },
+    {
+        title: "Weak glare",
+        icon: "star-pupil",
+        subtitle: "-1 Dice Pool Modifier",
+        description: "Dim light, also called shadows",
+        reference: "PHB, pg. 183.",
+        bullets: [
+            "Creates a <b>lightly obscured</b> area.",
+            "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness.",
+            "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light."
+        ]
+    },
+    {
+        title: "Moderate glare",
+        icon: "star-pupil",
+        subtitle: "-3 Dice Pool Modifier",
+        description: "Dim light, also called shadows",
+        reference: "PHB, pg. 183.",
+        bullets: [
+            "Creates a <b>lightly obscured</b> area.",
+            "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness.",
+            "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light."
+        ]
+    },
+    {
+        title: "Blinding glare",
+        icon: "star-pupil",
+        subtitle: "-6 Dice Pool Modifier",
+        description: "Darkness creates a heavily obscured area",
+        reference: "PHB, pg. 183.",
+        bullets: [
+            "Creates a <b>heavily obscured</b> area.",
+            "Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness."
+        ]
+    }
+]
+
 
 data_environment_vision = [
     {
@@ -173,3 +222,4 @@ data_environment_cover = [
         ]
     }
 ]
+
