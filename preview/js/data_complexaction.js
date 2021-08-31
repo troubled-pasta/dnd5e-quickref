@@ -127,7 +127,7 @@ data_complexaction = [
             "To subdue a character, resolve melee combat normally using the Unarmed Combat skill.",
             "If the attacker successfully hits, compare their STR + net hits to the defender’s Physical limit. If the attacker’s total exceeds the defender’s Physical limit, the attacker grapples and immobilizes the defender. This subduing attack causes no damage to the defender.",
             "Consider the subdued character to be prone for any attacks made against them. The grappling character does not need to make any tests to maintain the grapple, but they must spend a Complex Action on each of they Action Phases to hold the position.",
-            "The grappler may also choose to do one of the following on each Complex Action he spends to maintain the grapple: <br>Make an additional Unarmed Combat Attack Test to get a better grip"
+            "<i>The grappler may also choose to do one of the following on each Complex Action he spends to maintain the grapple:</i><br> - Make an additional Unarmed Combat Attack Test to get a better grip. Defender opposes as normal. If successful, attacker gets the Superior Position bonus (+2). If the attacker scores more hits, the net hits are added to his previous grappling net hits, making it harder for the defender to break free. If the defender scores more hits, reduce attacker's net hits to show how their grip is slipping.<br> -  Inflict Stun Damage on the character with a Damage Value equal to their STR. This requires no test, but the defender resists it as normal. Armor applies.<br> - Knock the defender down, following the rules for Called Shots. The attacker gets the Superior Position bonus (+2)."
             ]
     },
     {
