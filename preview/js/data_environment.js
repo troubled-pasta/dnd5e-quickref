@@ -1,8 +1,8 @@
 data_environment_obscurance = [
     {
-        title: "Lightly obscured",
-        icon: "bleeding-eye",
-        subtitle: "Disadvantage on Perception",
+        title: "Clear",
+        icon: "sight-disabled",
+        subtitle: "subtitle",
         description: "Dim light, patchy fog, moderate foliage",
         reference: "PHB, pg. 183.",
         bullets: [
@@ -10,9 +10,29 @@ data_environment_obscurance = [
         ]
     },
     {
+        title: "Lightly obscured",
+        icon: "sight-disabled",
+        subtitle: "subtitle",
+        description: "Darkness, opaque fog, dense foliage",
+        reference: "PHB, pg. 183.",
+        bullets: [
+            "A creature in a heavily obscured area effectively suffers from the <b>blinded condition</b>."
+        ]
+    },
+    {
+        title: "Moderately obscured",
+        icon: "sight-disabled",
+        subtitle: "subtitle",
+        description: "Darkness, opaque fog, dense foliage",
+        reference: "PHB, pg. 183.",
+        bullets: [
+            "A creature in a heavily obscured area effectively suffers from the <b>blinded condition</b>."
+        ]
+    },
+    {
         title: "Heavily obscured",
-        icon: "lightning-tear",
-        subtitle: "Effectively blind",
+        icon: "sight-disabled",
+        subtitle: "subtitled",
         description: "Darkness, opaque fog, dense foliage",
         reference: "PHB, pg. 183.",
         bullets: [
