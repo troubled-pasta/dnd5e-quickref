@@ -53,6 +53,18 @@ data_environment_light = [
         ]
     },
     {
+        title: "Partial light",
+        icon: "semi-closed-eye",
+        subtitle: "Lightly obscured",
+        description: "Dim light, also called shadows",
+        reference: "PHB, pg. 183.",
+        bullets: [
+            "Creates a <b>lightly obscured</b> area.",
+            "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness.",
+            "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light."
+        ]
+    },
+    {
         title: "Dim light",
         icon: "semi-closed-eye",
         subtitle: "Lightly obscured",
@@ -79,7 +91,7 @@ data_environment_light = [
 
 data_environment_vision = [
     {
-        title: "Blindsight",
+        title: "Astral perception",
         icon: "one-eyed",
         subtitle: "Perceive without sight",
         description: "Perceive your surroundings without relying on sight, within a certain radius",
@@ -89,7 +101,7 @@ data_environment_vision = [
         ]
     },
     {
-        title: "Darkvision",
+        title: "Low-light vision",
         icon: "semi-closed-eye",
         subtitle: "Limited vision in darkness",
         description: "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius",
@@ -101,7 +113,18 @@ data_environment_vision = [
         ]
     },
     {
-        title: "Truesight",
+        title: "Thermographic vision",
+        icon: "eye-shield",
+        subtitle: "See in darkness",
+        description: "A creature with truesight can see everything in its true form, independent of the environment",
+        reference: "PHB, pg. 184.",
+        bullets: [
+            "A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic.",
+            "Furthermore, the creature can see into the Ethereal Plane."
+        ]
+    },
+    {
+        title: "Ultrasound",
         icon: "eye-shield",
         subtitle: "See in darkness",
         description: "A creature with truesight can see everything in its true form, independent of the environment",
