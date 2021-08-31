@@ -39,7 +39,7 @@ data_condition = [
         bullets: [
             "Poisons or toxins that do damage (Stun or Physical) have a Power rating. Power serves as the DV of the attack. A Toxin Resistance Test is used to reduce the damage. If Power is reduced to 0, then no damage occurs, and no other effects happen.",
             "A toxin's Speed determines how quickly the victim suffers the toxin’s Effect. These effects are always applied at the end of a Combat Turn. Immediate means the Effect is applied at the end of the same Combat Turn in which the victim is exposed. A Speed of 1 Combat Turn means the Effect is applied at the end of the next Combat Turn, and so on",
-            "Toxins are delivered via means of a Vector. The Vector can be Contact, Ingestion, Inhalation or Injection. A toxin's Penetration rating works like a weapon’s Armor Penetration and affects the rating of any protective system used to defend against it in the same way."
+            "Toxins are delivered via means of a Vector. The Vector can be Contact, Ingestion, Inhalation or Injection. A toxin's Penetration rating works like a weapon’s Armor Penetration and affects the rating of any protective system used to defend against it in the same way.",
             "Contact toxins can be solid, liquid, or gaseous. They attack the victim through the skin. These toxins, if in liquid form, can be coated on a weapon. In this case, they can be applied with a successful Melee Attack, whether the attack causes damage or not.",
             "Ingestion toxins must be eaten by the victim. They can be solids or liquids. Since they must be eaten, they generally take longer to have an effect.",
             "Inhalation toxins are applied as an aerosol spray or gas, and they must be breathed in by the target.",
