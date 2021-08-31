@@ -20,10 +20,8 @@ data_condition = [
         description: "You can't hear",
         reference: "RF, pg. 154.",
         bullets: [
-            
             "Permanently deaf characters automatically fail any audio-based Perception tests. They also face a –2 dice pool modifier for general Perception tests, a –3 dice pool modifier for Surprise Tests, and any other modifiers at the gamemaster’s discretion.",
-            "Awakened characters who are blind can still use Astral Perception all the time and at least have some sense of objects in the world, but suffer a –2 dice pool modifier to all actions performed on the physical plane while perceiving the astral.",
-        ]
+            ]
     },
     {
         title: "Disoriented",
@@ -110,14 +108,16 @@ data_condition = [
     {
         title: "Surprised",
         icon: "hazard-sign",
-        subtitle: "You can't take actions or reactions",
+        subtitle: "-10 to INI score",
         description: "A surprised character is caught off guard and can do little except watch events unfold.",
         reference: "SR5, pg. 192.",
         bullets: [
             "Surprise normally occurs at the beginning of combat, but it is possible for it to happen within a Combat Turn if an unexpected force enters the fray.",
-            "To resolve surprise situations, all participants must make a Surprise Test, rolling REA + INT (3). Characters who have been alerted in some way receive a +3 dice pool modifier on this test.",
-            
-            
+            "To resolve surprise situations, all participants must make a Surprise Test, rolling REA + INT (3). Characters who have been alerted in some way receive a +3 dice pool modifier on this test. Surprise Tests do not have a Limit.",
+            "Success on a Suprise Test means characters get to act as normal. Failure means characters take a -10 to their Initiative Score (either when Initiative is rolled or immediately if it occurs in the middle of the Combat Turn) and they are considered surprised until their next Action Phase.",
+            "Surprised characters get no Defense Test when attacked. This can be avoided by spending a point of Edge to avoid surprise. They still lose the Initiative Score points, however.",
+            "Characters who glitch on their Surprise tests may still react appropriately, but startle in some way, such as jumping, knocking into something, or dropping something they were holding (GM Discretion).",
+            "A critical glitch on a Surprise Test means the character does not act for the first Action Phase. If they are able to enter combat after that, they receive a –10 penalty for failing the Surprise Test, as well as the –10 penalty for entering combat in the middle of a fight."
         ]
     },
     /*
