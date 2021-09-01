@@ -134,7 +134,7 @@ data_condition = [
     {
         title: "Subdued",
         icon: "crossed-chains",
-        subtitle: "You are incapacitated",
+        subtitle: "You are grappled",
         description: "Sometimes, characters need to subdue an opponent without beating them into unconsciousness.",
         reference: "SR5, pg. 195",
         bullets: [
@@ -156,7 +156,7 @@ data_condition = [
             "Characters who glitch on their Surprise tests may still react appropriately, but startle in some way, such as jumping, knocking into something, or dropping something they were holding (GM Discretion).",
             "A critical glitch on a Surprise Test means the character does not act for the first Action Phase. If they are able to enter combat after that, they receive a –10 penalty for failing the Surprise Test, as well as the –10 penalty for entering combat in the middle of a fight."
         ]
-    },
+    }
    /*
     {
         title: "Petrified",
