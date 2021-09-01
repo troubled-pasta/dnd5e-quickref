@@ -20,6 +20,20 @@ data_complexaction = [
         ]
     },
     {
+        title: "Control vehicle",
+        icon: "gps",
+        subtitle: "Keep a vehicle under control",
+        description: "This action is simply the expenditure of an action to represent efforts taken for the entire Combat Turn to keep the vehicle under control.",
+        reference: "SR5 pgs. 202-203.",
+        bullets: [
+            "Uncontrolled vehicles are unstable platforms; all characters apply a –2 dice pool modifier to all their actions if they are in an uncontrolled vehicle.",
+            "This action does not need to be taken as the driver’s first action in combat, but until this action is taken, the vehicle is considered uncontrolled at the end of the Combat Turn and may crash or be taken over by the vehicle’s onboard Piloting system.",
+            "A driver spends a Complex Action when executing a maneuver that requires a Vehicle Test. Failed Vehicle Tests may result in the vehicle being considered uncontrolled or may lead to a second Vehicle Test to avoid a crash. Glitched Vehicle Tests almost always result in a crash. Critical Glitch Vehicle Tests always result in a crash.",
+            "Movement is based on the movement rate of the vehicle as determined by its Speed rating on the table. The gamemaster should use their own discretion when determining just how quickly a car can change speeds between Combat Turns.",
+            "<table><thead><tr><th>SPEED</th><th>WALKING RATE (meters/turn)</th><th>RUNNING RATE (meters/turn)</th></tr></thead><tbody><tr><td>1</td><td>5</td><td>10</td></tr><tr><td>2</td><td>10</td><td>20</td></tr><tr><td>3</td><td>20</td><td>40</td></tr><tr><td>4</td><td>40</td><td>80</td></tr><tr><td>5</td><td>80</td><td>160</td></tr><tr><td>6</td><td>160</td><td>320</td></tr><tr><td>7</td><td>320</td><td>640</td></tr><tr><td>8</td><td>640</td><td>1280</td></tr><tr><td>9</td><td>1280</td><td>2560</td></tr><tr><td>10</td><td>2560</td><td>5120</td></tr></tbody></table>"
+        ]
+    },
+    {
         title: "Delay Action",
         icon: "stopwatch",
         subtitle: "Choose trigger and action",
@@ -34,20 +48,6 @@ data_complexaction = [
             "Characters delaying an action in this manner keep their initial Initiative Score. If the character does not act before the end of the Initiative Pass, they incur the standard reduction of 10 at the end of the Initiative Pass.",
             "Players can also decide to go after the last player’s Action Phase. As long as the character acts before that Initiative Pass ends and the next one begins, there is no problem.",
             "A character can delay their action into the next Initiative Pass and be the first to act. They must still use their own Initiative Score to determine the Action Phases they have for the Combat Turn"
-        ]
-    },
-    {
-        title: "Control vehicle",
-        icon: "gps",
-        subtitle: "Keep a vehicle under control",
-        description: "This action is simply the expenditure of an action to represent efforts taken for the entire Combat Turn to keep the vehicle under control.",
-        reference: "SR5 pgs. 202-203.",
-        bullets: [
-            "Uncontrolled vehicles are unstable platforms; all characters apply a –2 dice pool modifier to all their actions if they are in an uncontrolled vehicle.",
-            "This action does not need to be taken as the driver’s first action in combat, but until this action is taken, the vehicle is considered uncontrolled at the end of the Combat Turn and may crash or be taken over by the vehicle’s onboard Piloting system.",
-            "A driver spends a Complex Action when executing a maneuver that requires a Vehicle Test. Failed Vehicle Tests may result in the vehicle being considered uncontrolled or may lead to a second Vehicle Test to avoid a crash. Glitched Vehicle Tests almost always result in a crash. Critical Glitch Vehicle Tests always result in a crash.",
-            "Movement is based on the movement rate of the vehicle as determined by its Speed rating on the table. The gamemaster should use their own discretion when determining just how quickly a car can change speeds between Combat Turns.",
-            "<table><thead><tr><th>SPEED</th><th>WALKING RATE (meters/turn)</th><th>RUNNING RATE (meters/turn)</th></tr></thead><tbody><tr><td>1</td><td>5</td><td>10</td></tr><tr><td>2</td><td>10</td><td>20</td></tr><tr><td>3</td><td>20</td><td>40</td></tr><tr><td>4</td><td>40</td><td>80</td></tr><tr><td>5</td><td>80</td><td>160</td></tr><tr><td>6</td><td>160</td><td>320</td></tr><tr><td>7</td><td>320</td><td>640</td></tr><tr><td>8</td><td>640</td><td>1280</td></tr><tr><td>9</td><td>1280</td><td>2560</td></tr><tr><td>10</td><td>2560</td><td>5120</td></tr></tbody></table>"
         ]
     },
     {
