@@ -34,6 +34,34 @@ data_interruptaction = [
         ]
     },
     {
+        title: "Full defense",
+        icon: "surrounded-shield",
+        subtitle: "-10 Initiative Score",
+        description: "A character may choose to focus on deliberately avoiding incoming attacks as an Interrupt Action (see Defending in Combat, p. 188).",
+        reference: "SR5, pgs. 168, 188.",
+        bullets: [
+            "This action adds the character’s WIL to their Defense tests for the entire Combat Turn.",
+            "Full Defense actions may be taken at any time, even before the character’s Action Phase as an Interrupt Action, as long as the character is not surprised.",
+            "Characters may only go on Full Defense if they have enough Initiative Score left in that Combat Turn.",
+            "The bonus gained in this manner is kept until the end of the Combat Turn so a character can choose to fight defensively early in the round by decreasing their Initiative Score to increase their defense.",
+            "This bonus is also cumulative with other Interrupt Actions."
+        ]
+    },
+    {
+        title: "Full Matrix defense",
+        icon: "surrounded-shield",
+        subtitle: "-10 Initiative Score",
+        description: "A character may choose to focus on deliberately avoiding incoming attacks as an Interrupt Action (see Defending in Combat, p. 188).",
+        reference: "SR5, pgs. 168, 188.",
+        bullets: [
+            "This action adds the character’s WIL to their Defense tests for the entire Combat Turn.",
+            "Full Defense actions may be taken at any time, even before the character’s Action Phase as an Interrupt Action, as long as the character is not surprised.",
+            "Characters may only go on Full Defense if they have enough Initiative Score left in that Combat Turn.",
+            "The bonus gained in this manner is kept until the end of the Combat Turn so a character can choose to fight defensively early in the round by decreasing their Initiative Score to increase their defense.",
+            "This bonus is also cumulative with other Interrupt Actions."
+        ]
+    },
+    {
         title: "Intercept",
         icon: "dodging",
         subtitle: "-5 Initiative Score",
@@ -54,19 +82,5 @@ data_interruptaction = [
             "By decreasing their Initiative Score, the defending character can add their melee weapon skill to their defense test.",
             "This is a one-time add, unlike going on Full Defense, which lasts for an entire Combat Turn."
         ]
-    },
-    {
-        title: "Full defense",
-        icon: "surrounded-shield",
-        subtitle: "-10 Initiative Score",
-        description: "A character may choose to focus on deliberately avoiding incoming attacks as an Interrupt Action (see Defending in Combat, p. 188).",
-        reference: "SR5, pgs. 168, 188.",
-        bullets: [
-            "This action adds the character’s WIL to their Defense tests for the entire Combat Turn.",
-            "Full Defense actions may be taken at any time, even before the character’s Action Phase as an Interrupt Action, as long as the character is not surprised.",
-            "Characters may only go on Full Defense if they have enough Initiative Score left in that Combat Turn.",
-            "The bonus gained in this manner is kept until the end of the Combat Turn so a character can choose to fight defensively early in the round by decreasing their Initiative Score to increase their defense.",
-            "This bonus is also cumulative with other Interrupt Actions."
-        ]
-    }
+    }  
 ]
