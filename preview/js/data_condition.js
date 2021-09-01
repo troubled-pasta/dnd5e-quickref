@@ -132,6 +132,17 @@ data_condition = [
         ]
     },
     {
+        title: "Subdued",
+        icon: "crossed-chains",
+        subtitle: "You are incapacitated",
+        description: "Sometimes, characters need to subdue an opponent without beating them into unconsciousness.",
+        reference: "SR5, pg. 195",
+        bullets: [
+            "To break out of the lock, the defender must take a Complex Action and succeed in an Unarmed Combat + STR [Physical] Test with a threshold equal to the net hits scored on the attacker’s original grappling test. Otherwise the defender remains subdued and cannot take any actions requiring physical movement.",
+            "Otherwise the defender remains subdued and cannot take any actions requiring physical movement. Consider the subdued character to be prone for any attacks made against them.",
+            
+    },
+    {
         title: "Surprised",
         icon: "hazard-sign",
         subtitle: "-10 Initiative Score",
@@ -146,20 +157,7 @@ data_condition = [
             "A critical glitch on a Surprise Test means the character does not act for the first Action Phase. If they are able to enter combat after that, they receive a –10 penalty for failing the Surprise Test, as well as the –10 penalty for entering combat in the middle of a fight."
         ]
     },
-    /*
-    {
-        title: "Grappled/Subdued",
-        icon: "crossed-chains",
-        subtitle: "You are incapacitated",
-        description: "Nausea is a catch-all term; it includes pain, panic, vomiting, and double vision.",
-        reference: "SR5, pg. 409",
-        bullets: [
-            " If the Power of an attack after the Toxin Resistance Test exceeds the target’s Willpower, he is incapacitated (unable to take any actions) with vomiting and dizziness for 3 Combat Turns.",
-            "Whether or not a character is incapacitated, Nausea doubles all of a character’s wound modifiers for ten minutes.",
-            "A nauseated character with 3 boxes of damage (a –1 wound modifier), for example, suffers –2 dice on all tests instead."
-        ]
-    },
-    
+   /*
     {
         title: "Petrified",
         icon: "stone-pile",
