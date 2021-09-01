@@ -40,10 +40,10 @@ data_complexaction = [
         title: "Control vehicle",
         icon: "gps",
         subtitle: "Keep a vehicle under control",
-        description: "In standard tactical combat, a vehicle is treated as an extension of the driver.",
+        description: "This action is simply the expenditure of an action to represent efforts taken for the entire Combat Turn to keep the vehicle under control.",
         reference: "SR5 pgs. 202-203.",
         bullets: [
-            "This action is simply the expenditure of an action to represent efforts taken for the entire Combat Turn to keep the vehicle under control. Uncontrolled vehicles are unstable platforms; all characters apply a –2 dice pool modifier to all their actions if they are in an uncontrolled vehicle.",
+            "Uncontrolled vehicles are unstable platforms; all characters apply a –2 dice pool modifier to all their actions if they are in an uncontrolled vehicle.",
             "This action does not need to be taken as the driver’s first action in combat, but until this action is taken, the vehicle is considered uncontrolled at the end of the Combat Turn and may crash or be taken over by the vehicle’s onboard Piloting system.",
             "A driver spends a Complex Action when executing a maneuver that requires a Vehicle Test. Failed Vehicle Tests may result in the vehicle being considered uncontrolled or may lead to a second Vehicle Test to avoid a crash. Glitched Vehicle Tests almost always result in a crash. Critical Glitch Vehicle Tests always result in a crash.",
             "Movement is based on the movement rate of the vehicle as determined by its Speed rating on the table. The gamemaster should use their own discretion when determining just how quickly a car can change speeds between Combat Turns.",
