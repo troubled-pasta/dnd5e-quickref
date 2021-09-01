@@ -40,9 +40,10 @@ data_complexaction = [
         title: "Control vehicle",
         icon: "gps",
         subtitle: "Keep a vehicle under control",
-        description: "This action is not really an action at all, simply the expenditure of an action to represent efforts taken for the entire Combat Turn to keep the vehicle under control.",
+        description: "In standard tactical combat, a vehicle is treated as an extension of the driver.",
         reference: "SR5 pg. 203.",
         bullets: [
+            "This action is not really an action at all, simply the expenditure of an action to represent efforts taken for the entire Combat Turn to keep the vehicle under control.",
             "This action does not need to be taken as the driver’s first action in combat, but until this action is taken, the vehicle is considered uncontrolled at the end of the Combat Turn and may crash or be taken over by the vehicle’s onboard Piloting system.",
             "A driver spends a Complex Action when executing a maneuver that requires a Vehicle Test. Failed Vehicle Tests may result in the vehicle being considered uncontrolled or may lead to a second Vehicle Test to avoid a crash. Glitched Vehicle Tests almost always result in a crash. Critical Glitch Vehicle Tests always result in a crash.",
             ]
