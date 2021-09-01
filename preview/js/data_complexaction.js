@@ -115,7 +115,7 @@ data_complexaction = [
     },
     {
         title: "Ram",
-        icon: "gps",
+        icon: "crash",
         subtitle: "Ram something with a vehicle",
         description: "If a driver wants to ram something (or someone) with the vehicle, treat it as a melee attack.",
         reference: "SR5 pg. 203.",
