@@ -37,6 +37,17 @@ data_complexaction = [
         ]
     },
     {
+        title: "Control vehicle",
+        icon: "gps",
+        subtitle: "Keep a vehicle under control",
+        description: "This action is not really an action at all, simply the expenditure of an action to represent efforts taken for the entire Combat Turn to keep the vehicle under control.",
+        reference: "SR5 pg. 203.",
+        bullets: [
+            "This action does not need to be taken as the driver’s first action in combat, but until this action is taken, the vehicle is considered uncontrolled at the end of the Combat Turn and may crash or be taken over by the vehicle’s onboard Piloting system.",
+            "A driver spends a Complex Action when executing a maneuver that requires a Vehicle Test. Failed Vehicle Tests may result in the vehicle being considered uncontrolled or may lead to a second Vehicle Test to avoid a crash. Glitched Vehicle Tests almost always result in a crash. Critical Glitch Vehicle Tests always result in a crash.",
+            ]
+    },
+    {
         title: "Fire Full-Auto weapon",
         icon: "ak47",
         subtitle: "Ranged attack",
@@ -100,6 +111,21 @@ data_complexaction = [
         reference: "SR5, pgs. 167, 195.",
         bullets: [
             " A character may also attack multiple targets within melee range by adding a <b>Multiple Attacks</b> Free Action (see Multiple Attacks, p. 196)"
+        ]
+    },
+    {
+        title: "Ram",
+        icon: "gps",
+        subtitle: "Ram something with a vehicle",
+        description: "If a driver wants to ram something (or someone) with the vehicle, treat it as a melee attack.",
+        reference: "SR5 pg. 203.",
+        bullets: [
+            "If a driver wants to ram something (or someone) with the vehicle, treat it as a melee attack. The target must be within the vehicle’s Walking or Running Rate (a –3 dice modifier applies if the driver has to resort to running)",
+            "The driver rolls Vehicle skill + REA to attack. The target rolls REA + INT if a pedestrian, or REA + INT [Handling] if driving another vehicle.",
+            "Pedestrians may use the Full Defense (p. 191) or Dodge (p. 191) Interrupt Action but not Block or Parry.",
+            "If the driver gets more hits, he rams the target. Make the Damage Resistance Test as normal. The base Damage Value of the attack is determined by the ramming vehicle’s BOD and speed, as noted on the Ramming Damage Table.",
+            "<table><thead><tr><th>Speed (Meters/Turn)</th><th>Damage Value<br></th></tr></thead><tbody><tr><td>1-10</td><td>Body / 2</td></tr><tr><td>11-50</td><td>Body</td></tr><tr><td>51-200</td><td>Body x 2</td></tr><tr><td>201-300</td><td>Body x 3</td></tr><tr><td>301-500</td><td>Body x 5</td></tr><tr><td>501+</td><td>Body x 10</td></tr></tbody></table>",
+            " The ramming vehicle must resist only half that amount (round up). Characters resist ramming damage with BOD + Armor – 6 AP"
         ]
     },
     {
