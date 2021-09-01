@@ -157,7 +157,7 @@ data_complexaction = [
         reference: "SR5, pgs. 164, 214.",
         bullets: [
 		"<b>Crack File</b> On a succsessful Hacking + LOG [Attack] v. Protection Rating x 2 Test, you remove the protection from a file, making it readable.",
-		"<b>Hack on the Fly:</b>You can use this action to mark a target without getting the normal permissions. When targeting an icon, you put one mark on it, up to a maximum of three marks per icon. Additionally, every 2 full net hits counts as 1 hit on a Matrix Perception Test, so you can get some info along with your mark. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt. If you try for three marks in one go, you take a –10 dice pool penalty. You can also use this action to hop to a grid for which you don’t have legitimate access. The defense dice pool in this case is 4 dice for a local grid or 6 dice for a global grid. If you succeed you hop to that grid immediately. Unsuccessfully using Hack on the Fly to hop grids doesn’t alert the grid or its demiGOD.",
+		"<b>Hack on the Fly:</b> You can use this action to mark a target without getting the normal permissions. When targeting an icon, you put one mark on it, up to a maximum of three marks per icon. Additionally, every 2 full net hits counts as 1 hit on a Matrix Perception Test, so you can get some info along with your mark. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt. If you try for three marks in one go, you take a –10 dice pool penalty. You can also use this action to hop to a grid for which you don’t have legitimate access. The defense dice pool in this case is 4 dice for a local grid or 6 dice for a global grid. If you succeed you hop to that grid immediately. Unsuccessfully using Hack on the Fly to hop grids doesn’t alert the grid or its demiGOD.",
 		"<b>Snoop:</b> ",
 		"<b>Spoof Command:</b> ",
 		"<b>Trace Icon:</b> "
@@ -172,7 +172,7 @@ data_complexaction = [
         bullets: [
 		"<b>Enter/Exit Host:</b> You enter a host that you have a mark on and your icon appears there, or you leave a host you’re already in. A host allows anyone to enter if they’ve got a mark. The host might not be so welcoming once you’re inside, of course, and some IC has the ability to keep you trapped in a host until you can break out.",
 		"<b>Grid Hop:</b> To do this, you must have access to your destination grid. If you do not have access, you can use Brute Force or Hack on the Fly to hop to another grid illegally. If you’re inside a host, you need to leave the host before you can hop to another grid.",
-		"<b>Hide:</b>You can use this action to make a target lose you. If you succeed, the target stops spotting you and needs to perform a new Matrix Perception action against you if it wants to find you again. You can’t hide from an icon that has a mark on you, so you’ll need to clear those before you can try this action.",
+		"<b>Hide:</b> You can use this action to make a target lose you. If you succeed, the target stops spotting you and needs to perform a new Matrix Perception action against you if it wants to find you again. You can’t hide from an icon that has a mark on you, so you’ll need to clear those before you can try this action.",
 		"<b>Matrix Perception:</b> ",
 		"<b>Matrix Search:</b> "
         ]
