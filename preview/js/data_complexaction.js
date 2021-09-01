@@ -126,9 +126,18 @@ data_complexaction = [
             "[TBC]"
         ]
     },
-    
     {
-        title: "Manipulate Device",
+        title: "Gather Intel (Matrix)",
+        icon: "files",
+        subtitle: "Interact with the Matrix",
+        description: "A character may perform most Matrix actions with a Complex Action.",
+        reference: "SR5, pgs. 164, 214.",
+        bullets: [
+            "[TBC]"
+        ]
+    },
+    {
+        title: "Manipulate Device (Matrix)",
         icon: "wifi-router",
         subtitle: "Controlling devices",
         description: "A character may perform most Matrix actions with a Complex Action.",
@@ -140,7 +149,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Manipulate File",
+        title: "Manipulate File (Matrix)",
         icon: "computing",
         subtitle: "",
         description: "A character may perform most Matrix actions with a Complex Action.",
@@ -150,7 +159,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Manipulate M.A.R.K.",
+        title: "Manipulate M.A.R.K. (Matrix)",
         icon: "crosshair-arrow",
         subtitle: "Interact with the Matrix",
         description: "A character may perform most Matrix actions with a Complex Action.",
