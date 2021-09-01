@@ -135,6 +135,20 @@ data_condition = [
         ]
     },
     {
+        title: "Restrained",
+        icon: "imprisoned",
+        subtitle: "You are restrained",
+        description: "In Shadowrun, you might just find yourself caught instead of killed. Escape Artist provides a chance to escape from most forms of confinement, including ropes, handcuffs, and other bindings.",
+        reference: "PHB, pg. 292.",
+        bullets: [
+            "To get out of restraints, make an Escape Artist + AGI [Physical] Test against a threshold based on what you’re trying to get out of.",
+            "If you succeed, you’re free after working on it for 1 minute (20 Combat Turns) divided by the number of net hits you get on the test.",
+            "The dice pool is modified by a variety of factors, such as whether or not you’re being watched (and trying to be subtle) or if you’re carrying a set of lockpicks.",
+            "<table><thead><tr><th>Restraints</th><th>Threshold</th></tr></thead><tbody><tr><td>Rope, plastic cuffs</td><td>2</td></tr><tr><td>Metal handcuffs</td><td>3</td></tr><tr><td>Straitjacket</td><td>4</td></tr><tr><td>Containment manacles</td><td>5</td></tr><tr><td>Material is reinforced</td><td>Increase by 1</td></tr><tr><th>Situation</th><th>Modifier</th></tr><tr><td>Character is being watched</td><td>-2</td></tr><tr><td>Character is physically restrained</td><td>-(Restrainer's STR)</td></tr><tr><td>Character has picks or cutting implement</td><td>+2</td></tr></tbody></table>",
+            "The gamemaster may decide that some restraints are too difficult to escape from without outside help."
+        ]
+    },
+    {
         title: "Subdued",
         icon: "andromeda-chain",
         subtitle: "You are being restrained",
@@ -171,19 +185,7 @@ data_condition = [
             ""
         ]
     },
-    {
-        title: "Restrained",
-        icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
-        reference: "PHB, pg. 292.",
-        bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
-        ]
-    },
+    
     {
         title: "Unconscious",
         icon: "knockout",
