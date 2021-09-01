@@ -125,7 +125,9 @@ data_complexaction = [
             "Pedestrians may use the Full Defense (p. 191) or Dodge (p. 191) Interrupt Action but not Block or Parry.",
             "If the driver gets more hits, he rams the target. Make the Damage Resistance Test as normal. The base Damage Value of the attack is determined by the ramming vehicle’s BOD and speed, as noted on the Ramming Damage Table.",
             "<table><thead><tr><th>Speed (Meters/Turn)</th><th>Damage Value<br></th></tr></thead><tbody><tr><td>1-10</td><td>Body / 2</td></tr><tr><td>11-50</td><td>Body</td></tr><tr><td>51-200</td><td>Body x 2</td></tr><tr><td>201-300</td><td>Body x 3</td></tr><tr><td>301-500</td><td>Body x 5</td></tr><tr><td>501+</td><td>Body x 10</td></tr></tbody></table>",
-            " The ramming vehicle must resist only half that amount (round up). Characters resist ramming damage with BOD + Armor – 6 AP"
+            "The ramming vehicle must resist only half that amount (round up). Characters resist ramming damage with BOD + Armor – 6 AP",
+            "If the ram succeeds, each driver must make an additional Vehicle Test to avoid losing control of the vehicle. The threshold for the ramming driver is 2; the threshold for the rammed driver is 3.",
+            "If either driver fails, their vehicle is considered uncontrolled and cannot perform any actions until control is regained."
         ]
     },
     {
