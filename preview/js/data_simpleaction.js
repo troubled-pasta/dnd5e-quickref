@@ -21,6 +21,16 @@ data_simpleaction = [
         ]
     },
     {
+        title: "Call/Dismiss/Command sprite",
+        icon: "nano-bot",
+        subtitle: "Control a compiled sprite",
+        description: "Call, command or dismiss a sprite you have compiled.",
+        reference: "SR5 pg. 164, 244.",
+        bullets: [
+            ""
+        ]
+    },
+    {
         title: "Change device mode",
         icon: "toggles",
         subtitle: "For any standard devices",
@@ -40,6 +50,26 @@ data_simpleaction = [
         bullets: [
             "If the weapon is a properly linked smartgun, it costs only a Free Action to change the mode (see Firearms, p. 424, and Smartgun Systems, p. 433).",
             "This includes changing a shotgun’s choke if the gun does not have a smartgun link (see Shotguns, p. 429)."
+        ]
+    },
+      {
+        title: "Change icon (Matrix)",
+        icon: "molecule",
+        subtitle: "subtitle",
+        description: "description",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            ""
+        ]
+    },
+    {
+        title: "Check Overwatch score",
+        icon: "speedometer",
+        subtitle: "subtitle",
+        description: "description",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            ""
         ]
     },
     {
@@ -72,6 +102,26 @@ data_simpleaction = [
         reference: "SR5 pgs. 165, 166, 178.",
         bullets: [
             "A character may insert a fresh clip into a ready firearm by taking a Simple Action, but only if he has first removed the previous clip (see Remove Clip, p. 166, and Reloading Weapons, p. 163)."
+        ]
+    },
+    {
+        title: "Invite mark (Matrix)",
+        icon: "jack-plug",
+        subtitle: "subtitle",
+        description: "description",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            ""
+        ]
+    },
+    {
+        title: "Jack out (Matrix)",
+        icon: "jack-plug",
+        subtitle: "subtitle",
+        description: "description",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            ""
         ]
     },
     {
@@ -146,12 +196,32 @@ data_simpleaction = [
         ]
     },
     {
+        title: "Send message (Matrix)",
+        icon: "talk",
+        subtitle: "subtitle",
+        description: "description",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            ""
+        ]
+    },
+    {
         title: "Shift Perception",
         icon: "gaze",
         subtitle: "Shift to and from Astral Space",
         description: "Shift your Perception to and from the Astral Plane",
         reference: "SR5, pg. 166.",
         bullets: [
+        ]
+    },
+    {
+        title: "Switch interface mode (Matrix)",
+        icon: "resize",
+        subtitle: "subtitle",
+        description: "description",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            ""
         ]
     },
     {
