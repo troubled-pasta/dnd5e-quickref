@@ -97,11 +97,63 @@ data_complexaction = [
         ]
     },
     {
-        title: "Matrix Action",
+        title: "Matrix Actions",
         icon: "molecule",
         subtitle: "Interact with the Matrix",
         description: "A character may perform most Matrix actions with a Complex Action.",
-        reference: "SR5, pg. 167.",
+        reference: "SR5, pgs. 164, 214.",
+        bullets: [
+            "[TBC]"
+        ]
+    },
+    {
+        title: "Matrix: Cybercombat",
+        icon: "digital-trace",
+        subtitle: "Attacking in the Matrix",
+        description: "A character may perform most Matrix actions with a Complex Action.",
+        reference: "SR5, pgs. 164, 214.",
+        bullets: [
+            "[TBC]"
+        ]
+    },
+    {
+        title: "Matrix: Manipulate Device",
+        icon: "wifi-router",
+        subtitle: "Controlling devices",
+        description: "A character may perform most Matrix actions with a Complex Action.",
+        reference: "SR5, pgs. 164, 214.",
+        bullets: [
+            "<b>Control Device:</b> You perform an action through a device you control (or at least control sufficiently), using your commlink or deck. Any test you make using this action uses the rating of the appropriate skill and attribute you would use if you were performing the action normally.",
+            "<b>Format Device:</b> You rewrite the boot code for the device. The next time it would reboot, it instead shuts down for good, or until its software can be replaced (an Extended Software + LOG [Mental] (12, 1 hour) Test).",
+		    "<b>Reboot Device:</b> The device on which this action is performed shuts down and immediately reboots. The device comes back online at the end of the following Combat Turn."
+        ]
+    },
+    {
+        title: "Matrix: Manipulate File",
+        icon: "computing",
+        subtitle: "",
+        description: "A character may perform most Matrix actions with a Complex Action.",
+        reference: "SR5, pgs. 164, 214.",
+        bullets: [
+            "[TBC]"
+        ]
+    },
+    {
+        title: "Matrix: Manipulate M.A.R.K.",
+        icon: "crosshair-arrow",
+        subtitle: "Interact with the Matrix",
+        description: "A character may perform most Matrix actions with a Complex Action.",
+        reference: "SR5, pgs. 164, 214.",
+        bullets: [
+            "[TBC]"
+        ]
+    },
+    {
+        title: "Matrix: Sprites",
+        icon: "nano-bot",
+        subtitle: "Interact with the Matrix",
+        description: "A character may perform most Matrix actions with a Complex Action.",
+        reference: "SR5, pgs. 164, 214.",
         bullets: [
             "[TBC]"
         ]
