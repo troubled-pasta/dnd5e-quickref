@@ -23,7 +23,7 @@ data_complexaction = [
         title: "Control vehicle",
         icon: "gps",
         subtitle: "Keep a vehicle under control",
-        description: "This action is simply the expenditure of an action to represent efforts taken for the entire Combat Turn to keep the vehicle under control.",
+        description: "This action represents efforts taken for the entire Combat Turn to keep the vehicle under control.",
         reference: "SR5 pgs. 202-203.",
         bullets: [
             "Uncontrolled vehicles are unstable platforms; all characters apply a –2 dice pool modifier to all their actions if they are in an uncontrolled vehicle.",
