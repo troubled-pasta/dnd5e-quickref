@@ -108,7 +108,7 @@ data_complexaction = [
     },
     {
         title: "Matrix: Cybercombat",
-        icon: "nested-hexagons",
+        icon: "microscope-lens",
         subtitle: "Attacking in the Matrix",
         description: "A character may perform most Matrix actions with a Complex Action.",
         reference: "SR5, pgs. 164, 214.",
