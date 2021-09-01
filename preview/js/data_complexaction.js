@@ -10,17 +10,6 @@ data_complexaction = [
         ]
     },
     {
-        title: "Summon/Banish spirit",
-        icon: "ifrit",
-        subtitle: "Summon or banish spirits",
-        description: "A character may attempt to summon or banish a spirit as a Complex Action.",
-        reference: "SR5, pg. 167, 301.",
-        bullets: [
-            "A character may summon a spirit to assist them with a Complex Action",
-            "A character may enter into a Banishing contest with a spirit as a Complex Action (see p. 301)."
-        ]
-    },
-    {
         title: "Cast a spell",
         icon: "magic-swirl",
         subtitle: "Cast a spell as a mage or adept",
@@ -28,6 +17,23 @@ data_complexaction = [
         reference: "SR5 pg. 167.",
         bullets: [
             
+        ]
+    },
+    {
+        title: "Delay Action",
+        icon: "stopwatch",
+        subtitle: "Choose trigger and action",
+        description: "There are times when a player wants to see how others act and what happens before making their move; choosing to wait is called a Delayed Action.",
+        reference: "SR5, pg. 161.",
+        bullets: [
+            "A Delayed Action must be declared during Step 3A of the Combat Turn Sequence (see Declare Actions, p. 158). A player can declare a Delayed Action on any of his Initiative Passes and can continue to delay action until a later Initiative Pass.",
+            "When the character decides to act, they replace their normal Action Phase for that Initiative Pass with the Delayed Action and then act on an Initiative Score lower than their own.",
+            "During the Declare Actions part of that Initiative Pass, the character must declare that they are intervening at a specific Initiative Score. They can make that declaration when it is time for players with that score to act.",
+            "Characters who have a Delayed Action and intervene in this manner can choose to go before, after, or at the same time as a currently acting character who would normally take their action on that Initiative Score; any actions they take receive a –1 dice pool penalty.", 
+            "If multiple characters delay their actions until the same Initiative Score, they break the tie in the same manner as Initiative (p. 159).",
+            "Characters delaying an action in this manner keep their initial Initiative Score. If the character does not act before the end of the Initiative Pass, they incur the standard reduction of 10 at the end of the Initiative Pass.",
+            "Players can also decide to go after the last player’s Action Phase. As long as the character acts before that Initiative Pass ends and the next one begins, there is no problem.",
+            "A character can delay their action into the next Initiative Pass and be the first to act. They must still use their own Initiative Score to determine the Action Phases they have for the Combat Turn"
         ]
     },
     {
@@ -106,7 +112,6 @@ data_complexaction = [
             "Weapons that are belt fed (belt), break action (b), cylinder (cy), drum (d), internal magazine (m), muzzle loaders, or use a speed loader are reloaded using a Complex Action (see Reloading Weapons, p. 163)",
         ]
     },
-    
     {
         title: "Rigger jump in",
         icon: "cryo-chamber",
@@ -131,6 +136,17 @@ data_complexaction = [
             ]
     },
     {
+        title: "Summon/Banish spirit",
+        icon: "ifrit",
+        subtitle: "Summon or banish spirits",
+        description: "A character may attempt to summon or banish a spirit as a Complex Action.",
+        reference: "SR5, pg. 167, 301.",
+        bullets: [
+            "A character may summon a spirit to assist them with a Complex Action",
+            "A character may enter into a Banishing contest with a spirit as a Complex Action (see p. 301)."
+        ]
+    },
+    {
         title: "Use Skill",
         icon: "skills",
         subtitle: "Use an appropriate skill",
@@ -148,23 +164,6 @@ data_complexaction = [
         reference: "",
         bullets: [
             "“Use” entails activating a program, issuing detailed instructions, conducting an internal operation (such as copying files), driving the vehicle, and so on."
-        ]
-    },
-    {
-        title: "Delay Action",
-        icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "There are times when a player wants to see how others act and what happens before making their move; choosing to wait is called a Delayed Action.",
-        reference: "SR5, pg. 161.",
-        bullets: [
-            "A Delayed Action must be declared during Step 3A of the Combat Turn Sequence (see Declare Actions, p. 158). A player can declare a Delayed Action on any of his Initiative Passes and can continue to delay action until a later Initiative Pass.",
-            "When the character decides to act, they replace their normal Action Phase for that Initiative Pass with the Delayed Action and then act on an Initiative Score lower than their own.",
-            "During the Declare Actions part of that Initiative Pass, the character must declare that they are intervening at a specific Initiative Score. They can make that declaration when it is time for players with that score to act.",
-            "Characters who have a Delayed Action and intervene in this manner can choose to go before, after, or at the same time as a currently acting character who would normally take their action on that Initiative Score; any actions they take receive a –1 dice pool penalty.", 
-            "If multiple characters delay their actions until the same Initiative Score, they break the tie in the same manner as Initiative (p. 159).",
-            "Characters delaying an action in this manner keep their initial Initiative Score. If the character does not act before the end of the Initiative Pass, they incur the standard reduction of 10 at the end of the Initiative Pass.",
-            "Players can also decide to go after the last player’s Action Phase. As long as the character acts before that Initiative Pass ends and the next one begins, there is no problem.",
-            "A character can delay their action into the next Initiative Pass and be the first to act. They must still use their own Initiative Score to determine the Action Phases they have for the Combat Turn"
         ]
     }
 ]
