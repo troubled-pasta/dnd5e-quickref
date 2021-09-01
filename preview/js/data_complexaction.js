@@ -20,16 +20,6 @@ data_complexaction = [
         ]
     },
     {
-        title: "Compile/Decompile Sprites",
-        icon: "nano-bot",
-        subtitle: "Interact with the Matrix",
-        description: "A character may perform most Matrix actions with a Complex Action.",
-        reference: "SR5, pgs. 164, 214.",
-        bullets: [
-            "[TBC]"
-        ]
-    },
-    {
         title: "Control vehicle",
         icon: "gps",
         subtitle: "Keep a vehicle under control",
@@ -119,56 +109,86 @@ data_complexaction = [
             "The two activities can be reversed, Fire and Load Bow, if the bow had been readied using a Simple Action already."
         ]
     },
-    {
-        title: "Matrix Actions",
-        icon: "molecule",
-        subtitle: "Interact with the Matrix",
+	{
+        title: "Matrix: Combat",
+        icon: "microscope-lens",
+        subtitle: "Cybercombat",
         description: "A character may perform most Matrix actions with a Complex Action.",
         reference: "SR5, pgs. 164, 214.",
         bullets: [
-            "[TBC]"
-        ]
+		"<b>Crash Program:</b><br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You overload part of your target’s memory and scramble one of its running programs. You need to specify which program you’re trying to crash. If you succeed, the program ends and cannot be restarted until the device it was running on is rebooted.",
+		"<b>Data Spike:</b><br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You send harmful instructions to a persona or device, causing Matrix damage to the target. The DV is equal to the rating of your Attack program, with 1 additional box of damage per net hit, and 2 additional boxes of damage for each mark you have on the target.",
+		"<b>Brute Force:</b><br>Test: Cybercombat + LOG [Attack] v. WIL + Firewall.<br>This action allows you to mark a target without obtaining the permissions to do so. If you succeed in this action, you place one mark. You can have up to a maximum of three marks per icon.If the target can take Matrix damage you may also inflict 1 DV of Matrix damage to the target for every two full net hits, which is resisted with the target’s Device Rating + Firewall. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt. If you try for three marks in a single swipe, you take a –10 dice pool penalty."
+	]
     },
     {
-        title: "Gather Intel (Matrix)",
+        title: "Matrix: Data",
         icon: "files",
-        subtitle: "Interact with the Matrix",
+        subtitle: "Alter or destroy data",
         description: "A character may perform most Matrix actions with a Complex Action.",
         reference: "SR5, pgs. 164, 214.",
         bullets: [
-            "[TBC]"
+		"<b>Edit File:</b> ",
+		"<b>Erase Mark:</b> ",
+		"<b>Erase Matrix/Resonance Signature:</b> ",
+		"<b>Set Data Bomb:</b> ",
+		"<b>Disarm Data Bomb:</b> "
         ]
     },
     {
-        title: "Manipulate Device (Matrix)",
+        title: "Matrix: Devices",
         icon: "wifi-router",
-        subtitle: "Controlling devices",
+        subtitle: "Control devices",
         description: "A character may perform most Matrix actions with a Complex Action.",
         reference: "SR5, pgs. 164, 214.",
         bullets: [
-            "<b>Control Device:</b> You perform an action through a device you control (or at least control sufficiently), using your commlink or deck. Any test you make using this action uses the rating of the appropriate skill and attribute you would use if you were performing the action normally.",
-            "<b>Format Device:</b> You rewrite the boot code for the device. The next time it would reboot, it instead shuts down for good, or until its software can be replaced (an Extended Software + LOG [Mental] (12, 1 hour) Test).",
-		    "<b>Reboot Device:</b> The device on which this action is performed shuts down and immediately reboots. The device comes back online at the end of the following Combat Turn."
+		"<b>Control Device:</b> You perform an action through a device you control (or at least control sufficiently), using your commlink or deck. Any test you make using this action uses the rating of the appropriate skill and attribute you would use if you were performing the action normally.",
+		"<b>Format Device:</b> You rewrite the boot code for the device. The next time it would reboot, it instead shuts down for good, or until its software can be replaced (an Extended Software + LOG [Mental] (12, 1 hour) Test).",
+		"<b>Reboot Device:</b> The device on which this action is performed shuts down and immediately reboots. The device comes back online at the end of the following Combat Turn.",
+		"<b>Jam Signals:</b> ",
+		"<b>Jump Into Rigged Device:</b> ",
         ]
     },
     {
-        title: "Manipulate File (Matrix)",
+        title: "Matrix: Hacking",
         icon: "computing",
-        subtitle: "",
+        subtitle: "Hack into things",
         description: "A character may perform most Matrix actions with a Complex Action.",
         reference: "SR5, pgs. 164, 214.",
         bullets: [
-            "[TBC]"
+		"<b>Crack File</b> On a succsessful Hacking + LOG [Attack] v. Protection Rating x 2 Test, you remove the protection from a file, making it readable.",
+		"<b>Hack on the Fly:</b>You can use this action to mark a target without getting the normal permissions. When targeting an icon, you put one mark on it, up to a maximum of three marks per icon. Additionally, every 2 full net hits counts as 1 hit on a Matrix Perception Test, so you can get some info along with your mark. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt. If you try for three marks in one go, you take a –10 dice pool penalty. You can also use this action to hop to a grid for which you don’t have legitimate access. The defense dice pool in this case is 4 dice for a local grid or 6 dice for a global grid. If you succeed you hop to that grid immediately. Unsuccessfully using Hack on the Fly to hop grids doesn’t alert the grid or its demiGOD.",
+		"<b>Snoop:</b> ",
+		"<b>Spoof Command:</b> ",
+		"<b>Trace Icon:</b> "
         ]
     },
     {
-        title: "Manipulate M.A.R.K. (Matrix)",
-        icon: "crosshair-arrow",
-        subtitle: "Interact with the Matrix",
+        title: "Matrix: Navigation",
+        icon: "molecule",
+        subtitle: "Move through the Matrix",
         description: "A character may perform most Matrix actions with a Complex Action.",
         reference: "SR5, pgs. 164, 214.",
         bullets: [
-            "[TBC]"
+		"<b>Enter/Exit Host:</b> You enter a host that you have a mark on and your icon appears there, or you leave a host you’re already in. A host allows anyone to enter if they’ve got a mark. The host might not be so welcoming once you’re inside, of course, and some IC has the ability to keep you trapped in a host until you can break out.",
+		"<b>Grid Hop:</b> To do this, you must have access to your destination grid. If you do not have access, you can use Brute Force or Hack on the Fly to hop to another grid illegally. If you’re inside a host, you need to leave the host before you can hop to another grid.",
+		"<b>Hide:</b>You can use this action to make a target lose you. If you succeed, the target stops spotting you and needs to perform a new Matrix Perception action against you if it wants to find you again. You can’t hide from an icon that has a mark on you, so you’ll need to clear those before you can try this action.",
+		"<b>Matrix Perception:</b> ",
+		"<b>Matrix Search:</b> "
+        ]
+    },
+    {
+        title: "Matrix: Sprites",
+        icon: "nano-bot",
+        subtitle: "Interact with sprites",
+        description: "A character may perform most Matrix actions with a Complex Action.",
+        reference: "SR5, pgs. 164, 214.",
+        bullets: [
+		"<b>Compile Sprite:</b> ",
+		"<b>Decompile Sprite:</b> ",
+		"<b>Kill Complex Form:</b> ",
+		"<b>Register Sprite:</b> ",
+		"<b>Thread Complex Form:</b> "
         ]
     },
     {
