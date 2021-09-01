@@ -52,26 +52,6 @@ data_simpleaction = [
             "This includes changing a shotgun’s choke if the gun does not have a smartgun link (see Shotguns, p. 429)."
         ]
     },
-      {
-        title: "Change icon (Matrix)",
-        icon: "molecule",
-        subtitle: "subtitle",
-        description: "description",
-        reference: "SR5, pg. 164.",
-        bullets: [
-            ""
-        ]
-    },
-    {
-        title: "Check Overwatch score",
-        icon: "speedometer",
-        subtitle: "subtitle",
-        description: "description",
-        reference: "SR5, pg. 164.",
-        bullets: [
-            ""
-        ]
-    },
     {
         title: "Fire bow",
         icon: "archer",
@@ -105,7 +85,37 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Invite mark (Matrix)",
+        title: "Matrix: Change icon",
+        icon: "molecule",
+        subtitle: "subtitle",
+        description: "description",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            ""
+        ]
+    },
+    {
+        title: "Matrix: Check Overwatch",
+        icon: "speedometer",
+        subtitle: "subtitle",
+        description: "description",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            ""
+        ]
+    },
+    {
+        title: "Matrix: Invite mark",
+        icon: "",
+        subtitle: "subtitle",
+        description: "description",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            ""
+        ]
+    },
+    {
+        title: "Matrix: Jack out",
         icon: "jack-plug",
         subtitle: "subtitle",
         description: "description",
@@ -115,8 +125,18 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Jack out (Matrix)",
-        icon: "jack-plug",
+        title: "Matrix: Send Message",
+        icon: "talk",
+        subtitle: "subtitle",
+        description: "description",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            ""
+        ]
+    },
+    {
+        title: "Matrix: Switch interface mode",
+        icon: "resize",
         subtitle: "subtitle",
         description: "description",
         reference: "SR5, pg. 164.",
@@ -196,32 +216,12 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Send message (Matrix)",
-        icon: "talk",
-        subtitle: "subtitle",
-        description: "description",
-        reference: "SR5, pg. 164.",
-        bullets: [
-            ""
-        ]
-    },
-    {
         title: "Shift Perception",
         icon: "gaze",
         subtitle: "Shift to and from Astral Space",
         description: "Shift your Perception to and from the Astral Plane",
         reference: "SR5, pg. 166.",
         bullets: [
-        ]
-    },
-    {
-        title: "Switch interface mode (Matrix)",
-        icon: "resize",
-        subtitle: "subtitle",
-        description: "description",
-        reference: "SR5, pg. 164.",
-        bullets: [
-            ""
         ]
     },
     {
