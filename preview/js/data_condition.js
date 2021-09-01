@@ -140,7 +140,7 @@ data_condition = [
         bullets: [
             "To break out of the lock, the defender must take a Complex Action and succeed in an Unarmed Combat + STR [Physical] Test with a threshold equal to the net hits scored on the attacker’s original grappling test. Otherwise the defender remains subdued and cannot take any actions requiring physical movement.",
             "Otherwise the defender remains subdued and cannot take any actions requiring physical movement. Consider the subdued character to be prone for any attacks made against them.",
-            
+            ]
     },
     {
         title: "Surprised",
