@@ -107,7 +107,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Matrix: Cybercombat",
+        title: "Cybercombat",
         icon: "microscope-lens",
         subtitle: "Attacking in the Matrix",
         description: "A character may perform most Matrix actions with a Complex Action.",
@@ -117,7 +117,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Matrix: Manipulate Device",
+        title: "Manipulate Device",
         icon: "wifi-router",
         subtitle: "Controlling devices",
         description: "A character may perform most Matrix actions with a Complex Action.",
@@ -129,7 +129,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Matrix: Manipulate File",
+        title: "Manipulate File",
         icon: "computing",
         subtitle: "",
         description: "A character may perform most Matrix actions with a Complex Action.",
@@ -139,7 +139,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Matrix: Manipulate M.A.R.K.",
+        title: "Manipulate M.A.R.K.",
         icon: "crosshair-arrow",
         subtitle: "Interact with the Matrix",
         description: "A character may perform most Matrix actions with a Complex Action.",
@@ -149,7 +149,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Matrix: Sprites",
+        title: "Compile/Decompile Sprites",
         icon: "nano-bot",
         subtitle: "Interact with the Matrix",
         description: "A character may perform most Matrix actions with a Complex Action.",
