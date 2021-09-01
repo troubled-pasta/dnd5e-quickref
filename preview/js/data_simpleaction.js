@@ -190,7 +190,7 @@ data_simpleaction = [
     },
     {
         title: "Use Sensors (Vehicle)",
-        icon: "radar",
+        icon: "radar-sweep",
         subtitle: "Detect or lock on to targets",
         description: "A driver or passenger may use sensors to detect or lock onto targets.",
         reference: "SR5, pg. 202.",
