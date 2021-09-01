@@ -84,10 +84,13 @@ data_condition = [
         title: "Invisible",
         icon: "invisible",
         subtitle: "You can't be seen",
-        description: "description",
-        reference: "PHB, pg. 291.",
+        description: "Invisibility is a spell effect.",
+        reference: "SR5, pg. 291.",
         bullets: [
-            ""
+            "The subject is more difficult to detect by normal visual senses (including low-light, thermographic, and other senses that rely on the visual spectrum).",
+            "The subject is completely tangible and detectable by the other senses (hearing, smell, touch, and even taste, if it somehow comes to that) and their aura is still visible to astral perception.",
+            "Attacks against invisible targets suffer the Blind Fire modifier if the attacker is unable to see or otherwise sense the subject of the spell.",
+            "<i>Invisibility</i> affects the minds of viewers. <i>Improved Invisibility</i> mimics the subject’s surroundings from all angles and affects technological sensors as well."
         ]
     },
     {
