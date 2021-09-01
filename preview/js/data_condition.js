@@ -139,7 +139,7 @@ data_condition = [
         icon: "imprisoned",
         subtitle: "You are restrained",
         description: "In Shadowrun, you might just find yourself caught instead of killed. Escape Artist provides a chance to escape from most forms of confinement, including ropes, handcuffs, and other bindings.",
-        reference: "PHB, pg. 292.",
+        reference: "SR5, pg. 135.",
         bullets: [
             "To get out of restraints, make an Escape Artist + AGI [Physical] Test against a threshold based on what you’re trying to get out of.",
             "If you succeed, you’re free after working on it for 1 minute (20 Combat Turns) divided by the number of net hits you get on the test.",
