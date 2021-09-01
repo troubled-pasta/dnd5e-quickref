@@ -20,6 +20,16 @@ data_complexaction = [
         ]
     },
     {
+        title: "Compile/Decompile Sprites",
+        icon: "nano-bot",
+        subtitle: "Interact with the Matrix",
+        description: "A character may perform most Matrix actions with a Complex Action.",
+        reference: "SR5, pgs. 164, 214.",
+        bullets: [
+            "[TBC]"
+        ]
+    },
+    {
         title: "Control vehicle",
         icon: "gps",
         subtitle: "Keep a vehicle under control",
@@ -31,6 +41,16 @@ data_complexaction = [
             "A driver spends a Complex Action when executing a maneuver that requires a Vehicle Test. Failed Vehicle Tests may result in the vehicle being considered uncontrolled or may lead to a second Vehicle Test to avoid a crash. Glitched Vehicle Tests almost always result in a crash. Critical Glitch Vehicle Tests always result in a crash.",
             "Movement is based on the movement rate of the vehicle as determined by its Speed rating on the table. The gamemaster should use their own discretion when determining just how quickly a car can change speeds between Combat Turns.",
             "<table><thead><tr><th>SPEED</th><th>WALKING RATE (meters/turn)</th><th>RUNNING RATE (meters/turn)</th></tr></thead><tbody><tr><td>1</td><td>5</td><td>10</td></tr><tr><td>2</td><td>10</td><td>20</td></tr><tr><td>3</td><td>20</td><td>40</td></tr><tr><td>4</td><td>40</td><td>80</td></tr><tr><td>5</td><td>80</td><td>160</td></tr><tr><td>6</td><td>160</td><td>320</td></tr><tr><td>7</td><td>320</td><td>640</td></tr><tr><td>8</td><td>640</td><td>1280</td></tr><tr><td>9</td><td>1280</td><td>2560</td></tr><tr><td>10</td><td>2560</td><td>5120</td></tr></tbody></table>"
+        ]
+    },
+    {
+        title: "Cybercombat",
+        icon: "microscope-lens",
+        subtitle: "Attacking in the Matrix",
+        description: "A character may perform most Matrix actions with a Complex Action.",
+        reference: "SR5, pgs. 164, 214.",
+        bullets: [
+            "[TBC]"
         ]
     },
     {
@@ -106,16 +126,7 @@ data_complexaction = [
             "[TBC]"
         ]
     },
-    {
-        title: "Cybercombat",
-        icon: "microscope-lens",
-        subtitle: "Attacking in the Matrix",
-        description: "A character may perform most Matrix actions with a Complex Action.",
-        reference: "SR5, pgs. 164, 214.",
-        bullets: [
-            "[TBC]"
-        ]
-    },
+    
     {
         title: "Manipulate Device",
         icon: "wifi-router",
@@ -141,16 +152,6 @@ data_complexaction = [
     {
         title: "Manipulate M.A.R.K.",
         icon: "crosshair-arrow",
-        subtitle: "Interact with the Matrix",
-        description: "A character may perform most Matrix actions with a Complex Action.",
-        reference: "SR5, pgs. 164, 214.",
-        bullets: [
-            "[TBC]"
-        ]
-    },
-    {
-        title: "Compile/Decompile Sprites",
-        icon: "nano-bot",
         subtitle: "Interact with the Matrix",
         description: "A character may perform most Matrix actions with a Complex Action.",
         reference: "SR5, pgs. 164, 214.",
