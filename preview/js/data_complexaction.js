@@ -217,7 +217,7 @@ data_complexaction = [
     },
     {
         title: "Rigger jump in",
-        icon: "cryo-chamber",
+        icon: "vr-headset",
         subtitle: "Control rigger-adapted vehicle",
         description: "A character with a VCR and rigger adapted vehicle may jump in to control the vehicle with a Complex Action.",
         reference: "SR5, pg. 167.",
