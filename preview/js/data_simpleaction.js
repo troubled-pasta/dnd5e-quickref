@@ -86,7 +86,7 @@ data_simpleaction = [
     },
     {
         title: "Matrix: Change icon",
-        icon: "molecule",
+        icon: "auto-repair",
         subtitle: "Change a target's icon",
         description: "You change the target’s icon to one that you have a copy of or have designed yourself.",
         reference: "SR5, pg. 164.",
@@ -147,7 +147,7 @@ data_simpleaction = [
     },
     {
         title: "Matrix: Switch interface mode",
-        icon: "vr-headset",
+        icon: "relationship-bounds",
         subtitle: "Switch between AR and VR",
         description: "You switch your perception from AR to VR or vice versa.",
         reference: "SR5, pg. 243.",
