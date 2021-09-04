@@ -77,10 +77,13 @@ data_freeaction = [
         title: "Matrix: Reconfigure Deck",
         icon: "tinker",
         subtitle: "Swap deck attributes/programs",
-        description: "A character may communicate with a few quick gestures as a Free Action.",
-        reference: "SR5, pg. 164.",
+        description: "Either through using the Configuration cyberprograms or simply swapping cyberprograms or Matrix attributes, reconfiguring your persona can mean the difference between life and death on the ever-changing battlefields of the Matrix.",
+        reference: "SR5, pgs. 164, 227. DT, pg. 180.",
         bullets: [
-            "Characters unfamiliar with the gestures may make an INT (2) Test to determine what the gesture means."
+            "A cyberdeck has four attribute values assigned to its Matrix attributes (called the Attribute Array), which must be configured when booted.",
+            "Using this action you can switch two Matrix attributes, or swap two programs.",
+            "Altering the values assigned to each attribute simulates what software the decker is actively running on the cyberdeck. (For information on cyberdecks, see SR5, p. 227.)",
+            "Using a Free Action at the end of your first Action Phase to boost your defenses against the incoming counterattack and then using another Free Action at the beginning of your next Action Phase to revert to the proverbial glass cannon is a tactic used by many deckers who are entirely confident that the second counterattack will never come. It was also popular with many deckers who miscalculated when it came to that second counterattack. Rest in peace, chummers."
         ]
     },
     {
