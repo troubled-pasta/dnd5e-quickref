@@ -107,9 +107,9 @@ data_complexaction = [
         icon: "microscope-lens",
         subtitle: "Cybercombat",
         description: "A character may perform most Matrix actions with a Complex Action.",
-        reference: "SR5, pgs. 164, 214.",
+        reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
-		"<b>Crash Program:</b><br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You overload part of your target’s memory and scramble one of its running programs. You need to specify which program you’re trying to crash. If you succeed, the program ends and cannot be restarted until the device it was running on is rebooted.",
+		"<b>Crash Program:</b> <i>Illegal: Increases Overwatch Score (pg. 232).</i><br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You overload part of your target’s memory and scramble one of its running programs. You need to specify which program you’re trying to crash. If you succeed, the program ends and cannot be restarted until the device it was running on is rebooted.",
 		"<b>Data Spike:</b><br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You send harmful instructions to a persona or device, causing Matrix damage to the target. The DV is equal to the rating of your Attack program, with 1 additional box of damage per net hit, and 2 additional boxes of damage for each mark you have on the target.",
 		"<b>Brute Force:</b><br>Test: Cybercombat + LOG [Attack] v. WIL + Firewall.<br>This action allows you to mark a target without obtaining the permissions to do so. If you succeed in this action, you place one mark. You can have up to a maximum of three marks per icon.If the target can take Matrix damage you may also inflict 1 DV of Matrix damage to the target for every two full net hits, which is resisted with the target’s Device Rating + Firewall. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt. If you try for three marks in a single swipe, you take a –10 dice pool penalty."
 	]
@@ -119,7 +119,7 @@ data_complexaction = [
         icon: "files",
         subtitle: "Alter or destroy data",
         description: "A character may perform most Matrix actions with a Complex Action.",
-        reference: "SR5, pgs. 164, 214.",
+        reference: "SR5, pgs. 164, 237-244.",
         bullets: [
 		"<b>Edit File:</b> ",
 		"<b>Erase Mark:</b> ",
