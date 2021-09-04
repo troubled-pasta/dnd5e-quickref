@@ -160,7 +160,7 @@ data_complexaction = [
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
 		
-		"<b>Crack File:</b> (Illegal) <i>Marks reqired: 1</i><br>Test: Hacking + LOG [Attack] v. (Protection Rating) x 2.<br>If you are successful on the test, you remove the protection from a file, making it readable.",
+		"<b>Crack File:</b> (Illegal) <i>Marks reqired: 1</i><br>Test: Hacking + LOG [Attack] v. (Protection Rating) x 2.<br>If you are successful on the test, you remove the protection from a file.",
 		
 		"<b>Hack on the Fly:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Hacking + LOG [Sleaze] v. INT + Firewall<br>You can use this action to mark a target without getting the normal permissions. When targeting an icon, you put one mark on it (max. 3/icon). Every 2 full net hits counts as 1 hit on a Matrix Perception Test, so you can get some info along with your mark. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt and a –10 dice pool penalty for three. You can also use this action to hop to a grid for which you don’t have legitimate access. The defense dice pool is 4 dice for a local grid or 6 dice for a global grid. If you succeed you hop to that grid immediately. Unsuccessfully using Hack on the Fly to hop grids doesn’t alert the grid or its demiGOD.",
 		
