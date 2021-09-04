@@ -115,14 +115,5 @@ data_movement = [
             "A character can hold their breath for 60 seconds (20 Combat Turns) before needing to make a test. A character needing to hold their breath longer can make a Swimming + WIL Test. Each net hit extends the clock by 15 seconds (5 Combat Turns).",
             "As with the Running skill, swimmers suffer from fatigue after an extended time (Fatigue Damage, p. 172)."
             ]
-    },
-    {
-        title: "Improvise",
-        icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
-        bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
-            ]
     }
 ]
