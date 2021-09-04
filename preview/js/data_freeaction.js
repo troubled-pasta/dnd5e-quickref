@@ -60,7 +60,7 @@ data_freeaction = [
         ]
     },
     {
-        title: "Matrix: Load/Unload Program",
+        title: "Load/Unload Program",
         icon: "save",
         subtitle: "Run programs on your deck",
         description: "Programs (technically cybeprograms if they’re for the Matrix) are files you can run on your deck. While a program is running, it makes your deck better or gives you more utility.",
@@ -74,6 +74,16 @@ data_freeaction = [
         ]
     },
     {
+        title: "Matrix: Reconfigure Deck",
+        icon: "tinker",
+        subtitle: "Swap deck attributes/programs",
+        description: "A character may communicate with a few quick gestures as a Free Action.",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            "Characters unfamiliar with the gestures may make an INT (2) Test to determine what the gesture means."
+        ]
+    },
+    {
         title: "Multiple attacks",
         icon: "two-shadows",
         subtitle: "Attack multiple targets",
@@ -81,16 +91,6 @@ data_freeaction = [
         reference: "SR5, pgs. 164, 196.",
         bullets: [
             "This action must be combined with a Fire Weapon Action, Throw Weapon Action, Melee Attack Action, Reckless Spellcasting, or Cast Spell Action."
-        ]
-    },
-    {
-        title: "Reconfigure Deck",
-        icon: "tinker",
-        subtitle: "Use gestures to communicate",
-        description: "A character may communicate with a few quick gestures as a Free Action.",
-        reference: "SR5, pg. 164.",
-        bullets: [
-            "Characters unfamiliar with the gestures may make an INT (2) Test to determine what the gesture means."
         ]
     },
     {
