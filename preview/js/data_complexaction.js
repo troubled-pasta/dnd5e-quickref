@@ -19,6 +19,19 @@ data_complexaction = [
             
         ]
     },
+	{
+        title: "Chase Actions (Vehicle)",
+        icon: "speedometer",
+        subtitle: "Perform stunts and manouvers",
+        description: "A driver may perform any of the following actions on their turn, as long as the target vehicle is within the Chase Range specified.",
+        reference: "SR5 pg. 204..",
+        bullets: [
+            	"<b>Catch Up/Break Away:</b> A vehicle may wish to close the distance or get away on their action. The number of Range Categories a vehicle can change during this action is equal to their Acceleration.  The driver makes a REA + Vehicle Skill [Speed or Handling] (maneuver Threshold) test. For every hit they beat the threshold by they may shift one Range Category towards or away from their opponent.",
+		"<b>Cut-Off:</b> The acting vehicle makes a sudden move to cut off a target vehicle, forcing it to crash. Make an Opposed REA + Vehicle Skill [Handling] Test. If the acting vehicle achieves more hits, the target vehicle must make an immediate Vehicle Test to avoid crashing, with a threshold equal to the net hits on the test.",
+		"<b>Ram (Short Range):</b> The acting vehicle attempts to collide with a target vehicle. Make an Opposed (Vehicle Skill) + REA [Speed or Handling] Test.  If the ramming vehicle achieves more hits, the vehicles have collided. The target of the Ram takes damage equal to the BOD of the ramming vehicle plus any Net Hits achieved. The vehicle that did the Ramming takes damage equal to half its BOD.",
+		"<b>Stunt:</b> When a vehicle being pursued attempts a Stunt, the gamemaster sets the threshold for the Stunt based on the environment and difficulty of the maneuver and the terrain of the chase, (see Vehicle Test Threshold Table and Terrain Modifier Table, p. 201). The driver then rolls a Vehicle Skill + Reaction [Speed or Handling] Test. Depending on chase environment the Limit will be equal to Speed or Handling. If the test is failed, the vehicle goes out of control. If the threshold is met or exceeded the maneuver is successful and all pursuing vehicles must make a Vehicle Test to maintain pursuite range. Failing vehicles fall behind by one Chase Range Category. If they are already at extreme range, the character escapes pursuit."
+	]
+    },
     {
         title: "Control vehicle",
         icon: "gps",
