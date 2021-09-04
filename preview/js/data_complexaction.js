@@ -193,14 +193,16 @@ data_complexaction = [
         title: "Matrix: Sprites",
         icon: "nano-bot",
         subtitle: "Interact with sprites",
-        description: "All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).",
-        reference: "SR5, pgs. 164, 232, 237-244.",
+        description: "Almost all Resonance actions cause Fading, a mental drain on the technomancer akin to spell drain for Magicians. Fading is resisted with RES + WIL.",
+        reference: "SR5, pgs. 164, 250-251, 254-256.",
         bullets: [
-		"<b>Compile Sprite:</b> ",
-		"<b>Decompile Sprite:</b> ",
-		"<b>Kill Complex Form:</b> ",
-		"<b>Register Sprite:</b> ",
-		"<b>Thread Complex Form:</b> "
+		"<b>Compile Sprite:</b><br>Test: Compiling + RES [Level] v. (Sprite Level).<br>When you compile a sprite, you choose a Level for the sprite, up to twice your RES rating. The higher the Level, the more powerful the sprite. For every net hit on the Compiling test, you get one task from the sprite from the list of compiled sprite tasks (pg 254-256). Compiling sprites causes Fading of 2 DV per hit (not net hit) it gets in its defense test, with a minimum of 2 DV. This Fading is Stun damage, unless the sprite’s Level is greater than your RES, in which case it’s Physical damage. You can only have one compiled sprite at any given time.",
+		
+		"<b>Decompile Sprite:</b><br>Test: Decompiling + RES [Level] v. (Sprite Rating) + (Compiler’s RES).<br> Every net hit reduces the sprite’s owed tasks by 1. If the sprite is reduced to 0 tasks owed to its compiler, it returns to the Resonance on its next action. This causes Fading equal to 2 DV per hit (not net hit) the sprite rolls, with a minimum DV of 2.",
+		
+		"<b>Kill Complex Form:</b><br>Test: Software + RES [Level] v. (Complex Form Level) + RES.<br>Use this action if you encounter another technomancer with a sustained complex form, and you want to end the complex form without that technomancer’s permission. Every net hit you get reduces the hits from the complex form’s Threading Test. If you reduce that number to zero, the complex form ends. Whenever you perform this action you must resist Fading as if you had threaded the complex form you targeted.",
+		
+		"<b>Thread Complex Form:</b><br>Test: Software + RES [Level] v. special.<br>When you thread a complex form, you choose a Level for the effect. The higher the Level, the stronger the effect, but also the more risky it is to do. You can choose a Level up to three times your RES rating. Some complex forms can be sustained through concentration, imposing a –2 dice pool penalty on all actions per complex form you’re sustaining. See the Resonance Library (pg. 252) for a list of complex forms."
         ]
     },
     {
