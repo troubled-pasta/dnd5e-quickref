@@ -6,11 +6,10 @@ data_complexaction = [
         description: "If astral perception is like sticking your face in a lake to peer below the surface, astral projection is diving right in.",
         reference: "SR5, pgs. 167, 313.",
         bullets: [
+		"<i>Only characters who are full Magicians can astrally project.</i>",
 		"A character capable of Astral Projection may shift their consciousness to the astral plane as a Complex Action (see p. 313).",
 		"Your body is in a coma-like state while your astral body is out in the aether. Your mind and body are still connected, so any damage taken to body or mind is felt by both.",
-		"As the saying goes, what’s cast in astral space stays in astral space, and ditto for physical space.",
-		"Only characters who are full Magicians can astrally project."
-         
+		"As the saying goes, what’s cast in astral space stays in astral space, and ditto for physical space."
         ]
     },
     {
