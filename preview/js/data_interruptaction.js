@@ -49,16 +49,16 @@ data_interruptaction = [
     },
     {
         title: "Full Matrix defense",
-        icon: "surrounded-shield",
+        icon: "shieldcomb",
         subtitle: "-10 Initiative Score",
-        description: "A character may choose to focus on deliberately avoiding incoming attacks as an Interrupt Action (see Defending in Combat, p. 188).",
-        reference: "SR5, pgs. 168, 188.",
+        description: "Full defense in the Matrix",
+        reference: "SR5, pg. 240.",
         bullets: [
-            "This action adds the character’s WIL to their Defense tests for the entire Combat Turn.",
-            "Full Defense actions may be taken at any time, even before the character’s Action Phase as an Interrupt Action, as long as the character is not surprised.",
-            "Characters may only go on Full Defense if they have enough Initiative Score left in that Combat Turn.",
-            "The bonus gained in this manner is kept until the end of the Combat Turn so a character can choose to fight defensively early in the round by decreasing their Initiative Score to increase their defense.",
-            "This bonus is also cumulative with other Interrupt Actions."
+            "<i>Marks reqired: N/A (Must be Owner)</i>.",
+            "This allows you to defend against Attack actions, and may be taken at any time.",
+            "Whenever you make a defense test against a Matrix Action, add your WIL to the dice pool (or add it again if it’s already in there)",
+            "When you take this action, your Initiative Score is reduced by 10, but the effects last for the rest of the Combat Turn."
+            
         ]
     },
     {
