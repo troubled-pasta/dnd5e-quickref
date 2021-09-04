@@ -155,7 +155,7 @@ data_simpleaction = [
             "You switch your perception from AR to VR or vice versa.",
             "Switching to VR causes your body to go limp, so don’t do it somewhere dangerous",
             "If you switch from VR to AR, you lose the bonus Initiative Dice from VR (Changing Initiative, p. 160).",
-            "If you’re link-locked (p. 229), you cannot switch interface modes."
+            "If you’re link-locked (p. 229), you cannot switch interface modes.",
             "You can only do this to yourself; you can’t switch other people’s interface mode."
         ]
     },
