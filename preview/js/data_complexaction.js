@@ -19,7 +19,7 @@ data_complexaction = [
         description: "A character may cast a spell as a Complex Action",
         reference: "SR5 pgs. 167, 281.",
         bullets: [
-		"Casting a spell involves some mental preparation and a Complex Action. Make a Spellcasting + MAG [Force] Test, including dice pool modifiers for injury, sustained spells, and so on."
+		"Casting a spell involves some mental preparation and a Complex Action. Make a Spellcasting + MAG [Force] Test, including dice pool modifiers for injury, sustained spells, and so on.",
 		"You need to be able to establish a link with your target—depending on the spell, you’ll need to be able to see or touch the target in order to establish the mystical link. Spellcasting by visual targeting is subject to normal visibility modifiers.",
 		"If you need to see the target, line of sight can be established with your natural vision. Cyber or bioware visual enhancements that have been paid for with Essence count as natural. Generated images of a target (via camera, electronic binoculars, matrix feeds, etc.) are not light from the real target and thus do not.",
 		"You might need to make an unarmed attack to make contact with an unwilling target of a touch-only spell. Touching a target through clothing, armor, or a layer of paint counts.",
@@ -54,23 +54,6 @@ data_complexaction = [
             "A driver spends a Complex Action when executing a maneuver that requires a Vehicle Test. Failed Vehicle Tests may result in the vehicle being considered uncontrolled or may lead to a second Vehicle Test to avoid a crash. Glitched Vehicle Tests almost always result in a crash. Critical Glitch Vehicle Tests always result in a crash.",
             "Movement is based on the movement rate of the vehicle as determined by its Speed rating on the table. The gamemaster should use their own discretion when determining just how quickly a car can change speeds between Combat Turns.",
             "<table><thead><tr><th>Speed</th><th>Walking Rate (meters/turn)</th><th>Running Rate (meters/turn)</th></tr></thead><tbody><tr><td>1</td><td>5</td><td>10</td></tr><tr><td>2</td><td>10</td><td>20</td></tr><tr><td>3</td><td>20</td><td>40</td></tr><tr><td>4</td><td>40</td><td>80</td></tr><tr><td>5</td><td>80</td><td>160</td></tr><tr><td>6</td><td>160</td><td>320</td></tr><tr><td>7</td><td>320</td><td>640</td></tr><tr><td>8</td><td>640</td><td>1280</td></tr><tr><td>9</td><td>1280</td><td>2560</td></tr><tr><td>10</td><td>2560</td><td>5120</td></tr></tbody></table>"
-        ]
-    },
-    {
-        title: "Delay Action",
-        icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "There are times when a player wants to see how others act and what happens before making their move; choosing to wait is called a Delayed Action.",
-        reference: "SR5, pg. 161.",
-        bullets: [
-            "A Delayed Action must be declared during Step 3A of the Combat Turn Sequence (see Declare Actions, p. 158). A player can declare a Delayed Action on any of his Initiative Passes and can continue to delay action until a later Initiative Pass.",
-            "When the character decides to act, they replace their normal Action Phase for that Initiative Pass with the Delayed Action and then act on an Initiative Score lower than their own.",
-            "During the Declare Actions part of that Initiative Pass, the character must declare that they are intervening at a specific Initiative Score. They can make that declaration when it is time for players with that score to act.",
-            "Characters who have a Delayed Action and intervene in this manner can choose to go before, after, or at the same time as a currently acting character who would normally take their action on that Initiative Score; any actions they take receive a –1 dice pool penalty.", 
-            "If multiple characters delay their actions until the same Initiative Score, they break the tie in the same manner as Initiative (p. 159).",
-            "Characters delaying an action in this manner keep their initial Initiative Score. If the character does not act before the end of the Initiative Pass, they incur the standard reduction of 10 at the end of the Initiative Pass.",
-            "Players can also decide to go after the last player’s Action Phase. As long as the character acts before that Initiative Pass ends and the next one begins, there is no problem.",
-            "A character can delay their action into the next Initiative Pass and be the first to act. They must still use their own Initiative Score to determine the Action Phases they have for the Combat Turn"
         ]
     },
     {
@@ -290,6 +273,23 @@ data_complexaction = [
         reference: "",
         bullets: [
             "“Use” entails activating a program, issuing detailed instructions, conducting an internal operation (such as copying files), driving the vehicle, and so on."
+        ]
+    },
+	{
+        title: "Delay Action",
+        icon: "stopwatch",
+        subtitle: "Choose trigger and action",
+        description: "There are times when a player wants to see how others act and what happens before making their move; choosing to wait is called a Delayed Action.",
+        reference: "SR5, pg. 161.",
+        bullets: [
+            "A Delayed Action must be declared during Step 3A of the Combat Turn Sequence (see Declare Actions, p. 158). A player can declare a Delayed Action on any of his Initiative Passes and can continue to delay action until a later Initiative Pass.",
+            "When the character decides to act, they replace their normal Action Phase for that Initiative Pass with the Delayed Action and then act on an Initiative Score lower than their own.",
+            "During the Declare Actions part of that Initiative Pass, the character must declare that they are intervening at a specific Initiative Score. They can make that declaration when it is time for players with that score to act.",
+            "Characters who have a Delayed Action and intervene in this manner can choose to go before, after, or at the same time as a currently acting character who would normally take their action on that Initiative Score; any actions they take receive a –1 dice pool penalty.", 
+            "If multiple characters delay their actions until the same Initiative Score, they break the tie in the same manner as Initiative (p. 159).",
+            "Characters delaying an action in this manner keep their initial Initiative Score. If the character does not act before the end of the Initiative Pass, they incur the standard reduction of 10 at the end of the Initiative Pass.",
+            "Players can also decide to go after the last player’s Action Phase. As long as the character acts before that Initiative Pass ends and the next one begins, there is no problem.",
+            "A character can delay their action into the next Initiative Pass and be the first to act. They must still use their own Initiative Score to determine the Action Phases they have for the Combat Turn"
         ]
     }
 ]
