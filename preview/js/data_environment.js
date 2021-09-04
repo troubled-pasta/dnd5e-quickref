@@ -2,24 +2,30 @@ data_environment_environmental = [
     {
         title: "Glare",
         icon: "eclipse-flare",
-        subtitle: "Glare-related penalties",
-        description: "Glare inflicts negative modifiers on some attack rolls. There are a variety of methods a runner can use to mitigate Glare modifiers",
-        reference: "SR5, pg. 173-176.",
+        subtitle: "Glare-based penalties",
+        description: "Glare inflicts negative modifiers on some attack rolls. There are a variety of methods a runner can use to mitigate Glare modifiers.",
+        reference: "SR5, pg. 175.",
         bullets: [
-            "<table><thead><tr><th>Glare</th><th>Modifier</th></tr></thead><tbody><tr><td>No Glare</td><td>0</td></tr><tr><td>Weak Glare</td><td>-1</td></tr><tr><td>Moderate Glare</td><td>-3</td></tr><tr><td>Blinding Glare</td><td>-6</td></tr></tbody></table>",
+            "<table><thead><tr><th>Glare</th><th>Modifier</th></tr></thead><tbody><tr><td>No Glare</td><td>None</td></tr><tr><td>Weak Glare</td><td>-1</td></tr><tr><td>Moderate Glare</td><td>-3</td></tr><tr><td>Blinding Glare</td><td>-6</td></tr></tbody></table>",
             "Two or more conditions (wind, range, etc.) at the -6 level incur a maximum penalty of -10.",
-            "Flare compensation reduces Glare modifiers by two categories, thermographic vision and sunglasses reduce Glare modifiers by one category.",
+            "Flare compensation reduces Glare modifiers by two categories (shift up on the modifier table), thermographic vision and sunglasses reduce Glare modifiers by one category.",
             "Ultrasound eliminates the penalty in any light conditions (but only within 50 meters)."
         ]
     },
     {
         title: "Light",
         icon: "double-street-lights",
-        subtitle: "",
-        description: "",
-        reference: "",
+        subtitle: "Light-based penalties",
+        description: "Poor lighting inflicts negative modifiers on some attack rolls. There are a variety of methods a runner can use to mitigate Light modifiers.",
+        reference: "SR5, pg. 175.",
         bullets: [
-            ""
+            "<table><thead><tr><th>Light</th><th>Modifier</th></tr></thead><tbody><tr><td>Full Light</td><td>None</td></tr><tr><td>Partial Light</td><td>-1</td></tr><tr><td>Dim Light</td><td>-3</td></tr><tr><td>Total Darkness</td><td>-6</td></tr></tbody></table>",
+            "Two or more conditions (wind, range, etc.) at the -6 level incur a maximum penalty of -10.",
+            "If a character has Low-Light Vision, treat Partial Light and Dim Light as Full Light.",
+            "Thermographic Vision reduces Light modifiers by one category (shift up on the modifier table).",
+            "Sunglasses <i>increase</i> Light modifiers by one category (shift down on the modifier table).",
+            "Ultrasound eliminates the penalty in any light conditions (but only within 50 meters)."
+            
         ]
     },
     {
