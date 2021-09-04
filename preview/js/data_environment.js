@@ -1,8 +1,8 @@
-data_environment_obscurance = [
+data_environment_environmental = [
     {
-        title: "Clear",
-        icon: "sight-disabled",
-        subtitle: "No Dice Pool Modifier",
+        title: "Light/Glare",
+        icon: "",
+        subtitle: "",
         description: "",
         reference: "",
         bullets: [
@@ -10,9 +10,9 @@ data_environment_obscurance = [
         ]
     },
     {
-        title: "Lightly obscured",
-        icon: "sight-disabled",
-        subtitle: "-1 Dice Pool Modifier",
+        title: "Range",
+        icon: "",
+        subtitle: "",
         description: "",
         reference: "",
         bullets: [
@@ -20,9 +20,9 @@ data_environment_obscurance = [
         ]
     },
     {
-        title: "Moderately obscured",
-        icon: "sight-disabled",
-        subtitle: "-3 Dice Pool Modifier",
+        title: "Recoil",
+        icon: "",
+        subtitle: "",
         description: "",
         reference: "",
         bullets: [
@@ -30,9 +30,19 @@ data_environment_obscurance = [
         ]
     },
     {
-        title: "Heavily obscured",
-        icon: "sight-disabled",
-        subtitle: "-6 Dice Pool Modifier",
+        title: "Visibility",
+        icon: "",
+        subtitle: "",
+        description: "",
+        reference: "",
+        bullets: [
+            ""
+        ]
+    },
+    {
+        title: "Wind",
+        icon: "",
+        subtitle: "",
         description: "",
         reference: "",
         bullets: [
@@ -41,11 +51,11 @@ data_environment_obscurance = [
     }
 ]
 
-data_environment_light = [
+data_environment_situational; = [
     {
-        title: "Full light",
-        icon: "star-pupil",
-        subtitle: "No Dice Pool Modifier",
+        title: "Blind fire",
+        icon: "",
+        subtitle: "",
         description: "",
         reference: "",
         bullets: [
@@ -53,9 +63,9 @@ data_environment_light = [
         ]
     },
     {
-        title: "Partial light",
-        icon: "semi-closed-eye",
-        subtitle: "-1 Dice Pool Modifier",
+        title: "Cover",
+        icon: "",
+        subtitle: "",
         description: "",
         reference: "",
         bullets: [
@@ -63,9 +73,9 @@ data_environment_light = [
         ]
     },
     {
-        title: "Dim light",
-        icon: "semi-closed-eye",
-        subtitle: "-3 Dice Pool Modifier",
+        title: "Moving",
+        icon: "",
+        subtitle: "",
         description: "",
         reference: "",
         bullets: [
@@ -73,9 +83,19 @@ data_environment_light = [
         ]
     },
     {
-        title: "Total Darkness",
-        icon: "worried-eyes",
-        subtitle: "-6 Dice Pool Modifier",
+        title: "Off-Handed Weapon",
+        icon: "",
+        subtitle: "",
+        description: "",
+        reference: "",
+        bullets: [
+            ""
+        ]
+    },
+    {
+        title: "Wounds",
+        icon: "",
+        subtitle: "",
         description: "",
         reference: "",
         bullets: [
@@ -83,7 +103,7 @@ data_environment_light = [
         ]
     }
 ]
-
+/*
 data_environment_glare = [
    {
         title: "No glare",
@@ -203,4 +223,4 @@ data_environment_cover = [
         ]
     }
 ]
-
+*/
