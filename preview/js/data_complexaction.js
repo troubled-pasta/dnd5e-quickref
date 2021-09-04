@@ -133,7 +133,7 @@ data_complexaction = [
 		
 		"<b>Erase Matrix/Resonance Signature:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Computer + RES [Attack] v. (Signature Rating) x 2.<br>You eradicate a Matrix signature that has been left by a Resonance being, such as a technomancer or a sprite. If successful, the signature dissipates. <i>You need to have a Resonance rating to attempt this action.</i>",
 		
-		"<b>Set Data Bomb:</b> (Illegal) <i>Marks reqired: 1</i><br>Test: Software + LOG [Sleaze] v. (Device Rating x 2).<br>You set a Data Bomb in a file. When you do, choose the rating of the Data Bomb, up to the net hits on your test. You also need to choose whether or not the Data Bomb will delete the file to which it is attached when activated, and you need to program the passcode required to deactivate it.",
+		"<b>Set Data Bomb:</b> (Illegal) <i>Marks reqired: 1</i><br>Test: Software + LOG [Sleaze] v. (Device Rating) x 2.<br>You set a Data Bomb in a file. When you do, choose the rating of the Data Bomb, up to the net hits on your test. You also need to choose whether or not the Data Bomb will delete the file to which it is attached when activated, and you need to program the passcode required to deactivate it.",
 		
 		"<b>Disarm Data Bomb:</b> <i>Marks reqired: 0</i><br>Test: Software + INT [Firewall] v. (Data Bomb Rating) x 2.<br> If you score any net hits, the Data Bomb is removed and deleted. If not, the Data Bomb activates, causing its damage and possibly destroying any file to which it was attached."
         ]
@@ -166,11 +166,16 @@ data_complexaction = [
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
 		"<i>All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
-		"<b>Crack File:</b> (Illegal)<br>On a succsessful Hacking + LOG [Attack] v. Protection Rating x 2 Test, you remove the protection from a file, making it readable.",
-		"<b>Hack on the Fly:</b> (Illegal)<br> You can use this action to mark a target without getting the normal permissions. When targeting an icon, you put one mark on it (max. 3/icon). Every 2 full net hits counts as 1 hit on a Matrix Perception Test, so you can get some info along with your mark. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt and a –10 dice pool penalty for three. You can also use this action to hop to a grid for which you don’t have legitimate access. The defense dice pool is 4 dice for a local grid or 6 dice for a global grid. If you succeed you hop to that grid immediately. Unsuccessfully using Hack on the Fly to hop grids doesn’t alert the grid or its demiGOD.",
-		"<b>Snoop:</b> (Illegal)<br>",
-		"<b>Spoof Command:</b> (Illegal)<br>",
-		"<b>Trace Icon:</b> "
+		
+		"<b>Crack File:</b> (Illegal) <i>Marks reqired: 1</i><br>On a succsessful Hacking + LOG [Attack] v. Protection Rating x 2 Test, you remove the protection from a file, making it readable.",
+		
+		"<b>Hack on the Fly:</b> (Illegal) <i>Marks reqired: 0</i><br> You can use this action to mark a target without getting the normal permissions. When targeting an icon, you put one mark on it (max. 3/icon). Every 2 full net hits counts as 1 hit on a Matrix Perception Test, so you can get some info along with your mark. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt and a –10 dice pool penalty for three. You can also use this action to hop to a grid for which you don’t have legitimate access. The defense dice pool is 4 dice for a local grid or 6 dice for a global grid. If you succeed you hop to that grid immediately. Unsuccessfully using Hack on the Fly to hop grids doesn’t alert the grid or its demiGOD.",
+		
+		"<b>Snoop:</b> (Illegal) <i>Marks reqired: 1</i><br>Test: Electronic Warfare + INT [Sleaze] v. LOG + Firewall.<br>This action lets you intercept Matrix traffic sent to and from your target for as long as you have the target marked. You can listen to, view, or read this data live, or you can save it for later playback/viewing if you have something to store it on (your deck will do).",
+		
+		"<b>Spoof Command:</b> (Illegal) <i>Marks reqired: 1</i><br>Test: Electronic Warfare + INT [Sleaze] v. LOG + Firewall.<br>You spoof a device’s owner’s identity, making the device think that your command is a legitimate one from its owner. You need one mark on the icon you are imitating; you do not need a mark on the target. The opposing dice roll is still based on the target.",
+		
+		"<b>Trace Icon:</b> <i>Marks reqired: 2</i><br>Test: Computer + INT [Data Processing] v. WIL + Sleaze<br>After succeeding with this action, you know the target’s location for as long as you have at least one mark on the target."
         ]
     },
     {
