@@ -145,7 +145,7 @@ data_complexaction = [
 		
 		"<b>Format Device:</b> (Illegal) <i>Marks reqired: 3</i><br>Test: Computer + LOG [Sleaze] v. WIL + Firewall.<br>You rewrite the boot code for the device. The next time it would reboot, it instead shuts down for good, or until its software can be replaced (an Extended Software + LOG [Mental] (12, 1 hour) Test).",
 		
-		"<b>Garbage In/Garbage Out:</b> (Illegal) <i>Marks reqired: 3</i><br>Test: Software + LOG [Sleaze] v. LOG + Firewall.<br>This allows a decker to “cross the wires” of a single device, confusing its input and output commands. Only a single input can be changed to correspond to a single output. Gamemasters have final say in what can and cannot be reprogrammed, but the rule of thumb should be “a single keystroke” of activity or the inversion of a binary relationship —e.g. the “friend/foe” recognition program in a smart safety system. Rebooting the device restores the code to its proper state.",
+		"<b>Garbage In/Garbage Out:</b> (Illegal) <i>Marks reqired: 3</i><br>Test: Software + LOG [Sleaze] v. LOG + Firewall.<br>This allows a decker to “cross the wires” of a single device, confusing its input and output commands. Only a single input can be changed to correspond to a single output.",
 		
 		"<b>Reboot Device:</b> <i>Marks reqired: 3</i><br>Test: Computer + LOG [Data Processing] v. WIL + Firewall.<br>The device on which this action is performed shuts down and immediately reboots. The device comes back online at the end of the following Combat Turn.",
 		
