@@ -91,7 +91,7 @@ data_simpleaction = [
         description: "You change the target’s icon to one that you have a copy of or have designed yourself.",
         reference: "SR5, pg. 164.",
         bullets: [
-            "<i>Marks reqired: N/A (Must be Owner)</i>.",
+            "<i>Marks required: N/A (Must be Owner)</i>.",
             "Changing an icon doesn’t change the results of a Matrix Perception action, but might fool personas who don’t take the time to inspect your new look.",
             "You can target your own icon, if you so choose."
         ]
@@ -103,7 +103,7 @@ data_simpleaction = [
         description: "Find out how close the grid is to converging on you.",
         reference: "SR5, pg. 238.",
         bullets: [
-            "(Illegal) <i>Marks reqired: 0</i><br>Test: Electronic Warfare + LOG [Sleaze] v. 6 dice.",
+            "(Illegal) <i>Marks required: 0</i><br>Test: Electronic Warfare + LOG [Sleaze] v. 6 dice.",
             "Checking the Overwatch Score (OS) is a Sleaze action, so the defense against it will add to your OS.",
             "If you succeed, the gamemaster tells you what your OS was when you started the action, then increases it by the hits from the defending dice pool."
         ]
@@ -115,7 +115,7 @@ data_simpleaction = [
         description: "If you’re the owner of a device, file, persona, host, or IC program, you can offer other icons the opportunity to put a mark on your device, file, etc.",
         reference: "SR5, pg. 240.",
         bullets: [
-            "<i>Marks reqired: N/A (Must be Owner)</i>.",
+            "<i>Marks required: N/A (Must be Owner)</i>.",
             "When you make the offer, you choose the number of marks allowed, their duration, and how long the offer stands. The invitee can then mark your icon with a Free Action.",
             "You may revoke your offer at any time before the mark is placed, but once another icon has a mark, you need to either use the Erase Mark action or reboot your device to remove it before the duration you chose expires."
         ]
@@ -127,7 +127,7 @@ data_simpleaction = [
         description: "This jacks you out of the Matrix and reboots the device you are using",
         reference: "SR5, pg. 240.",
         bullets: [
-            "<i>Marks reqired: N/A (Must be Owner)</i><br>Test: Hardware + WIL [Firewall] v. LOG + Attack.",
+            "<i>Marks required: N/A (Must be Owner)</i><br>Test: Hardware + WIL [Firewall] v. LOG + Attack.",
             "You suffer dumpshock if you were in VR.",
             "The defense pool only applies if you’ve been link-locked (p. 229) by someone; the test is against the icon that locked your link. If more than one persona has you link-locked, you need to beat each of them individually: use a single roll and compare your hits to rolls from each opponent who had established a link-lock.",
             "You can only jack out yourself. You can’t dump other people except by beating them into submission through Matrix damage."
@@ -140,7 +140,7 @@ data_simpleaction = [
         description: "You send a text or audio message the length of a short sentence, an image, or a file via the Matrix to a user whose commcode you have.",
         reference: "SR5, pg. 242.",
         bullets: [
-            "<i>Marks reqired: N/A (With commcode) or 1</i>",
+            "<i>Marks required: N/A (With commcode) or 1</i>",
             "If you’re using the Matrix through a DNI, even if you’re in AR, you can send longer and more complicated messages, about a paragraph worth of text.",
             "You can also use this action to open a live feed to one or more recipients, using any digital recording devices you have."
         ]
