@@ -63,8 +63,8 @@ function init() {
     fill_section(data_freeaction, "basic-free-actions", "Free Action");
     fill_section(data_interruptaction, "basic-interrupt-actions", "Interrupt Action");
     fill_section(data_condition, "basic-conditions", "Condition");
-    fill_section(data_environment_environmental, "environment-environmental", "Environment");
-    fill_section(data_environment_situational, "environment-situational", "Environment");
+    fill_section(data_environment_environmental, "environment-environmental", "Environmental Modifier");
+    fill_section(data_environment_situational, "environment-situational", "Situational Modifier");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
