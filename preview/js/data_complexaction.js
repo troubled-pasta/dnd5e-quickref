@@ -9,7 +9,8 @@ data_complexaction = [
 		"<i>Only characters who are full Magicians can astrally project.</i>",
 		"A character capable of Astral Projection may shift their consciousness to the astral plane as a Complex Action (see p. 313).",
 		"Your body is in a coma-like state while your astral body is out in the aether. Your mind and body are still connected, so any damage taken to body or mind is felt by both.",
-		"As the saying goes, what’s cast in astral space stays in astral space, and ditto for physical space."
+		"As the saying goes, what’s cast in astral space stays in astral space, and ditto for physical space.",
+		"Unarmed astral attacks are an performed through an Opposed Astral Combat + WIL [Astral] v. INT + LOG Test. Astral attacks with a weapon focus are an Opposed Astral Combat + WIL [Accuracy] v. INT + LOG Test. Base Damage Values are listed on the Astral Damage Table; add 1 to the DV per net hit on an attack."
         ]
     },
     {
@@ -24,8 +25,7 @@ data_complexaction = [
 		"If you need to see the target, line of sight can be established with your natural vision. Cyber or bioware visual enhancements that have been paid for with Essence count as natural. Generated images of a target (via camera, electronic binoculars, matrix feeds, etc.) are not light from the real target and thus do not.",
 		"You might need to make an unarmed attack to make contact with an unwilling target of a touch-only spell. Touching a target through clothing, armor, or a layer of paint counts.",
 		"You must declare the Force at which to cast the spell. The Force acts as a limit on the spell. Higher Force spells are more powerful, but cause more Drain. You can cast a spell at a Force up to twice your MAG rating.",
-		"If the number of hits (not net hits) you get after applying the limit exceeds your MAG rating, the spell’s Drain is Physical instead of Stun damage.",
-		"Unarmed astral attacks are an performed through an Opposed Astral Combat + WIL [Astral] v. INT + LOG Test. Astral attacks with a weapon focus are an Opposed Astral Combat + WIL [Accuracy] v. INT + LOG Test. Base Damage Values are listed on the Astral Damage Table; add 1 to the DV per net hit on an attack."
+		"If the number of hits (not net hits) you get after applying the limit exceeds your MAG rating, the spell’s Drain is Physical instead of Stun damage."
         ]
     },
 	{
