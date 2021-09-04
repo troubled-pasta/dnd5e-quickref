@@ -60,7 +60,7 @@ data_freeaction = [
         ]
     },
     {
-        title: "Matrix: Load/Unload Program",
+        title: "Matrix: Load/Unload program",
         icon: "save",
         subtitle: "Run programs on your deck",
         description: "Programs (technically cybeprograms if they’re for the Matrix) are files you can run on your deck. While a program is running, it makes your deck better or gives you more utility.",
@@ -74,7 +74,7 @@ data_freeaction = [
         ]
     },
     {
-        title: "Matrix: Reconfigure Deck",
+        title: "Matrix: Reconfigure deck",
         icon: "tinker",
         subtitle: "Swap deck attributes/programs",
         description: "Either through using the Configuration cyberprograms or simply swapping cyberprograms or Matrix attributes, reconfiguring your persona can mean the difference between life and death on the ever-changing battlefields of the Matrix.",
