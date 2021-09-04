@@ -110,8 +110,11 @@ data_complexaction = [
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
 		"<i>All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
+		
 		"<b>Crash Program:</b> (Illegal) <i>Marks reqired: 1</i><br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You overload part of your target’s memory and scramble one of its running programs. You need to specify which program you’re trying to crash. If you succeed, the program ends and cannot be restarted until the device it was running on is rebooted.",
+		
 		"<b>Data Spike:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You send harmful instructions to a persona or device, causing Matrix damage to the target. The DV is equal to the rating of your Attack program, with 1 additional box of damage per net hit, and 2 additional boxes of damage for each mark you have on the target.",
+		
 		"<b>Brute Force:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Cybercombat + LOG [Attack] v. WIL + Firewall.<br>This action allows you to mark a target without obtaining the permissions to do so. If you succeed in this action, you place one mark. You can have up to a maximum of three marks per icon.If the target can take Matrix damage you may also inflict 1 DV of Matrix damage to the target for every two full net hits, which is resisted with the target’s Device Rating + Firewall. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt. If you try for three marks in a single swipe, you take a –10 dice pool penalty."
 	]
     },
@@ -126,7 +129,7 @@ data_complexaction = [
 		
 		"<b>Edit File:</b> <i>Marks reqired: 1</i><br>Test: Computer + LOG [Data Processing] v. INT + Firewall.<br>Create, change, copy, delete, or protect any kind of file. The defender is either the host holding the file or the owner of the file. Each action is enough to alter one detail of a file—a short paragraph of text, a single detail of an image, two or three seconds of video or audio, etc. (GM discretion). A continuous edit requires you to perform this action once per Combat Turn until the edit is completed.",
 		
-		"<b>Erase Mark:</b> (Illegal) <i>Marks reqired: 1</i><br>Test: Computer + LOG [Attack] v. WIL + Firewall.<br>To perform this action, you need three marks on the icon you are erasing another mark from. You do not need a mark on the icon that placed the mark initially. You can try to erase two marks in the same action at a –4 dice pool penalty, and three marks in one go at a –10.",
+		"<b>Erase Mark:</b> (Illegal) <i>Marks reqired: 3</i><br>Test: Computer + LOG [Attack] v. WIL + Firewall.<br>To perform this action, you need three marks on the icon you are erasing another mark from. You do not need a mark on the icon that placed the mark initially. You can try to erase two marks in the same action at a –4 dice pool penalty, and three marks in one go at a –10.",
 		
 		"<b>Erase Matrix/Resonance Signature:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Computer + RES [Attack] v. (Signature Rating) x 2.<br>You eradicate a Matrix signature that has been left by a Resonance being, such as a technomancer or a sprite. If successful, the signature dissipates. <i>You need to have a Resonance rating to attempt this action.</i>",
 		
@@ -143,11 +146,16 @@ data_complexaction = [
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
 		"<i>All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
-		"<b>Control Device:</b><br>Test: (as action) [Data Processing (or special)] v. (as action) or Electronic Warfare + INT [Sleaze] v. INT + Firewall.<br>You perform an action through a device you sufficiently control using your commlink or deck. Any test you make using this action uses the rating of the appropriate skill and attribute you would use if you were performing the action normally.",
-		"<b>Format Device:</b> (Illegal)<br>You rewrite the boot code for the device. The next time it would reboot, it instead shuts down for good, or until its software can be replaced (an Extended Software + LOG [Mental] (12, 1 hour) Test).",
-		"<b>Reboot Device:</b><br>The device on which this action is performed shuts down and immediately reboots. The device comes back online at the end of the following Combat Turn.",
-		"<b>Jam Signals:</b> (Illegal)<br>",
-		"<b>Jump Into Rigged Device:</b> ",
+		
+		"<b>Control Device:</b> <i>Marks reqired: Varies</i><br>Test: (as action) [Data Processing (or special)] v. (as action) or Electronic Warfare + INT [Sleaze] v. INT + Firewall.<br>You perform an action through a device you sufficiently control using your commlink or deck. Any test you make using this action uses the rating of the appropriate skill and attribute you would use if you were performing the action normally.",
+		
+		"<b>Format Device:</b> (Illegal) <i>Marks reqired: 3</i><br>You rewrite the boot code for the device. The next time it would reboot, it instead shuts down for good, or until its software can be replaced (an Extended Software + LOG [Mental] (12, 1 hour) Test).",
+		
+		"<b>Reboot Device:</b> <i>Marks reqired: 3</i><br>The device on which this action is performed shuts down and immediately reboots. The device comes back online at the end of the following Combat Turn.",
+		
+		"<b>Jam Signals:</b> (Illegal) <i>Must be owner</i><br>This action turns the wireless device you are using into a local jammer. As long as you do not use the device for any further Matrix actions, the device adds any hits you get to the noise rating for all Matrix actions within 100m.",
+		
+		"<b>Jump Into Rigged Device:</b> <i>Marks reqired: 3</i><br>You jump into a device that has a rigger adaptation. In order to jump into a device, you need 3 marks on the device, you have to be in VR, the device you want to jump into has to have a rigger adaptation and you have to have a control rig. If you are the device’s owner, or the device’s owner has given you permission to jump into the device, you don’t need to make a test. You cannot attempt this action if the device is already occupied."
         ]
     },
     {
