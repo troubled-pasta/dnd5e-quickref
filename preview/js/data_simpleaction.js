@@ -96,7 +96,7 @@ data_simpleaction = [
     },
     {
         title: "Matrix: Check Overwatch",
-        icon: "speedometer",
+        icon: "eye-target",
         subtitle: "subtitle",
         description: "description",
         reference: "SR5, pg. 164.",
@@ -106,7 +106,7 @@ data_simpleaction = [
     },
     {
         title: "Matrix: Invite mark",
-        icon: "",
+        icon: "arrow-scope",
         subtitle: "subtitle",
         description: "description",
         reference: "SR5, pg. 164.",
