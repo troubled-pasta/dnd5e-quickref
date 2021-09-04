@@ -60,6 +60,30 @@ data_freeaction = [
         ]
     },
     {
+        title: "Load/Unload Program",
+        icon: "save",
+        subtitle: "Run programs on your deck",
+        description: "Programs (technically cybeprograms if they’re for the Matrix) are files you can run on your deck. While a program is running, it makes your deck better or gives you more utility.",
+        reference: "SR5, pg. 243.",
+        bullets: [
+            "You can’t run more than one program of the same type on your deck at once (and no, changing the name of one copy of a program to run two copies doesn’t work, chummer).",
+            "You get the benefit of a program while it is running on your deck; as soon as you end it or swap it out for another program, it stops providing those benefits",
+            "Your running programs appear as icons connected to your persona. As with all icons in the Matrix, the actual look of the program is customizable, but its look is generally tied to its purpose",
+            "Programs come in two categories. Common programs are ones that are pretty harmless and available most everywhere for hobbyists and Matrix professionals. Hacking programs are more dangerous and illegal to buy, own, or use without a license. See pg. 245-246 for a list of programs."
+            
+        ]
+    },
+    {
+        title: "Reconfigure Deck",
+        icon: "tinker",
+        subtitle: "Use gestures to communicate",
+        description: "A character may communicate with a few quick gestures as a Free Action.",
+        reference: "SR5, pg. 164.",
+        bullets: [
+            "Characters unfamiliar with the gestures may make an INT (2) Test to determine what the gesture means."
+        ]
+    },
+    {
         title: "Multiple attacks",
         icon: "two-shadows",
         subtitle: "Attack multiple targets",
