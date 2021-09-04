@@ -51,7 +51,7 @@ data_environment_environmental = [
     }
 ]
 
-data_environment_situational; = [
+data_environment_situational = [
     {
         title: "Blind fire",
         icon: "",
