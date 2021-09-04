@@ -134,7 +134,7 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Matrix: Send Message",
+        title: "Matrix: Send message",
         icon: "talk",
         subtitle: "Send information to a commcode",
         description: "You send a text or audio message the length of a short sentence, an image, or a file via the Matrix to a user whose commcode you have.",
@@ -159,7 +159,7 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Observe In Detail",
+        title: "Observe in detail",
         icon: "magnifying-glass",
         subtitle: "Make a Perception test",
         description: "Devote your attention to observing something.",
@@ -230,7 +230,7 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Shift Perception",
+        title: "Shift perception",
         icon: "gaze",
         subtitle: "Shift to and from Astral Space",
         description: "Shift your Perception to and from the Astral Plane",
@@ -239,7 +239,7 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Take Aim",
+        title: "Take aim",
         icon: "targeting",
         subtitle: "Add a +1 modifier to the Attack test",
         description: "A character may take aim with a ready firearm, bow, or throwing weapon as a Simple Action.",
@@ -252,7 +252,7 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Take Cover",
+        title: "Take cover",
         icon: "guarded-tower",
         subtitle: "Increase your defense",
         description: "A character may use this Simple Action to gain a cover bonus to their defense test.",
@@ -273,7 +273,7 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Use Sensors (Vehicle)",
+        title: "Use sensors (Vehicle)",
         icon: "radar-sweep",
         subtitle: "Detect or lock on to targets",
         description: "A driver or passenger may use sensors to detect or lock onto targets.",
@@ -283,7 +283,7 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Use Simple Object",
+        title: "Use simple object",
         icon: "lever",
         subtitle: "Use a simple object/device",
         description: "A character can use any simple device with a Simple Action.",
