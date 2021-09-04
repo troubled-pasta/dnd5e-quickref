@@ -17,10 +17,10 @@ data_complexaction = [
         title: "Cast a spell",
         icon: "magic-swirl",
         subtitle: "Cast a spell as a mage or adept",
-        description: "A character may cast a spell as a Complex Action",
+        description: "Casting a spell involves some mental preparation and a Complex Action.",
         reference: "SR5 pgs. 167, 281.",
         bullets: [
-		"Casting a spell involves some mental preparation and a Complex Action. Make a Spellcasting + MAG [Force] Test, including dice pool modifiers for injury, sustained spells, and so on.",
+		"Make a Spellcasting + MAG [Force] Test, including dice pool modifiers for injury, sustained spells, and so on.",
 		"You need to be able to establish a link with your target—depending on the spell, you’ll need to be able to see or touch the target in order to establish the mystical link. Spellcasting by visual targeting is subject to normal visibility modifiers.",
 		"If you need to see the target, line of sight can be established with your natural vision. Cyber or bioware visual enhancements that have been paid for with Essence count as natural. Generated images of a target (via camera, electronic binoculars, matrix feeds, etc.) are not light from the real target and thus do not.",
 		"You might need to make an unarmed attack to make contact with an unwilling target of a touch-only spell. Touching a target through clothing, armor, or a layer of paint counts.",
