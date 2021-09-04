@@ -209,7 +209,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Melee/Unarmed Attack",
+        title: "Melee/Unarmed attack",
         icon: "spiked-bat",
         subtitle: "Melee attack",
         description: "A character may make a melee attack by taking a Complex Action (see Melee Combat, p. 184)",
@@ -280,7 +280,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Use Skill",
+        title: "Use skill",
         icon: "skills",
         subtitle: "Use an appropriate skill",
         description: "A character may use an appropriate skill by taking a Complex Action (see Using Skills, p. 128)",
@@ -290,7 +290,7 @@ data_complexaction = [
         ]
     },
     {
-        title: "Use Complex Object",
+        title: "Use complex object",
         icon: "circuitry",
         subtitle: "Interact with complex objects",
         description: "A character may operate a complex object, such as a computer, vehicle, mechanical tool, and so on, by taking a Complex Action.",
