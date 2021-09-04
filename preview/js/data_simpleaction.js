@@ -87,61 +87,76 @@ data_simpleaction = [
     {
         title: "Matrix: Change icon",
         icon: "molecule",
-        subtitle: "subtitle",
-        description: "description",
+        subtitle: "Change a target's icon",
+        description: "You change the target’s icon to one that you have a copy of or have designed yourself.",
         reference: "SR5, pg. 164.",
         bullets: [
-            ""
+            "<i>Marks reqired: N/A (Must be Owner)</i>.",
+            "Changing an icon doesn’t change the results of a Matrix Perception action, but might fool personas who don’t take the time to inspect your new look.",
+            "You can target your own icon, if you so choose."
         ]
     },
     {
         title: "Matrix: Check Overwatch",
-        icon: "eye-target",
-        subtitle: "subtitle",
-        description: "description",
-        reference: "SR5, pg. 164.",
+        icon: "paranoia",
+        subtitle: "Check your Overwatch Score",
+        description: "Find out how close the grid is to converging on you.",
+        reference: "SR5, pg. 238.",
         bullets: [
-            ""
+            "(Illegal) <i>Marks reqired: 0</i><br>Test: Electronic Warfare + LOG [Sleaze] v. 6 dice.",
+            "Checking the Overwatch Score (OS) is a Sleaze action, so the defense against it will add to your OS.",
+            "If you succeed, the gamemaster tells you what your OS was when you started the action, then increases it by the hits from the defending dice pool."
         ]
     },
     {
         title: "Matrix: Invite mark",
-        icon: "arrow-scope",
-        subtitle: "subtitle",
-        description: "description",
-        reference: "SR5, pg. 164.",
+        icon: "crosshair-arrow",
+        subtitle: "Allow marks to be placed on you",
+        description: "If you’re the owner of a device, file, persona, host, or IC program, you can offer other icons the opportunity to put a mark on your device, file, etc.",
+        reference: "SR5, pg. 240.",
         bullets: [
-            ""
+            "<i>Marks reqired: N/A (Must be Owner)</i>.",
+            "When you make the offer, you choose the number of marks allowed, their duration, and how long the offer stands. The invitee can then mark your icon with a Free Action.",
+            "You may revoke your offer at any time before the mark is placed, but once another icon has a mark, you need to either use the Erase Mark action or reboot your device to remove it before the duration you chose expires."
         ]
     },
     {
         title: "Matrix: Jack out",
         icon: "jack-plug",
-        subtitle: "subtitle",
-        description: "description",
-        reference: "SR5, pg. 164.",
+        subtitle: "Jack out of the matrix",
+        description: "This jacks you out of the Matrix and reboots the device you are using",
+        reference: "SR5, pg. 240.",
         bullets: [
-            ""
+            "<i>Marks reqired: N/A (Must be Owner)</i><br>Test: Hardware + WIL [Firewall] v. LOG + Attack.",
+            "You suffer dumpshock if you were in VR.",
+            "The defense pool only applies if you’ve been link-locked (p. 229) by someone; the test is against the icon that locked your link. If more than one persona has you link-locked, you need to beat each of them individually: use a single roll and compare your hits to rolls from each opponent who had established a link-lock.",
+            "You can only jack out yourself. You can’t dump other people except by beating them into submission through Matrix damage."
         ]
     },
     {
         title: "Matrix: Send Message",
         icon: "talk",
-        subtitle: "subtitle",
-        description: "description",
-        reference: "SR5, pg. 164.",
+        subtitle: "Send information to a commcode",
+        description: "You send a text or audio message the length of a short sentence, an image, or a file via the Matrix to a user whose commcode you have.",
+        reference: "SR5, pg. 242.",
         bullets: [
-            ""
+            "<i>Marks reqired: N/A (With commcode) or 1</i>",
+            "If you’re using the Matrix through a DNI, even if you’re in AR, you can send longer and more complicated messages, about a paragraph worth of text.",
+            "You can also use this action to open a live feed to one or more recipients, using any digital recording devices you have."
         ]
     },
     {
         title: "Matrix: Switch interface mode",
-        icon: "resize",
-        subtitle: "subtitle",
+        icon: "vr-headset",
+        subtitle: "Switch between AR and VR",
         description: "description",
         reference: "SR5, pg. 164.",
         bullets: [
-            ""
+            "You switch your perception from AR to VR or vice versa.",
+            "Switching to VR causes your body to go limp, so don’t do it somewhere dangerous",
+            "If you switch from VR to AR, you lose the bonus Initiative Dice from VR (Changing Initiative, p. 160).",
+            "If you’re link-locked (p. 229), you cannot switch interface modes."
+            "You can only do this to yourself; you can’t switch other people’s interface mode."
         ]
     },
     {
