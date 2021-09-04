@@ -84,7 +84,7 @@ data_environment_situational = [
     },
     {
         title: "Moving",
-        icon: "run",
+        icon: "journey",
         subtitle: "",
         description: "",
         reference: "",
