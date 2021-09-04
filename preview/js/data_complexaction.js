@@ -106,11 +106,9 @@ data_complexaction = [
         title: "Matrix: Combat",
         icon: "microscope-lens",
         subtitle: "Cybercombat",
-        description: "A character may perform most Matrix actions with a Complex Action.",
+        description: "All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).",
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
-		"<i>All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
-		
 		"<b>Crash Program:</b> (Illegal) <i>Marks reqired: 1</i><br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You overload part of your target’s memory and scramble one of its running programs. You need to specify which program you’re trying to crash. If you succeed, the program ends and cannot be restarted until the device it was running on is rebooted.",
 		
 		"<b>Data Spike:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You send harmful instructions to a persona or device, causing Matrix damage to the target. The DV is equal to the rating of your Attack program, with 1 additional box of damage per net hit, and 2 additional boxes of damage for each mark you have on the target.",
@@ -122,11 +120,9 @@ data_complexaction = [
         title: "Matrix: Data",
         icon: "files",
         subtitle: "Alter or destroy data",
-        description: "A character may perform most Matrix actions with a Complex Action.",
+        description: "All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).",
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
-		"<i>All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
-		
 		"<b>Edit File:</b> <i>Marks reqired: 1</i><br>Test: Computer + LOG [Data Processing] v. INT + Firewall.<br>Create, change, copy, delete, or protect any kind of file. The defender is either the host holding the file or the owner of the file. Each action is enough to alter one detail of a file—a short paragraph of text, a single detail of an image, two or three seconds of video or audio, etc. (GM discretion). A continuous edit requires you to perform this action once per Combat Turn until the edit is completed.",
 		
 		"<b>Erase Mark:</b> (Illegal) <i>Marks reqired: 3</i><br>Test: Computer + LOG [Attack] v. WIL + Firewall.<br>To perform this action, you need three marks on the icon you are erasing another mark from. You do not need a mark on the icon that placed the mark initially. You can try to erase two marks in the same action at a –4 dice pool penalty, and three marks in one go at a –10.",
@@ -142,11 +138,9 @@ data_complexaction = [
         title: "Matrix: Devices",
         icon: "wifi-router",
         subtitle: "Control devices",
-        description: "A character may perform most Matrix actions with a Complex Action.",
+        description: "All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).",
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
-		"<i>All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
-		
 		"<b>Control Device:</b> <i>Marks reqired: Varies</i><br>Test: (as action) [Data Processing (or special)] v. (as action) or Electronic Warfare + INT [Sleaze] v. INT + Firewall.<br>You perform an action through a device you sufficiently control using your commlink or deck. Any test you make using this action uses the rating of the appropriate skill and attribute you would use if you were performing the action normally.",
 		
 		"<b>Format Device:</b> (Illegal) <i>Marks reqired: 3</i><br>Test: Computer + LOG [Sleaze] v. WIL + Firewall.<br>You rewrite the boot code for the device. The next time it would reboot, it instead shuts down for good, or until its software can be replaced (an Extended Software + LOG [Mental] (12, 1 hour) Test).",
@@ -162,14 +156,13 @@ data_complexaction = [
         title: "Matrix: Hacking",
         icon: "computing",
         subtitle: "Hack into things",
-        description: "A character may perform most Matrix actions with a Complex Action.",
+        description: "All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).",
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
-		"<i>All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
 		
-		"<b>Crack File:</b> (Illegal) <i>Marks reqired: 1</i><br>On a succsessful Hacking + LOG [Attack] v. Protection Rating x 2 Test, you remove the protection from a file, making it readable.",
+		"<b>Crack File:</b> (Illegal) <i>Marks reqired: 1</i><br>Test: Hacking + LOG [Attack] v. (Protection Rating) x 2.<br>If you are successful on the test, you remove the protection from a file, making it readable.",
 		
-		"<b>Hack on the Fly:</b> (Illegal) <i>Marks reqired: 0</i><br> You can use this action to mark a target without getting the normal permissions. When targeting an icon, you put one mark on it (max. 3/icon). Every 2 full net hits counts as 1 hit on a Matrix Perception Test, so you can get some info along with your mark. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt and a –10 dice pool penalty for three. You can also use this action to hop to a grid for which you don’t have legitimate access. The defense dice pool is 4 dice for a local grid or 6 dice for a global grid. If you succeed you hop to that grid immediately. Unsuccessfully using Hack on the Fly to hop grids doesn’t alert the grid or its demiGOD.",
+		"<b>Hack on the Fly:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Hacking + LOG [Sleaze] v. INT + Firewall<br>You can use this action to mark a target without getting the normal permissions. When targeting an icon, you put one mark on it (max. 3/icon). Every 2 full net hits counts as 1 hit on a Matrix Perception Test, so you can get some info along with your mark. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt and a –10 dice pool penalty for three. You can also use this action to hop to a grid for which you don’t have legitimate access. The defense dice pool is 4 dice for a local grid or 6 dice for a global grid. If you succeed you hop to that grid immediately. Unsuccessfully using Hack on the Fly to hop grids doesn’t alert the grid or its demiGOD.",
 		
 		"<b>Snoop:</b> (Illegal) <i>Marks reqired: 1</i><br>Test: Electronic Warfare + INT [Sleaze] v. LOG + Firewall.<br>This action lets you intercept Matrix traffic sent to and from your target for as long as you have the target marked. You can listen to, view, or read this data live, or you can save it for later playback/viewing if you have something to store it on (your deck will do).",
 		
@@ -182,10 +175,9 @@ data_complexaction = [
         title: "Matrix: Navigation",
         icon: "molecule",
         subtitle: "Move through the Matrix",
-        description: "A character may perform most Matrix actions with a Complex Action.",
+        description: "All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).",
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
-		"<i>All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
 		"<b>Enter/Exit Host:</b> You enter a host that you have a mark on and your icon appears there, or you leave a host you’re already in. A host allows anyone to enter if they’ve got a mark. The host might not be so welcoming once you’re inside, of course, and some IC has the ability to keep you trapped in a host until you can break out.",
 		"<b>Grid Hop:</b> To do this, you must have access to your destination grid. If you do not have access, you can use Brute Force or Hack on the Fly to hop to another grid illegally. If you’re inside a host, you need to leave the host before you can hop to another grid.",
 		"<b>Hide:</b> (Illegal)<br>You can use this action to make a target lose you. If you succeed, the target stops spotting you and needs to perform a new Matrix Perception action against you if it wants to find you again. You can’t hide from an icon that has a mark on you, so you’ll need to clear those before you can try this action.",
@@ -197,10 +189,9 @@ data_complexaction = [
         title: "Matrix: Sprites",
         icon: "nano-bot",
         subtitle: "Interact with sprites",
-        description: "A character may perform most Matrix actions with a Complex Action.",
+        description: "All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).",
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
-		"<i>All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
 		"<b>Compile Sprite:</b> ",
 		"<b>Decompile Sprite:</b> ",
 		"<b>Kill Complex Form:</b> ",
