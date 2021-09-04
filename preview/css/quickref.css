@@ -253,7 +253,7 @@ p:first-child {
     left: 0;
     background-color: #888;
     opacity: .75;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .modal-container {
