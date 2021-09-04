@@ -127,7 +127,7 @@ data_complexaction = [
 		
 		"<b>Erase Mark:</b> (Illegal) <i>Marks reqired: 3</i><br>Test: Computer + LOG [Attack] v. WIL + Firewall.<br>To perform this action, you need three marks on the icon you are erasing another mark from. You do not need a mark on the icon that placed the mark initially. You can try to erase two marks in the same action at a –4 dice pool penalty, and three marks in one go at a –10.",
 		
-		"<b>Erase Matrix/Resonance Signature:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Computer + RES [Attack] v. (Signature Rating) x 2.<br>You eradicate a Matrix signature that has been left by a Resonance being, such as a technomancer or a sprite. If successful, the signature dissipates. <i>You need to have a Resonance rating to attempt this action.</i>",
+		"<b>Erase Matrix/Resonance Signature:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Computer + RES [Attack] v. (Signature Rating) x 2.<br>You eradicate a Matrix signature that has been left by a Resonance being, such as a technomancer or a sprite. If successful, the signature dissipates. This is a Matrix action, not a Resonance action so Matrix rules and risks apply. <i>You need to have a Resonance rating to attempt this action.</i>",
 		
 		"<b>Set Data Bomb:</b> (Illegal) <i>Marks reqired: 1</i><br>Test: Software + LOG [Sleaze] v. (Device Rating) x 2.<br>You set a Data Bomb in a file. When you do, choose the rating of the Data Bomb, up to the net hits on your test. You also need to choose whether or not the Data Bomb will delete the file to which it is attached when activated, and you need to program the passcode required to deactivate it.",
 		
@@ -178,11 +178,11 @@ data_complexaction = [
         description: "All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).",
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
-		"<b>Enter/Exit Host:</b> <i>Marks reqired: 2</i><br><br>You enter a host that you have a mark on and your icon appears there, or you leave a host you’re already in. A host allows anyone to enter if they’ve got a mark. The host might not be so welcoming once you’re inside, of course, and some IC has the ability to keep you trapped in a host until you can break out.",
+		"<b>Enter/Exit Host:</b> <i>Marks reqired: 2</i><br>Test: None.<br>You enter a host that you have a mark on and your icon appears there, or you leave a host you’re already in. A host allows anyone to enter if they’ve got a mark. The host might not be so welcoming once you’re inside, of course, and some IC has the ability to keep you trapped in a host until you can break out.",
 		
-		"<b>Grid Hop:</b> <i>Marks reqired: 2</i><br><br>To do this, you must have access to your destination grid. If you do not have access, you can use Brute Force or Hack on the Fly to hop to another grid illegally. If you’re inside a host, you need to leave the host before you can hop to another grid.",
+		"<b>Grid Hop:</b> <i>Marks reqired: 2</i><br>Test: None.<br>To do this, you must have access to your destination grid. If you do not have access, you can use Brute Force or Hack on the Fly to hop to another grid illegally. If you’re inside a host, you need to leave the host before you can hop to another grid.",
 		
-		"<b>Hide:</b> (Illegal) <i>Marks reqired: 2</i><br><br>You can use this action to make a target lose you. If you succeed, the target stops spotting you and needs to perform a new Matrix Perception action against you if it wants to find you again. You can’t hide from an icon that has a mark on you, so you’ll need to clear those before you can try this action.",
+		"<b>Hide:</b> (Illegal) <i>Marks reqired: 2</i><br>Test: Electronic Warfare + INT [Sleaze] v. INT + Data Processing.<br>You can use this action to make a target lose you. If you succeed, the target stops spotting you and needs to perform a new Matrix Perception action against you if it wants to find you again. You can’t hide from an icon that has a mark on you, so you’ll need to clear those before you can try this action.",
 		
 		"<b>Matrix Perception:</b> <i>Marks reqired: 0</i><br>Test: Computer + INT [Data Processing] (v. LOG + Sleaze if opposed).<br>When you use this action to analyze a Matrix object or scan the vicinity for silent-running icons, you make a Simple Test and your hits determine how much info you get. For each net hit scored, you get one piece of information (rating, marks, files, grid location, etc.). If you’re trying to spot an icon that is farther than 100m away, this is a Simple Test: the first hit is for spotting the target and the rest are for analysis.",
 		
