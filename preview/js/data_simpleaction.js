@@ -149,10 +149,9 @@ data_simpleaction = [
         title: "Matrix: Switch interface mode",
         icon: "vr-headset",
         subtitle: "Switch between AR and VR",
-        description: "description",
-        reference: "SR5, pg. 164.",
+        description: "You switch your perception from AR to VR or vice versa.",
+        reference: "SR5, pg. 243.",
         bullets: [
-            "You switch your perception from AR to VR or vice versa.",
             "Switching to VR causes your body to go limp, so don’t do it somewhere dangerous",
             "If you switch from VR to AR, you lose the bonus Initiative Dice from VR (Changing Initiative, p. 160).",
             "If you’re link-locked (p. 229), you cannot switch interface modes.",
