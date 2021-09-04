@@ -115,7 +115,7 @@ data_complexaction = [
 		
 		"<b>Data Spike:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You send harmful instructions to a persona or device, causing Matrix damage to the target. The DV is equal to the rating of your Attack program, with 1 additional box of damage per net hit, and 2 additional boxes of damage for each mark you have on the target.",
 		
-		"<b>Brute Force:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Cybercombat + LOG [Attack] v. WIL + Firewall.<br>This action allows you to mark a target without obtaining the permissions to do so. If you succeed in this action, you place one mark. You can have up to a maximum of three marks per icon.If the target can take Matrix damage you may also inflict 1 DV of Matrix damage to the target for every two full net hits, which is resisted with the target’s Device Rating + Firewall. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt. If you try for three marks in a single swipe, you take a –10 dice pool penalty."
+		"<b>Brute Force:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Cybercombat + LOG [Attack] v. WIL + Firewall.<br>This action allows you to mark a target without obtaining the permissions to do so. If you succeed in this action, you place one mark. You can have up to a maximum of three marks per icon. If the target can take Matrix damage you may also inflict 1 DV of Matrix damage to the target for every two full net hits, which is resisted with the target’s Device Rating + Firewall. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt. If you try for three marks in a single swipe, you take a –10 dice pool penalty."
 	]
     },
     {
@@ -149,13 +149,13 @@ data_complexaction = [
 		
 		"<b>Control Device:</b> <i>Marks reqired: Varies</i><br>Test: (as action) [Data Processing (or special)] v. (as action) or Electronic Warfare + INT [Sleaze] v. INT + Firewall.<br>You perform an action through a device you sufficiently control using your commlink or deck. Any test you make using this action uses the rating of the appropriate skill and attribute you would use if you were performing the action normally.",
 		
-		"<b>Format Device:</b> (Illegal) <i>Marks reqired: 3</i><br>You rewrite the boot code for the device. The next time it would reboot, it instead shuts down for good, or until its software can be replaced (an Extended Software + LOG [Mental] (12, 1 hour) Test).",
+		"<b>Format Device:</b> (Illegal) <i>Marks reqired: 3</i><br>Test: Computer + LOG [Sleaze] v. WIL + Firewall.<br>You rewrite the boot code for the device. The next time it would reboot, it instead shuts down for good, or until its software can be replaced (an Extended Software + LOG [Mental] (12, 1 hour) Test).",
 		
-		"<b>Reboot Device:</b> <i>Marks reqired: 3</i><br>The device on which this action is performed shuts down and immediately reboots. The device comes back online at the end of the following Combat Turn.",
+		"<b>Reboot Device:</b> <i>Marks reqired: 3</i><br>Test: Computer + LOG [Data Processing] v. WIL + Firewall.<br>The device on which this action is performed shuts down and immediately reboots. The device comes back online at the end of the following Combat Turn.",
 		
-		"<b>Jam Signals:</b> (Illegal) <i>Must be owner</i><br>This action turns the wireless device you are using into a local jammer. As long as you do not use the device for any further Matrix actions, the device adds any hits you get to the noise rating for all Matrix actions within 100m.",
+		"<b>Jam Signals:</b> (Illegal) <i>Must be owner</i><br>Test: Electronic Warfare + LOG [Attack].<br>This action turns the wireless device you are using into a local jammer. As long as you do not use the device for any further Matrix actions, the device adds any hits you get to the noise rating for all Matrix actions within 100m.",
 		
-		"<b>Jump Into Rigged Device:</b> <i>Marks reqired: 3</i><br>You jump into a device that has a rigger adaptation. In order to jump into a device, you need 3 marks on the device, you have to be in VR, the device you want to jump into has to have a rigger adaptation and you have to have a control rig. If you are the device’s owner, or the device’s owner has given you permission to jump into the device, you don’t need to make a test. You cannot attempt this action if the device is already occupied."
+		"<b>Jump Into Rigged Device:</b> <i>Marks reqired: 3</i><br>Test: Electronic Warfare + LOG [Data Processing] v. WIL + Firewall.<br>You jump into a device that has a rigger adaptation. In order to jump into a device, you need 3 marks on the device, you have to be in VR, the device you want to jump into has to have a rigger adaptation and you have to have a control rig. If you are the device’s owner, or the device’s owner has given you permission to jump into the device, you don’t need to make a test. You cannot attempt this action if the device is already occupied."
         ]
     },
     {
