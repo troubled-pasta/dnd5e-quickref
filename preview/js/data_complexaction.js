@@ -139,11 +139,13 @@ data_complexaction = [
         icon: "wifi-router",
         subtitle: "Control devices",
         description: "All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).",
-        reference: "SR5, pgs. 164, 232, 237-244.",
+        reference: "SR5, pgs. 164, 232, 237-244. DT, pg. 178.",
         bullets: [
 		"<b>Control Device:</b> <i>Marks reqired: Varies</i><br>Test: (as action) [Data Processing (or special)] v. (as action) or Electronic Warfare + INT [Sleaze] v. INT + Firewall.<br>You perform an action through a device you sufficiently control using your commlink or deck. Any test you make using this action uses the rating of the appropriate skill and attribute you would use if you were performing the action normally.",
 		
 		"<b>Format Device:</b> (Illegal) <i>Marks reqired: 3</i><br>Test: Computer + LOG [Sleaze] v. WIL + Firewall.<br>You rewrite the boot code for the device. The next time it would reboot, it instead shuts down for good, or until its software can be replaced (an Extended Software + LOG [Mental] (12, 1 hour) Test).",
+		
+		"<b>Garbage In/Garbage Out:</b> (Illegal) <i>Marks reqired: 3</i><br>Test: Software + LOG [Sleaze] v. LOG + Firewall.<br>This allows a decker to “cross the wires” of a single device, confusing its input and output commands. Only a single input can be changed to correspond to a single output. Gamemasters have final say in what can and cannot be reprogrammed, but the rule of thumb should be “a single keystroke” of activity or the inversion of a binary relationship —e.g. the “friend/foe” recognition program in a smart safety system. Rebooting the device restores the code to its proper state.",
 		
 		"<b>Reboot Device:</b> <i>Marks reqired: 3</i><br>Test: Computer + LOG [Data Processing] v. WIL + Firewall.<br>The device on which this action is performed shuts down and immediately reboots. The device comes back online at the end of the following Combat Turn.",
 		
