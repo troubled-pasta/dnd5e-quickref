@@ -123,7 +123,7 @@ data_simpleaction = [
     {
         title: "Matrix: Jack out",
         icon: "jack-plug",
-        subtitle: "Jack out of the matrix",
+        subtitle: "Jack out of the Matrix",
         description: "This jacks you out of the Matrix and reboots the device you are using",
         reference: "SR5, pg. 240.",
         bullets: [
