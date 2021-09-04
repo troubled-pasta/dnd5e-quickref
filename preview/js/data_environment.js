@@ -1,7 +1,17 @@
 data_environment_environmental = [
     {
-        title: "Light/Glare",
-        icon: "",
+        title: "Glare",
+        icon: "eclipse-flare",
+        subtitle: "",
+        description: "",
+        reference: "",
+        bullets: [
+            ""
+        ]
+    },
+    {
+        title: "Light",
+        icon: "double-street-lights",
         subtitle: "",
         description: "",
         reference: "",
@@ -11,7 +21,7 @@ data_environment_environmental = [
     },
     {
         title: "Range",
-        icon: "",
+        icon: "binoculars",
         subtitle: "",
         description: "",
         reference: "",
@@ -21,7 +31,7 @@ data_environment_environmental = [
     },
     {
         title: "Recoil",
-        icon: "",
+        icon: "gunshot",
         subtitle: "",
         description: "",
         reference: "",
@@ -31,7 +41,7 @@ data_environment_environmental = [
     },
     {
         title: "Visibility",
-        icon: "",
+        icon: "eye-target",
         subtitle: "",
         description: "",
         reference: "",
@@ -41,7 +51,7 @@ data_environment_environmental = [
     },
     {
         title: "Wind",
-        icon: "",
+        icon: "flying-flag",
         subtitle: "",
         description: "",
         reference: "",
@@ -54,7 +64,7 @@ data_environment_environmental = [
 data_environment_situational = [
     {
         title: "Blind fire",
-        icon: "",
+        icon: "sight-disabled",
         subtitle: "",
         description: "",
         reference: "",
@@ -64,7 +74,7 @@ data_environment_situational = [
     },
     {
         title: "Cover",
-        icon: "",
+        icon: "guarded-tower",
         subtitle: "",
         description: "",
         reference: "",
@@ -74,7 +84,7 @@ data_environment_situational = [
     },
     {
         title: "Moving",
-        icon: "",
+        icon: "run",
         subtitle: "",
         description: "",
         reference: "",
@@ -84,7 +94,7 @@ data_environment_situational = [
     },
     {
         title: "Off-Handed Weapon",
-        icon: "",
+        icon: "bowie-knife",
         subtitle: "",
         description: "",
         reference: "",
@@ -94,7 +104,7 @@ data_environment_situational = [
     },
     {
         title: "Wounds",
-        icon: "",
+        icon: "arm-bandage",
         subtitle: "",
         description: "",
         reference: "",
