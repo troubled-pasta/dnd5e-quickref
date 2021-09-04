@@ -147,7 +147,7 @@ data_complexaction = [
 		
 		"<b>Reboot Device:</b> <i>Marks reqired: 3</i><br>Test: Computer + LOG [Data Processing] v. WIL + Firewall.<br>The device on which this action is performed shuts down and immediately reboots. The device comes back online at the end of the following Combat Turn.",
 		
-		"<b>Jam Signals:</b> (Illegal) <i>Must be owner</i><br>Test: Electronic Warfare + LOG [Attack].<br>This action turns the wireless device you are using into a local jammer. As long as you do not use the device for any further Matrix actions, the device adds any hits you get to the noise rating for all Matrix actions within 100m.",
+		"<b>Jam Signals:</b> (Illegal) <i>Marks reqired: N/A (Must be Owner)</i></i><br>Test: Electronic Warfare + LOG [Attack].<br>This action turns the wireless device you are using into a local jammer. As long as you do not use the device for any further Matrix actions, the device adds any hits you get to the noise rating for all Matrix actions within 100m.",
 		
 		"<b>Jump Into Rigged Device:</b> <i>Marks reqired: 3</i><br>Test: Electronic Warfare + LOG [Data Processing] v. WIL + Firewall.<br>You jump into a device that has a rigger adaptation. In order to jump into a device, you need 3 marks on the device, you have to be in VR, the device you want to jump into has to have a rigger adaptation and you have to have a control rig. If you are the device’s owner, or the device’s owner has given you permission to jump into the device, you don’t need to make a test. You cannot attempt this action if the device is already occupied."
         ]
@@ -180,9 +180,9 @@ data_complexaction = [
         bullets: [
 		"<b>Enter/Exit Host:</b> <i>Marks reqired: 2</i><br>You enter a host that you have a mark on and your icon appears there, or you leave a host you’re already in. A host allows anyone to enter if they’ve got a mark. The host might not be so welcoming once you’re inside, of course, and some IC has the ability to keep you trapped in a host until you can break out.",
 		
-		"<b>Grid Hop:</b> <i>Marks reqired: 2</i><br>To do this, you must have access to your destination grid. If you do not have access, you can use Brute Force or Hack on the Fly to hop to another grid illegally. If you’re inside a host, you need to leave the host before you can hop to another grid.",
+		"<b>Grid Hop:</b> <i>Marks reqired: 0</i><br>To do this, you must have access to your destination grid. If you do not have access, you can use Brute Force or Hack on the Fly to hop to another grid illegally. If you’re inside a host, you need to leave the host before you can hop to another grid.",
 		
-		"<b>Hide:</b> (Illegal) <i>Marks reqired: 2</i><br>Test: Electronic Warfare + INT [Sleaze] v. INT + Data Processing.<br>You can use this action to make a target lose you. If you succeed, the target stops spotting you and needs to perform a new Matrix Perception action against you if it wants to find you again. You can’t hide from an icon that has a mark on you, so you’ll need to clear those before you can try this action.",
+		"<b>Hide:</b> (Illegal) <i>Marks reqired: 0</i><br>Test: Electronic Warfare + INT [Sleaze] v. INT + Data Processing.<br>You can use this action to make a target lose you. If you succeed, the target stops spotting you and needs to perform a new Matrix Perception action against you if it wants to find you again. You can’t hide from an icon that has a mark on you, so you’ll need to clear those before you can try this action.",
 		
 		"<b>Matrix Perception:</b> <i>Marks reqired: 0</i><br>Test: Computer + INT [Data Processing] (v. LOG + Sleaze if opposed).<br>When you use this action to analyze a Matrix object or scan the vicinity for silent-running icons, you make a Simple Test and your hits determine how much info you get. For each net hit scored, you get one piece of information (rating, marks, files, grid location, etc.). If you’re trying to spot an icon that is farther than 100m away, this is a Simple Test: the first hit is for spotting the target and the rest are for analysis.",
 		
