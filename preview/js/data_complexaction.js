@@ -109,10 +109,10 @@ data_complexaction = [
         description: "A character may perform most Matrix actions with a Complex Action.",
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
-		"<i>All Illegal actions increase Overwatch Score by the target's net hits on is defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
+		"<i>All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
 		"<b>Crash Program:</b> (Illegal)<br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You overload part of your target’s memory and scramble one of its running programs. You need to specify which program you’re trying to crash. If you succeed, the program ends and cannot be restarted until the device it was running on is rebooted.",
-		"<b>Data Spike:</b><br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You send harmful instructions to a persona or device, causing Matrix damage to the target. The DV is equal to the rating of your Attack program, with 1 additional box of damage per net hit, and 2 additional boxes of damage for each mark you have on the target.",
-		"<b>Brute Force:</b><br>Test: Cybercombat + LOG [Attack] v. WIL + Firewall.<br>This action allows you to mark a target without obtaining the permissions to do so. If you succeed in this action, you place one mark. You can have up to a maximum of three marks per icon.If the target can take Matrix damage you may also inflict 1 DV of Matrix damage to the target for every two full net hits, which is resisted with the target’s Device Rating + Firewall. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt. If you try for three marks in a single swipe, you take a –10 dice pool penalty."
+		"<b>Data Spike:</b> (Illegal)<br>Test: Cybercombat + LOG [Attack] v. INT + Firewall.<br>You send harmful instructions to a persona or device, causing Matrix damage to the target. The DV is equal to the rating of your Attack program, with 1 additional box of damage per net hit, and 2 additional boxes of damage for each mark you have on the target.",
+		"<b>Brute Force:</b> (Illegal)<br>Test: Cybercombat + LOG [Attack] v. WIL + Firewall.<br>This action allows you to mark a target without obtaining the permissions to do so. If you succeed in this action, you place one mark. You can have up to a maximum of three marks per icon.If the target can take Matrix damage you may also inflict 1 DV of Matrix damage to the target for every two full net hits, which is resisted with the target’s Device Rating + Firewall. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt. If you try for three marks in a single swipe, you take a –10 dice pool penalty."
 	]
     },
     {
@@ -120,13 +120,14 @@ data_complexaction = [
         icon: "files",
         subtitle: "Alter or destroy data",
         description: "A character may perform most Matrix actions with a Complex Action.",
-        reference: "SR5, pgs. 164, 237-244.",
+        reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
-		"<b>Edit File:</b> ",
-		"<b>Erase Mark:</b> ",
-		"<b>Erase Matrix/Resonance Signature:</b> ",
-		"<b>Set Data Bomb:</b> ",
-		"<b>Disarm Data Bomb:</b> "
+		"<i>All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
+		"<b>Edit File:</b><br>Test: Computer + LOG [Data Processing] v. INT + Firewall.<br>Create, change, copy, delete, or protect any kind of file. The defender against this test is either the host holding the file or the owner of the file. Each action is enough to alter one detail of a file—a short paragraph of text, a single detail of an image, or two or three seconds of video or audio (GM discretion). A continuous edit, such as removing your teammates from a video feed, requires you to perform this action once per Combat Turn for as long as you want to keep the edit going. To protect a file, make a Simple Computer + LOG [Data Processing] test. The number of hits you get becomes the rating of the protected file",
+		"<b>Erase Mark:</b> (Illegal)<br>Test: Computer + LOG [Attack] v. WIL + Firewall.<br>To perform this action, you need three marks on the icon from which you are erasing a mark. You do not, however, need a mark on the icon that placed the mark initially. You can try to erase two marks in the same action at a –4 dice pool penalty, and three marks in one go at a –10.",
+		"<b>Erase Matrix/Resonance Signature:</b> (Illegal)<br>Test: Computer + RES [Attack] v. (Signature Rating) x 2.<br>You eradicate a Matrix signature that has been left by a Resonance being, such as a technomancer or a sprite. If successful, the signature dissipates. You need to have a Resonance rating to attempt this action.",
+		"<b>Set Data Bomb:</b> (Illegal)<br>Test: Software + LOG [Sleaze] v. (Device Rating x 2).<br>You set a Data Bomb in a file. When you do, choose the rating of the Data Bomb, up to the net hits on your test. You also need to choose whether or not the Data Bomb will delete the file to which it is attached when activated, and you need to program the passcode required to deactivate it.",
+		"<b>Disarm Data Bomb:</b><br>Test: Software + INT [Firewall] v. (Data Bomb Rating) x 2.<br> If you score any net hits, the Data Bomb is removed and deleted. If not, the Data Bomb activates, causing its damage and possibly destroying any file to which it was attached."
         ]
     },
     {
@@ -134,12 +135,13 @@ data_complexaction = [
         icon: "wifi-router",
         subtitle: "Control devices",
         description: "A character may perform most Matrix actions with a Complex Action.",
-        reference: "SR5, pgs. 164, 214.",
+        reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
-		"<b>Control Device:</b> You perform an action through a device you control (or at least control sufficiently), using your commlink or deck. Any test you make using this action uses the rating of the appropriate skill and attribute you would use if you were performing the action normally.",
-		"<b>Format Device:</b> You rewrite the boot code for the device. The next time it would reboot, it instead shuts down for good, or until its software can be replaced (an Extended Software + LOG [Mental] (12, 1 hour) Test).",
-		"<b>Reboot Device:</b> The device on which this action is performed shuts down and immediately reboots. The device comes back online at the end of the following Combat Turn.",
-		"<b>Jam Signals:</b> ",
+		"<i>All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).</i>",
+		"<b>Control Device:</b><br>You perform an action through a device you control (or at least control sufficiently), using your commlink or deck. Any test you make using this action uses the rating of the appropriate skill and attribute you would use if you were performing the action normally.",
+		"<b>Format Device:</b> (Illegal)<br>You rewrite the boot code for the device. The next time it would reboot, it instead shuts down for good, or until its software can be replaced (an Extended Software + LOG [Mental] (12, 1 hour) Test).",
+		"<b>Reboot Device:</b><br>The device on which this action is performed shuts down and immediately reboots. The device comes back online at the end of the following Combat Turn.",
+		"<b>Jam Signals:</b> (Illegal)<br>",
 		"<b>Jump Into Rigged Device:</b> ",
         ]
     },
@@ -148,12 +150,12 @@ data_complexaction = [
         icon: "computing",
         subtitle: "Hack into things",
         description: "A character may perform most Matrix actions with a Complex Action.",
-        reference: "SR5, pgs. 164, 214.",
+        reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
-		"<b>Crack File</b> On a succsessful Hacking + LOG [Attack] v. Protection Rating x 2 Test, you remove the protection from a file, making it readable.",
-		"<b>Hack on the Fly:</b> You can use this action to mark a target without getting the normal permissions. When targeting an icon, you put one mark on it, up to a maximum of three marks per icon. Additionally, every 2 full net hits counts as 1 hit on a Matrix Perception Test, so you can get some info along with your mark. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt. If you try for three marks in one go, you take a –10 dice pool penalty. You can also use this action to hop to a grid for which you don’t have legitimate access. The defense dice pool in this case is 4 dice for a local grid or 6 dice for a global grid. If you succeed you hop to that grid immediately. Unsuccessfully using Hack on the Fly to hop grids doesn’t alert the grid or its demiGOD.",
-		"<b>Snoop:</b> ",
-		"<b>Spoof Command:</b> ",
+		"<b>Crack File:</b> (Illegal)<br>On a succsessful Hacking + LOG [Attack] v. Protection Rating x 2 Test, you remove the protection from a file, making it readable.",
+		"<b>Hack on the Fly:</b> (Illegal)<br> You can use this action to mark a target without getting the normal permissions. When targeting an icon, you put one mark on it (max. 3/icon). Every 2 full net hits counts as 1 hit on a Matrix Perception Test, so you can get some info along with your mark. If you try for two marks in one shot, you take a –4 dice pool penalty on the attempt and a –10 dice pool penalty for three. You can also use this action to hop to a grid for which you don’t have legitimate access. The defense dice pool is 4 dice for a local grid or 6 dice for a global grid. If you succeed you hop to that grid immediately. Unsuccessfully using Hack on the Fly to hop grids doesn’t alert the grid or its demiGOD.",
+		"<b>Snoop:</b> (Illegal)<br>",
+		"<b>Spoof Command:</b> (Illegal)<br>",
 		"<b>Trace Icon:</b> "
         ]
     },
@@ -162,11 +164,11 @@ data_complexaction = [
         icon: "molecule",
         subtitle: "Move through the Matrix",
         description: "A character may perform most Matrix actions with a Complex Action.",
-        reference: "SR5, pgs. 164, 214.",
+        reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
 		"<b>Enter/Exit Host:</b> You enter a host that you have a mark on and your icon appears there, or you leave a host you’re already in. A host allows anyone to enter if they’ve got a mark. The host might not be so welcoming once you’re inside, of course, and some IC has the ability to keep you trapped in a host until you can break out.",
 		"<b>Grid Hop:</b> To do this, you must have access to your destination grid. If you do not have access, you can use Brute Force or Hack on the Fly to hop to another grid illegally. If you’re inside a host, you need to leave the host before you can hop to another grid.",
-		"<b>Hide:</b> You can use this action to make a target lose you. If you succeed, the target stops spotting you and needs to perform a new Matrix Perception action against you if it wants to find you again. You can’t hide from an icon that has a mark on you, so you’ll need to clear those before you can try this action.",
+		"<b>Hide:</b> (Illegal)<br>You can use this action to make a target lose you. If you succeed, the target stops spotting you and needs to perform a new Matrix Perception action against you if it wants to find you again. You can’t hide from an icon that has a mark on you, so you’ll need to clear those before you can try this action.",
 		"<b>Matrix Perception:</b> ",
 		"<b>Matrix Search:</b> "
         ]
@@ -176,7 +178,7 @@ data_complexaction = [
         icon: "nano-bot",
         subtitle: "Interact with sprites",
         description: "A character may perform most Matrix actions with a Complex Action.",
-        reference: "SR5, pgs. 164, 214.",
+        reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
 		"<b>Compile Sprite:</b> ",
 		"<b>Decompile Sprite:</b> ",
