@@ -3,9 +3,13 @@ data_complexaction = [
         title: "Astral projection",
         icon: "telepathy",
         subtitle: "Shift to the Astral Plane",
-        description: "A character capable of Astral Projection may shift their consciousness to the astral plane as a Complex Action (see p. 313)",
+        description: "If astral perception is like sticking your face in a lake to peer below the surface, astral projection is diving right in.",
         reference: "SR5, pgs. 167, 313.",
         bullets: [
+		"A character capable of Astral Projection may shift their consciousness to the astral plane as a Complex Action (see p. 313).",
+		"Your body is in a coma-like state while your astral body is out in the aether. Your mind and body are still connected, so any damage taken to body or mind is felt by both.",
+		"As the saying goes, what’s cast in astral space stays in astral space, and ditto for physical space.",
+		"Only characters who are full Magicians can astrally project."
          
         ]
     },
@@ -16,7 +20,8 @@ data_complexaction = [
         description: "A character may cast a spell as a Complex Action",
         reference: "SR5 pg. 167.",
         bullets: [
-            
+		"",
+		"Unarmed astral attacks are an performed through an Opposed Astral Combat + WIL [Astral] v. INT + LOG Test. Astral attacks with a weapon focus are an Opposed Astral Combat + WIL [Accuracy] v. INT + LOG Test. Base Damage Values are listed on the Astral Damage Table; add 1 to the DV per net hit on an attack.",
         ]
     },
 	{
@@ -26,10 +31,10 @@ data_complexaction = [
         description: "A driver may perform any of the following actions on their turn, as long as the target vehicle is within the Chase Range specified.",
         reference: "SR5 pg. 204.",
         bullets: [
-            	"<b>Catch Up/Break Away:</b> A vehicle may wish to close the distance or get away on their action. The number of Range Categories a vehicle can change during this action is equal to their Acceleration.  The driver makes a REA + Vehicle Skill [Speed or Handling] (maneuver Threshold) test. For every hit they beat the threshold by they may shift one Range Category towards or away from their opponent.",
+            	"<b>Catch Up/Break Away:</b> A driver may wish to close the distance or get away on their action. The number of Range Categories a vehicle can change during this action is equal to their Acceleration. The driver makes a REA + Vehicle Skill [Speed or Handling] (maneuver Threshold) test. For every hit they beat the threshold by they may shift one Range Category towards or away from their opponent.",
 		"<b>Cut-Off:</b> The acting vehicle makes a sudden move to cut off a target vehicle, forcing it to crash. Make an Opposed REA + Vehicle Skill [Handling] Test. If the acting vehicle achieves more hits, the target vehicle must make an immediate Vehicle Test to avoid crashing, with a threshold equal to the net hits on the test.",
-		"<b>Ram (Short Range):</b> The acting vehicle attempts to collide with a target vehicle. Make an Opposed REA +Vehicle Skill [Speed or Handling] Test. If the ramming vehicle achieves more hits, the vehicles have collided. The target of the Ram takes damage equal to the BOD of the ramming vehicle plus any Net Hits achieved. The vehicle that did the Ramming takes damage equal to half its BOD.",
-		"<b>Stunt:</b> When a vehicle being pursued attempts a Stunt, the gamemaster sets the threshold for the Stunt based on the environment and difficulty of the maneuver and the terrain of the chase, (see Vehicle Test Threshold Table and Terrain Modifier Table, p. 201). The driver then rolls a REA + Vehicle Skill [Speed or Handling (GM discretion)] Test. If the test is failed, the vehicle goes out of control. If the threshold is met or exceeded, all pursuing vehicles must make a Vehicle Test to maintain pursuite range. Failing vehicles fall behind by one Chase Range Category. If they are already at extreme range, the character escapes pursuit.",
+		"<b>Ram (Short Range):</b> The acting vehicle attempts to collide with a target vehicle. Make an Opposed REA + Vehicle Skill [Speed or Handling] Test. If the ramming vehicle achieves more hits, the vehicles have collided. The target of the Ram takes damage equal to the BOD of the ramming vehicle plus any Net Hits achieved. The vehicle that did the Ramming takes damage equal to half its BOD.",
+		"<b>Stunt:</b> When a vehicle being pursued attempts a Stunt, the gamemaster sets the threshold for the Stunt based on the environment and difficulty of the maneuver and the terrain of the chase, (see Vehicle Test Threshold Table and Terrain Modifier Table, p. 201). The driver then rolls a REA + Vehicle Skill [Speed or Handling] Test. If the test is failed, the vehicle goes out of control. If the threshold is met or exceeded, all pursuing vehicles must make a Vehicle Test to maintain pursuite range. Failing vehicles fall behind by one Chase Range Category. If they are already at extreme range, the character escapes pursuit.",
 		"<table><thead><tr><th>Chase<br>Range</th><th>Speed Environment<br>Distance (meters approx.)</th><th>Handling Environment<br>Distance (meters approx.)</th></tr></thead><tbody><tr><td>Short</td><td>0-10</td><td>0-5</td></tr><tr><td>Medium</td><td>11-50</td><td>5-20</td></tr><tr><td>Long</td><td>51-150</td><td>21-80</td></tr><tr><td>Extreme</td><td>151-300</td><td>81-150</td></tr></tbody></table>"
 	]
     },
