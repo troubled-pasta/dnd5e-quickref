@@ -150,7 +150,7 @@ data_condition = [
     },
     {
         title: "Subdued",
-        icon: "andromeda-chain",
+        icon: "grab",
         subtitle: "You are grappled",
         description: "Sometimes, characters need to subdue an opponent without beating them into unconsciousness.",
         reference: "SR5, pg. 195",
