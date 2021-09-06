@@ -136,7 +136,7 @@ data_condition = [
     },
     {
         title: "Restrained",
-        icon: "imprisoned",
+        icon: "handcuffed",
         subtitle: "You are restrained",
         description: "In Shadowrun, you might just find yourself caught instead of killed. Escape Artist provides a chance to escape from most forms of confinement, including ropes, handcuffs, and other bindings.",
         reference: "SR5, pg. 135.",
