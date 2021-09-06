@@ -9,7 +9,7 @@ data_environment_environmental = [
             "<table><thead><tr><th>Glare</th><th>Modifier</th></tr></thead><tbody><tr><td>No Glare</td><td>None</td></tr><tr><td>Weak Glare</td><td>-1</td></tr><tr><td>Moderate Glare</td><td>-3</td></tr><tr><td>Blinding Glare</td><td>-6</td></tr></tbody></table>",
             "Two or more conditions (wind, range, etc.) at the -6 level incur a maximum penalty of -10.",
             "Flare compensation reduces Glare modifiers by two categories (shift up on the modifier table), thermographic vision and sunglasses reduce Glare modifiers by one category.",
-            "Ultrasound eliminates the penalty in any light conditions (but only within 50 meters)."
+            "Ultrasound vision systems eliminate the penalty in any light conditions (but only within 50 meters)."
         ]
     },
     {
@@ -24,7 +24,7 @@ data_environment_environmental = [
             "If a character has Low-Light Vision, treat Partial Light and Dim Light as Full Light.",
             "Thermographic Vision reduces Light modifiers by one category (shift up on the modifier table).",
             "Sunglasses <i>increase</i> Light modifiers by one category (shift down on the modifier table).",
-            "Ultrasound eliminates the penalty in any light conditions (but only within 50 meters)."
+            "Ultrasound vision systems eliminate the penalty in any light conditions (but only within 50 meters)."
             
         ]
     },
@@ -36,9 +36,10 @@ data_environment_environmental = [
         reference: "SR5, pgs. 175, 185.",
         bullets: [
             "<table><thead><tr><th>Range</th><th>Modifier</th></tr></thead><tbody><tr><td>Short</td><td>None</td></tr><tr><td>Medium</td><td>-1</td></tr><tr><td>Long</td><td>-3</td></tr><tr><td>Extreme</td><td>-6</td></tr></tbody></table>",
+             "Two or more conditions (wind, range, etc.) at the -6 level incur a maximum penalty of -10.",
             "Refer to SR5, pg. 185. for a full table of ranged weapons and their specific effective ranges.",
             "Certain weapons and weapon modifications may change the category that is used. Changes like these will be listed in the description of the accessory or weapon in the Street Gear chapter (p. 416).",
-            "Range modifiers are mitigated by the Image Magnification modification and tracer rounds (reduce by one category)."
+            "Range modifiers are mitigated by the Image Magnification modification and tracer rounds (shift up on the modifier table)."
         ]
     },
     {
@@ -61,11 +62,15 @@ data_environment_environmental = [
     {
         title: "Visibility",
         icon: "eye-target",
-        subtitle: "",
-        description: "",
-        reference: "",
+        subtitle: "Obscurance-based penalties",
+        description: "You never know what lurks in the mist. Whether it’s natural rain, fog, smoke from natural sources, or a smoke screen of some type thrown up for cover, they all block line of sight.",
+        reference: "SR5, pg. 174.",
         bullets: [
-            ""
+            "<table><thead><tr><th>Visibility</th><th>Modifier</th></tr></thead><tbody><tr><td>Clear</td><td>None</td></tr><tr><td>Light Rain/Fog/Smoke</td><td>-1</td></tr><tr><td>Moderate Rain/Fog/Smoke</td><td>-3</td></tr><tr><td>Heavy Rain/Fog/Smoke</td><td>-6</td></tr></tbody></table>",
+             "Two or more conditions (wind, range, etc.) at the -6 level incur a maximum penalty of -10.",
+            "Ultrasound vision systems reduce Visibility modifiers by one category (shift up on the modifier table) (within 50m).",
+            "Thermographic vision reduces Visibility modifiers by one category (shift up on the modifier table).",
+            "Thermographic vision compensates in all cases except for thermal smoke."
         ]
     },
     {
