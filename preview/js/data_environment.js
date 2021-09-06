@@ -36,7 +36,7 @@ data_environment_environmental = [
         reference: "SR5, pgs. 175, 185.",
         bullets: [
             "<table><thead><tr><th>Range</th><th>Modifier</th></tr></thead><tbody><tr><td>Short</td><td>None</td></tr><tr><td>Medium</td><td>-1</td></tr><tr><td>Long</td><td>-3</td></tr><tr><td>Extreme</td><td>-6</td></tr></tbody></table>",
-            "Refer to SR5, pg. 185. for a full table of ranged weapons and their specific distances.",
+            "Refer to SR5, pg. 185. for a full table of ranged weapons and their specific effective ranges.",
             "Certain weapons and weapon modifications may change the category that is used. Changes like these will be listed in the description of the accessory or weapon in the Street Gear chapter (p. 416).",
             "Range modifiers are mitigated by the Image Magnification modification and tracer rounds (reduce by one category)."
         ]
@@ -44,11 +44,18 @@ data_environment_environmental = [
     {
         title: "Recoil",
         icon: "gunshot",
-        subtitle: "",
-        description: "",
-        reference: "",
+        subtitle: "Recoil-based penalties",
+        description: "Recoil is the effect firing a gun has on the weapon and the wielder. Muzzle rise, wrist strain, body shifting, and other factors caused by repeated firing of a weapon are all factors in recoil",
+        reference: "SR5, pgs. 175-176.",
         bullets: [
-            ""
+            "To figure out your recoil penalty, start with the amount of recoil compensation you have. You get 1 free point anytime you start firing, then you add your Strength/3 (rounded up) and the recoil compensation of any readied guns. Then subtract any bullets you’re about to fire. If the number is a negative number, that’s your recoil penalty; subtract the penalty from your dice pool before you roll for the attack.",
+            "Recoil becomes more of a strain the more bullets you shoot. If you are firing two guns at the same time, shots from the one affect the other, so bullets from each gun add to your total recoil value.",
+            "When making multiple firearm attacks in a single Action Phase, calculate the total recoil penalty based on the bullets to be fired that round and remove it from your dice pool before splitting the pool for the multiple attacks.",
+            "Recoil accumulates with every bullet fired until the attacker stops firing to bring the gun (or guns) back under control.",
+            "Recoil penalties are cumulative over every Action Phase and Combat Turn unless the character takes, or is forced into, an action other than shooting for an entire Action Phase.",
+            "Recoil is cumulative to the character, not the weapon they're firing. Recoil accumulates from every shot the character takes, not just from the firing of the same weapon.",
+            "Single Shot (SS) weapons have the disadvantage of not being able to fire multiple rounds in a single Action Phase, but they have the advantage of not suffering from cumulative recoil when fired in single shot mode.",
+            "Mounted weapons have Recoil Compensation equal to the Body of the vehicle plus any built in Recoil Compensation of the weapon."
         ]
     },
     {
