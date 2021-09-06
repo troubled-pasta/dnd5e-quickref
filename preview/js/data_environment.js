@@ -132,7 +132,7 @@ data_environment_situational = [
     {
         title: "Moving",
         icon: "journey",
-        subtitle: "Moving while attacking.",
+        subtitle: "Moving while attacking",
         description: "Moving quick does not mix well with trying to shoot a gun or throw a weapon.",
         reference: "SR5, pgs. 178.",
         bullets: [
