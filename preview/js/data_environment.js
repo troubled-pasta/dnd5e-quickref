@@ -76,12 +76,17 @@ data_environment_environmental = [
     {
         title: "Wind",
         icon: "flying-flag",
-        subtitle: "",
-        description: "",
-        reference: "",
+        subtitle: "Wind-based penalties",
+        description: "A light breeze might not throw off a shot, but the stronger the wind, the more a shooter is going to have to compensate.",
+        reference: "SR5, pg. 175.",
         bullets: [
-            ""
-        ]
+            "<table><thead><tr><th>Wind</th><th>Modifier</th></tr></thead><tbody><tr><td>None or Light Breeze</td><td>None</td></tr><tr><td>Light Winds</td><td>-1</td></tr><tr><td>Moderate Winds</td><td>-3</td></tr><tr><td>Strong Winds</td><td>-6</td></tr></tbody></table>",
+            "Compensating for wind is tough because you can’t see it without some kind of indicator, such as blowing leaves, a flag flapping in the wind, or a coat pressed hard against the target",
+            "Wind categories are generalized and left up to the gamemaster’s discretion instead of giving hard numbers for wind speed.",
+            "Wind speed can be a factor at the shooter’s position, the target’s position, and any position in between.",
+            " Wind modifiers are mitigated by smartlink accessories that calculate adjustments before the shot. Reduce Wind modifiers by one category (shift up on the modifier table).",
+            "Wind modifiers are alleviated by tracer rounds that let the shooter see how to adjust their aim for the next shot. Reduce Moderate or Heavy Wind modifiers by one category (shift up on the modifier table)."
+       ]
     }
 ]
 
