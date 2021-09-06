@@ -107,9 +107,13 @@ data_environment_situational = [
         icon: "guarded-tower",
         subtitle: "Firing from cover",
         description: "Blindly firing around a corner is no longer necessary with 2075 technology and imaging devices.",
-        reference: "",
+        reference: "SR5, pgs. 177, 197.",
         bullets: [
             "A shooter can fire their camera or smartgun equipped weapon by simply sticking the gun around the corner and looking through the imaging system to see where it’s aimed. This isn’t easy to do, for numerous reasons, and incurs a -3 penalty, but at least it keeps most of you safely out of sight while putting lead downrange.",
+            "A defender using a barrier as cover receives a defense bonus for cover. If the defender is completely hidden behind the barrier, the attacker suffers a –6 Blind Fire dice pool modifier for not being able to see his intended target, but the hidden defender is considered unaware of the attack.",
+            " If the barrier between the attacker and defender is transparent, like bullet resistant glass, there is no cover or obstruction to sight, but the attack must penetrate the barrier to reach the defender (see Penetration Weapons, p. 198).",
+            "If the barrier takes the hit first, the gamemaster rolls Structure + Armor to resist the damage, and the structure takes any unresisted damage. If the Structure rating is exceeded by the damage it suffers, any remaining damage is transferred to the target behind the barrier.",
+            "If the weapon’s modified Damage Value does not exceed the barrier’s Armor rating (modified by the weapon’s AP), then the weapon is simply not strong enough to pierce the barrier, and the attack automatically fails."
             
         ]
     },
@@ -118,7 +122,7 @@ data_environment_situational = [
         icon: "high-kick",
         subtitle: "Close-quarters combat penalty",
         description: "Trying to get a clean shot off while someone keeps swinging a bat at your head is no walk in the ballpark.",
-        reference: "",
+        reference: "SR5, pgs. 177.",
         bullets: [
             "Because a certain amount of your attention is assumed to be focused on the melee it’s hard to make a good shot, even when the guy swinging the baseball bat is right in front of you.",
             "This -3 modifier applies to any characters trying to make a ranged attack while in melee combat.",
@@ -130,7 +134,7 @@ data_environment_situational = [
         icon: "journey",
         subtitle: "Moving while attacking.",
         description: "Moving quick does not mix well with trying to shoot a gun or throw a weapon.",
-        reference: "",
+        reference: "SR5, pgs. 178.",
         bullets: [
             "Anytime the attacker makes a move that puts him in his running movement rate he suffer the -2 Running penalty on all ranged attacks.",
             "Trying to line up a shot on a bumpy road while the car is avoiding obstacles and other vehicles is not easy. This -2 modifier applies whenever a character fires an <i>unmounted</i> weapon from a vehicle.",
