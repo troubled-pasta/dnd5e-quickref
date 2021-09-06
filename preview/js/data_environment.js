@@ -105,7 +105,7 @@ data_environment_situational = [
     {
         title: "Cover",
         icon: "guarded-tower",
-        subtitle: "Firing from cover",
+        subtitle: "Firing from/into cover",
         description: "Blindly firing around a corner is no longer necessary with 2075 technology and imaging devices.",
         reference: "SR5, pgs. 177, 197.",
         bullets: [
