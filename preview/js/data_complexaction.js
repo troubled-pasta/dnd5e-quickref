@@ -118,7 +118,7 @@ data_complexaction = [
     },
     {
         title: "Matrix: Data",
-        icon: "files",
+        icon: "computing",
         subtitle: "Alter or destroy data",
         description: "All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).",
         reference: "SR5, pgs. 164, 232, 237-244.",
@@ -156,7 +156,7 @@ data_complexaction = [
     },
     {
         title: "Matrix: Hacking",
-        icon: "computing",
+        icon: "spy",
         subtitle: "Hack into things",
         description: "All Illegal actions increase Overwatch Score by the target's net hits on its defense test. When your Overwatch Score hits 40, the jig is up. The nastiness that follows is called Convergence (see SR5 pg. 232).",
         reference: "SR5, pgs. 164, 232, 237-244.",
