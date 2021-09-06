@@ -94,51 +94,70 @@ data_environment_situational = [
     {
         title: "Blind fire",
         icon: "sight-disabled",
-        subtitle: "",
-        description: "",
-        reference: "",
+        subtitle: "Target is in darkness/cover",
+        description: "Whether due to darkness or cover, if the shooter doesn’t know where the target is, they apply the Blind Fire modifier.",
+        reference: "SR5, pgs. 176, 178.",
         bullets: [
-            ""
+            "This -6 modifier is the same as the Total Darkness modifier and as such is not cumulative with it, but if strong winds or extreme range are also involved an additional -4 penalty can be applied.",
+            "Some additional rules apply if the attacker is shooting through cover (see Shooting Through Target Barriers, SR5, pg. 197)."
         ]
     },
     {
         title: "Cover",
         icon: "guarded-tower",
-        subtitle: "",
-        description: "",
+        subtitle: "Firing from cover",
+        description: "Blindly firing around a corner is no longer necessary with 2075 technology and imaging devices.",
         reference: "",
         bullets: [
-            ""
+            "A shooter can fire their camera or smartgun equipped weapon by simply sticking the gun around the corner and looking through the imaging system to see where it’s aimed. This isn’t easy to do, for numerous reasons, and incurs a -3 penalty, but at least it keeps most of you safely out of sight while putting lead downrange.",
+            
+        ]
+    },
+    {
+        title: "Melee Combat",
+        icon: "high-kick",
+        subtitle: "Close-quarters combat penalty",
+        description: "Trying to get a clean shot off while someone keeps swinging a bat at your head is no walk in the ballpark.",
+        reference: "",
+        bullets: [
+            "Because a certain amount of your attention is assumed to be focused on the melee it’s hard to make a good shot, even when the guy swinging the baseball bat is right in front of you.",
+            "This -3 modifier applies to any characters trying to make a ranged attack while in melee combat.",
+            "Remember if a character tries to break off the melee they are risking an Intercept action and a cheap swing by their opponent as well as risking not getting out of melee if they get tagged."
         ]
     },
     {
         title: "Moving",
         icon: "journey",
-        subtitle: "",
-        description: "",
+        subtitle: "Moving while attacking.",
+        description: "Moving quick does not mix well with trying to shoot a gun or throw a weapon.",
         reference: "",
         bullets: [
-            ""
+            "Anytime the attacker makes a move that puts him in his running movement rate he suffer the -2 Running penalty on all ranged attacks.",
+            "Trying to line up a shot on a bumpy road while the car is avoiding obstacles and other vehicles is not easy. This -2 modifier applies whenever a character fires an <i>unmounted</i> weapon from a vehicle.",
         ]
     },
     {
         title: "Off-Handed Weapon",
         icon: "bowie-knife",
-        subtitle: "",
-        description: "",
-        reference: "",
+        subtitle: "Attacking with non-dominant hand",
+        description: "Trying to throw, shoot, or even pick your nose with your off-hand just feels plain awkward.",
+        reference: "SR5, pg. 178",
         bullets: [
-            ""
+            "Any time a character tries to make an attack with their off hand, either due to injury, angle, or trying to re-enact the latest scene from the Ares blockbuster series, they lose some precision in the form of a -2 penalty.",
+            "This modifier also applies to the attacker’s total dice pool if they are trying to fire two weapons at once."
         ]
     },
     {
         title: "Wounds",
         icon: "arm-bandage",
-        subtitle: "",
-        description: "",
-        reference: "",
+        subtitle: "Injury-based penalties",
+        description: "Wounds are distracting, and Wound modifiers apply to any and all ranged attacks. If you don’t want this penalty you can get a Pain Editor. Or just not get shot.",
+        reference: "SR5, pgs. 178, 460.",
         bullets: [
-            ""
+            "Wound modifiers are accumulated with every third box of damage and are cumulative between damage tracks and with other negative modifiers such as spells or adverse conditions.",
+            "Wound modifiers are applied to all tests not about reducing the number of boxes you’re about to take on your Condition Monitor (such as damage resistance, resisting direct combat spells, toxin resistance, and so on).",
+            "The Wound Modifier penalty is also applied to the character’s Initiative attribute and therefore their Initiative Score during combat.",
+            "If active, pain editors allow you to ignore all injury modifiers, and you even stay conscious when your Stun Condition Monitor is completely full. You feel no pain—you’re blissfully, dangerously, recklessly unaware of the extent of damage you’ve taken without either performing a self-examination (Observe In Detail action) or being informed by a biomonitor (p. 450)."
         ]
     }
 ]
