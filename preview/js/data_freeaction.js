@@ -56,7 +56,7 @@ data_freeaction = [
         description: "Vehicles that are under attack can use a Free Action and undertake evasive driving—the vehicle equivalent of Full Defense (p. 191).",
         reference: "SR5, pg. 205.",
         bullets: [
-            "This means the driver of the vehicle reduces their Initiative Score by 10 and can add a number of dice equal to their Intuition to the defense dice pool to dodge attacks.",
+            "This means the driver of the vehicle reduces their Initiative Score by 10 and can add a number of dice equal to their INT to the defense dice pool to dodge attacks.",
             "Evasive driving cannot be used against ramming attacks."
         ]
     },
