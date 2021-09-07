@@ -3,7 +3,7 @@ data_interruptaction = [
         title: "Block",
         icon: "shield-reflect",
         subtitle: "-5 Initiative Score",
-        description: "A character may choose to use her own unarmed combat skill to block incoming melee attacks as an Interrupt Action (see Defending in Combat, p. 188)",
+        description: "A character may choose to use her own unarmed combat skill to block incoming melee attacks as an Interrupt Action (see Defending in Combat, SR5, pg. 188)",
         reference: "SR5, pgs. 168, 188.",
         bullets: [
             "By decreasing their Initiative Score, the defending character can add their Unarmed Combat skill to their defense test.",
@@ -14,7 +14,7 @@ data_interruptaction = [
         title: "Dodge",
         icon: "acrobatic",
         subtitle: "-5 Initiative Score",
-        description: "A character may choose to use their own skill to dodge incoming attacks as an Interrupt Action (see Defending in Combat, p. 188).",
+        description: "A character may choose to use their own skill to dodge incoming attacks as an Interrupt Action (see Defending in Combat, SR5, pg. 188).",
         reference: "SR5, pgs. 168, 188.",
         bullets: [
             "By decreasing their Initiative Score, the defending character can add their Gymnastics skill to the defense test.",
@@ -25,7 +25,7 @@ data_interruptaction = [
         title: "Drop prone",
         icon: "falling",
         subtitle: "-5 Initiative Score",
-        description: "A character who has already used their Free Action may choose to drop prone when caught by suppressive fire using this action (see Suppressive Fire, p. 179)",
+        description: "A character who has already used their Free Action may choose to drop prone when caught by suppressive fire using this action (see Suppressive Fire, SR5, pg. 179)",
         reference: "SR5, pgs. 168, 179.",
         bullets: [
             "The defending character doesn’t need to make the REA + Edge test but is considered prone on their next Action Phase.",
@@ -37,7 +37,7 @@ data_interruptaction = [
         title: "Full defense",
         icon: "surrounded-shield",
         subtitle: "-10 Initiative Score",
-        description: "A character may choose to focus on deliberately avoiding incoming attacks as an Interrupt Action (see Defending in Combat, p. 188).",
+        description: "A character may choose to focus on deliberately avoiding incoming attacks as an Interrupt Action (see Defending in Combat, SR5, pg. 188).",
         reference: "SR5, pgs. 168, 188.",
         bullets: [
             "This action adds the character’s WIL to their Defense tests for the entire Combat Turn.",
@@ -72,6 +72,17 @@ data_interruptaction = [
             "If the character does not have enough Initiative Score left that Action Phase they cannot intercept."
         ]
     },
+    {
+        title: "Missile parry (Adept)",
+        icon: "thor-fist",
+        subtitle: "-5 Initiative Score",
+        description: "You can catch slow-moving projectiles such as arrows, thrown knives, grenades, or shuriken out of the air.",
+        reference: "SR5, pg. 310.",
+        bullets: [
+            "When using this power, add +1 die per level to your defense pool against the attacker’s ranged attack test. If you generate net hits, you pluck the missile out of the air.",
+            "You need to have at least one empty hand to use Missile Parry."
+        ]
+    }, 
      {
         title: "Parry",
         icon: "cross-mark",
