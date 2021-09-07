@@ -6,6 +6,7 @@ data_freeaction = [
         description: "This power lets you accomplish more in one Combat Turn.",
         reference: "SR5, pgs. 308-309.",
         bullets: [
+            "Adrenaline Boost is activated as a Free Action.",
             "You get +2 to your Initiative Score for the current Combat Turn for every level of this power you have.",
             "At the beginning of the next turn after the Adrenaline Boost, you take Drain equal to the number of levels you have in this power."
         ]
@@ -99,6 +100,7 @@ data_freeaction = [
         description: "This power lets you inflict lethal damage with your unarmed attacks.",
         reference: "SR5, pgs. 310.",
         bullets: [
+            "Killing Hands is activated as a Free Action.",
             "When inflicting damage on the target of an unarmed attack, you may choose whether to cause Stun or Physical damage.",
             "Killing Hands may be combined with other adept powers that increase unarmed damage.",
             "Your Killing Hands attacks are magical, so they can bypass a creature’s magical defenses against attack, such as the Immunity to Normal Weapons power, and may be used by adepts with Astral Perception during astral combat."
