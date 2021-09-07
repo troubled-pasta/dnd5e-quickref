@@ -191,6 +191,8 @@ data_complexaction = [
         reference: "SR5, pgs. 164, 232, 237-244.",
         bullets: [
 		"Navigating the Matrix occurs at the speed of light, but there are some actions which require a little more time and skill.",
+		"<b>Enter/Exit Host:</b> <i>Marks required: 1</i><br>You enter a host that you have a mark on and your icon appears there, or you leave a host you’re already in. A host allows anyone to enter if they’ve got a mark. The host might not be so welcoming once you’re inside, of course, and some IC has the ability to keep you trapped in a host until you can break out.",
+		
 		"<b>Grid Hop:</b> <i>Marks required: 0</i><br>To do this, you must have access to your destination grid. If you do not have access, you can use Brute Force or Hack on the Fly to hop to another grid illegally. If you’re inside a host, you need to leave the host before you can hop to another grid.",
 		
 		"<b>Hide:</b> (Illegal) <i>Marks required: 0</i><br>Test: Electronic Warfare + INT [Sleaze] v. INT + Data Processing.<br>You can use this action to make a target lose you. If you succeed, the target stops spotting you and needs to perform a new Matrix Perception action against you if it wants to find you again. You can’t hide from an icon that has a mark on you, so you’ll need to clear those before you can try this action.",
