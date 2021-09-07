@@ -229,15 +229,6 @@ data_complexaction = [
             "Weapons that are belt fed (belt), break action (b), cylinder (cy), drum (d), internal magazine (m), muzzle loaders, or use a speed loader are reloaded using a Complex Action (see Reloading Weapons, p. 163)",
         ]
     },
-    {
-        title: "Rigger jump in",
-        icon: "vr-headset",
-        subtitle: "Control rigger-adapted vehicle",
-        description: "A character with a VCR and rigger adapted vehicle may jump in to control the vehicle with a Complex Action.",
-        reference: "SR5, pg. 167.",
-        bullets: [
-       
-        ]
     },
 	{
         title: "Sprite/Form Actions (Matrix)",
