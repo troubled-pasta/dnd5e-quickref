@@ -1,7 +1,7 @@
 data_freeaction = [
     {
         title: "Adrenaline boost (Adept)",
-        icon: "muscle-up",
+        icon: "fire-silhouette",
         subtitle: "Do more in a Combat Turn",
         description: "This power lets you accomplish more in one Combat Turn.",
         reference: "SR5, pgs. 308-309.",
