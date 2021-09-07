@@ -229,7 +229,6 @@ data_complexaction = [
             "Weapons that are belt fed (belt), break action (b), cylinder (cy), drum (d), internal magazine (m), muzzle loaders, or use a speed loader are reloaded using a Complex Action (see Reloading Weapons, p. 163)",
         ]
     },
-    },
 	{
         title: "Sprite/Form Actions (Matrix)",
         icon: "nano-bot",
