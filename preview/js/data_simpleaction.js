@@ -282,7 +282,7 @@ data_simpleaction = [
         bullets: [
             "Take Aim actions are cumulative, but the benefits are lost if the character takes any other kind of action—including a Free Action—at any time before attacking.",
             "Take Aim actions may be extended over multiple Action Phases and Combat Turns. The maximum bonus a character may gain from sequential Take Aim actions, either to her limit or her dice pool, is equal to one-half the character’s WIL, rounded up.",
-            "Each Take Aim action applies a +1 dice pool modifier or +1 Accuracy increase to the Attack Test.",
+            "Each Take Aim action applies a +1 dice pool modifier or +1 Accuracy increase to the Attack Test. If you have a correctly connected wireless smartgun system then you get both benefits with each Simple Action.",
             "If the character is using image magnification or a targeting scope, Take Aim must be used to line up the shot in order to receive the bonus from the item. In this case the first action of Take Aim does not provide any additional bonus beyond enabling the function of the modification."
         ]
     },
