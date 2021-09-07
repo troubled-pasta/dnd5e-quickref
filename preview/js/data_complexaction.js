@@ -1,6 +1,6 @@
 data_complexaction = [
 	{
-        title: "Astral projection",
+        title: "Astral projection (Magician)",
         icon: "telepathy",
         subtitle: "Shift to the Astral Plane",
         description: "If astral perception is like sticking your face in a lake to peer below the surface, astral projection is diving right in.",
