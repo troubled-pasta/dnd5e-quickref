@@ -13,6 +13,30 @@ data_simpleaction = [
         ]
     },
     {
+        title: "Astral perception",
+        icon: "gaze",
+        subtitle: "Shift to and from Astral Space",
+        description: "This power allows you to bridge the gap between the physical and astral realms and see into the astral plane.",
+        reference: "SR5, pg. 166, 309, 312-313.",
+        bullets: [
+            "Astral perception is available only to some; for metahumans you can only use astral perception if you’re a magician, or an adept with the Astral Perception power.",
+            "When astrally perceiving, you become dual-natured (meaning you have presence in both the physical and astral planes simultaneously) and can interact with astral objects, including through combat.",
+            "Astrally perceiving while trying to accomplish mundane tasks is very distracting; you take a –2 dice pool penalty to actions on the physical plane.",
+            "Adepts can activate this power as a Simple Action, and follow all the normal rules for astral perception (p. 312)."
+        ]
+    },
+    {
+        title: "Attribute boost (Adept)",
+        icon: "upgrade",
+        subtitle: "Temporarily boost attribute rating",
+        description: "You call upon inner strength to perform amazing physical feats beyond their normal abilities.",
+        reference: "SR5, pg. 309.",
+        bullets: [
+            "When you activate this power, make a MAG + Attribute Boost Rating Test. Each hit on this test boosts your attribute rating by 1, up to your augmented Attribute maximum. This only affects your dice pools; your Physical limit and Initiative ratings don’t change with Attribute Boost.",
+            "The boost lasts for a number of Combat Turns equal to twice the number of hits you get. When the boost runs out, you take Drain equal to the level of this power."
+        ]
+    },
+    {
         title: "Call/Dismiss/Command spirit",
         icon: "ifrit",
         subtitle: "Control a summoned spirit",
@@ -223,7 +247,7 @@ data_simpleaction = [
         ]
     },
     {
-        title: "Remove clip (Manually)",
+        title: "Remove clip manually",
         icon: "machine-gun-magazine",
         subtitle: "Remove a clip from a ready firearm",
         description: "Remove an expended clip from a ready firearm.",
@@ -231,15 +255,6 @@ data_simpleaction = [
         bullets: [
             "A character may remove a clip from a ready firearm by taking a Simple Action (see Insert Clip, p. 165, and also Reload Weapons, p. 163).",
             "It takes another Simple Action to grab a fresh clip and slam it into the weapon"
-        ]
-    },
-    {
-        title: "Shift perception",
-        icon: "gaze",
-        subtitle: "Shift to and from Astral Space",
-        description: "Shift your Perception to and from the Astral Plane",
-        reference: "SR5, pg. 166.",
-        bullets: [
         ]
     },
     {
@@ -294,6 +309,19 @@ data_simpleaction = [
         reference: "SR5, pg. 166.",
         bullets: [
             "Simple devices are those that are activated with a simple movement like a thumb trigger, pressing a single key, or tapping a single icon."
+        ]
+    },
+     {
+        title: "Wall running (Adept)",
+        icon: "walking-boot",
+        subtitle: "Run along vertical surfaces",
+        description: "You can run up sheer walls or other vertical surfaces a limited distance.",
+        reference: "SR5, pg. 311.",
+        bullets: [
+            "Make a Running + STR [Magic] Test, with hits indicating the number of meters you may climb up in an action phase.",
+            "If you want to run up longer distances, you’ll need steps, ledges, or somewhere you can stop and then use this power again.",
+            "If you want to run across a vertical surface instead of up it, you can do so by combining this power with a Sprint action (SR5, pg. 162).",
+            "At the end of your movement, you fall off the wall, whether you made it as far as you wanted or not."
         ]
     },
     {
