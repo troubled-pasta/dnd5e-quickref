@@ -235,6 +235,20 @@ data_simpleaction = [
         ]
     },
     {
+        title: "Rigger Jump in/Jump Out (VR)",
+        icon: "vr-headset",
+        subtitle: "Control rigger-adapted vehicle",
+        description: "A character with a control rig augmentation (SR5, pg. 452) and rigger adapted vehicle may jump in to control the vehicle with a Simple Action (VR) or Complex Action (AR).",
+        reference: "SR5, pg. 167, 266.",
+        bullets: [
+            "Jumping into a vehicle is a Simple Action if you’re already in VR when you make the jump. <i>Jumping in is a Complex action if you begin from AR.</i>",
+            "When you’re jumped into a vehicle or other device, you’re in VR mode. The control rig allows you to treat Vehicle actions the same way you treat Matrix actions, so any bonus you get to Matrix actions also apply to Vehicle actions when you’re jumped in; this includes Vehicle Control Tests, Gunnery Tests, and Sensor Tests.",
+            "To jump into a vehicle you need an implanted control rig, three marks on the vehicle or drone you’re jumping into, and of course you need the vehicle to have rigger interface gear.",
+            "If you’re using a direct connection and already plugged into the vehicle or RCC, you can jump into a vehicle directly from your meat body by taking a Simple Action.",
+            "When you want to jump out of a vehicle, drone, or other device, you use the <i>Switch Interface Mode</i> Simple Action (see Switch Interface Action Mode, SR5, pg. 243) to go to VR or AR."
+        ]
+    },
+    {
         title: "Send message (Matrix)",
         icon: "talk",
         subtitle: "Send information to a commcode",
