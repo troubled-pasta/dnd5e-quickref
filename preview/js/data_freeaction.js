@@ -29,6 +29,17 @@ data_freeaction = [
         ]
     },
     {
+        title: "Deactivate focus",
+        icon: "crystal-bars",
+        subtitle: "Deactivate a magical focus",
+        description: "You can deactivate a focus at any time.",
+        reference: "SR5, pg. 318.",
+        bullets: [
+            "Likewise, if you lose consciousness your foci deactivate. If you lose possession of a focus, it automatically deactivates and you lose all its benefits until you recover it and activate it again.",
+            "If you deactivate a focus while you’re projecting, its astral form disappears and you’ll need to go back to your body to reactivate it."
+        ]
+    },
+    {
         title: "Drop object",
         icon: "drop-weapon",
         subtitle: "Drop a held object",
