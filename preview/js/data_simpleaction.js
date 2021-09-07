@@ -3,9 +3,13 @@ data_simpleaction = [
         title: "Activate focus",
         icon: "crystal-bars",
         subtitle: "Activate a magical focus",
-        description: "A character may activate a focus they are carrying with a Simple Action.",
-        reference: "SR5 pg. 164.",
+        description: "Foci are more than mundane items with a dusting of mana to give them potency. They are astral constructs embedded within physical objects. Each focus has a specific power (described under Focus Types) and must be active for you to use it.",
+        reference: "SR5 pgs. 164, 318.",
         bullets: [
+            "Activating a focus is a Simple Action. For a focus to remain active, it must be in the possession of the magician (worn, carried, hand-held, in a pocket or pouch, etc).",
+            "If you lose consciousness your foci will deactivate. If you lose possession of a focus, it automatically deactivates and you lose all its benefits until you recover it and activate it again. You can deactivate a focus at any time (Free Action).",
+            "All foci have auras that are visible from astral space and carry your astral signature (p. 312). While activated, a focus also has an astral form.",
+            "If you use astral projection, you also carry the astral form of any active foci you have. If you deactivate a focus while you’re projecting, its astral form disappears and you’ll need to go back to your body to reactivate it."
         ]
     },
     {
