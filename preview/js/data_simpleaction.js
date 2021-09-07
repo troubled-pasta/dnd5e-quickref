@@ -32,6 +32,7 @@ data_simpleaction = [
         description: "You call upon inner strength to perform amazing physical feats beyond their normal abilities.",
         reference: "SR5, pg. 309.",
         bullets: [
+            "Attribute Boost is activated as a Simple Action.",
             "When you activate this power, make a MAG + Attribute Boost Rating Test. Each hit on this test boosts your attribute rating by 1, up to your augmented Attribute maximum. This only affects your dice pools; your Physical limit and Initiative ratings don’t change with Attribute Boost.",
             "The boost lasts for a number of Combat Turns equal to twice the number of hits you get. When the boost runs out, you take Drain equal to the level of this power."
         ]
@@ -319,6 +320,7 @@ data_simpleaction = [
         description: "You can run up sheer walls or other vertical surfaces a limited distance.",
         reference: "SR5, pg. 311.",
         bullets: [
+            "Wall Running is activated as a Simple Action.",
             "Make a Running + STR [Magic] Test, with hits indicating the number of meters you may climb up in an action phase.",
             "If you want to run up longer distances, you’ll need steps, ledges, or somewhere you can stop and then use this power again.",
             "If you want to run across a vertical surface instead of up it, you can do so by combining this power with a Sprint action (SR5, pg. 162).",
