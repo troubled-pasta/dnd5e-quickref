@@ -121,6 +121,16 @@ data_freeaction = [
         ]
     },
     {
+        title: "Multiple attacks",
+        icon: "two-shadows",
+        subtitle: "Attack multiple targets",
+        description: "A character may use a Free Action to attack multiple targets in a single action by splitting their dice pool.",
+        reference: "SR5, pgs. 164, 196.",
+        bullets: [
+            "This action must be combined with a Fire Weapon Action, Throw Weapon Action, Melee Attack Action, Reckless Spellcasting, or Cast Spell Action."
+        ]
+    },
+    {
         title: "Reconfigure deck (Matrix)",
         icon: "tinker",
         subtitle: "Swap deck attributes/programs",
@@ -131,16 +141,6 @@ data_freeaction = [
             "Using this action you can switch two Matrix attributes, or swap two programs.",
             "Altering the values assigned to each attribute simulates what software the decker is actively running on the cyberdeck. (For information on cyberdecks, see SR5, p. 227.)",
             "Using a Free Action at the end of your first Action Phase to boost your defenses against the incoming counterattack and then using another Free Action at the beginning of your next Action Phase to revert to the proverbial glass cannon is a tactic used by many deckers who are entirely confident that the second counterattack will never come. It was also popular with many deckers who miscalculated when it came to that second counterattack. Rest in peace, chummers."
-        ]
-    },
-    {
-        title: "Multiple attacks",
-        icon: "two-shadows",
-        subtitle: "Attack multiple targets",
-        description: "A character may use a Free Action to attack multiple targets in a single action by splitting their dice pool.",
-        reference: "SR5, pgs. 164, 196.",
-        bullets: [
-            "This action must be combined with a Fire Weapon Action, Throw Weapon Action, Melee Attack Action, Reckless Spellcasting, or Cast Spell Action."
         ]
     },
     {
