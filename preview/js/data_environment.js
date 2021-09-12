@@ -148,7 +148,8 @@ data_environment_situational = [
         reference: "SR5, pg. 178",
         bullets: [
             "Any time a character tries to make an attack with their off hand, either due to injury, angle, or trying to re-enact the latest scene from the Ares blockbuster series, they lose some precision in the form of a -2 penalty.",
-            "This modifier also applies to the attacker’s total dice pool if they are trying to fire two weapons at once."
+            "This modifier also applies to the attacker’s total dice pool if they are trying to fire two weapons at once.",
+            "Characters with the Ambidextrous quality (SR5, pg. 71) do not suffer this penalty."
         ]
     },
     {
@@ -161,7 +162,9 @@ data_environment_situational = [
             "Wound modifiers are accumulated with every third box of damage and are cumulative between damage tracks and with other negative modifiers such as spells or adverse conditions.",
             "Wound modifiers are applied to all tests not about reducing the number of boxes you’re about to take on your Condition Monitor (such as damage resistance, resisting direct combat spells, toxin resistance, and so on).",
             "The Wound Modifier penalty is also applied to the character’s Initiative attribute and therefore their Initiative Score during combat.",
-            "If active, pain editors allow you to ignore all injury modifiers, and you even stay conscious when your Stun Condition Monitor is completely full. You feel no pain—you’re blissfully, dangerously, recklessly unaware of the extent of damage you’ve taken without either performing a self-examination (Observe In Detail action) or being informed by a biomonitor (p. 450)."
+            "If active, pain editors allow you to ignore all injury modifiers, and you even stay conscious when your Stun Condition Monitor is completely full. You feel no pain—you’re blissfully, dangerously, recklessly unaware of the extent of damage you’ve taken without either performing a self-examination (Observe In Detail action) or being informed by a biomonitor (p. 450).",
+            "A character with the High Pain Tolerance quality (SR5, pg. 74) can ignore one box of damage per rating point of this quality when calculating wound modifiers, e.g. a character with this quality at Rating 2 can take 4 boxes of damage but carry on without wound modifiers as if they only had 2 boxes of damage. The –1 wound modifier would then kick in when the character takes their fifth box of damage.",
+            "Characters with the Low Pain Tolerance Quality are particularly sensitive to pain; they incur a –1 wound modifier for every 2 boxes of cumulative damage, instead of the normal 3 boxes. This affects both Physical and Stun damage tracks."
         ]
     }
 ]
